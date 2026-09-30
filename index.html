@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ZIP to Congressional District Lookup</title>
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+    crossorigin=""
+  >
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app">
+    <header class="app-header">
+      <h1>Find Your Congressional District</h1>
+      <p class="subtitle">Enter a 5-digit ZIP code to see which U.S. House district it belongs to.</p>
+    </header>
+
+    <main class="app-main">
+      <section class="card lookup-card" aria-labelledby="lookup-heading">
+        <h2 id="lookup-heading">ZIP Lookup</h2>
+        <form id="zip-form" class="zip-form" novalidate>
+          <label for="zip-input" class="field-label">ZIP code</label>
+          <div class="input-row">
+            <input
+              id="zip-input"
+              name="zip"
+              type="text"
+              inputmode="numeric"
+              autocomplete="postal-code"
+              maxlength="5"
+              placeholder="e.g. 20001"
+              aria-describedby="zip-hint zip-error"
+              aria-invalid="false"
+            >
+            <button type="submit" id="zip-submit" class="btn btn-primary">Look up</button>
+          </div>
+          <p id="zip-hint" class="hint">
+            Try: <button type="button" class="link-btn" data-zip="20001">20001</button>,
+            <button type="button" class="link-btn" data-zip="05401">05401</button>,
+            <button type="button" class="link-btn" data-zip="82001">82001</button>, or
+            <button type="button" class="link-btn" data-zip="11201">11201</button> (spans two districts).
+          </p>
+          <p id="zip-error" class="error" role="alert" hidden></p>
+        </form>
+      </section>
+
+      <section class="card result-card" aria-labelledby="result-heading">
+        <h2 id="result-heading">Result</h2>
+        <div id="result-body" class="result-body" aria-live="polite">
+          <p class="result-empty">No lookup yet.</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="app-footer">
+      Boundaries from the U.S. Census Bureau TIGERweb service. ZIP Code Tabulation Areas approximate USPS ZIP codes, so results may differ at the edges.
+    </footer>
+  </div>
+
+  <div id="modal-overlay" class="modal-overlay" hidden>
+    <div
+      id="district-modal"
+      class="modal"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="modal-title"
+      aria-describedby="modal-desc"
+    >
+      <header class="modal-header">
+        <div class="modal-heading">
+          <h2 id="modal-title">This ZIP spans multiple districts</h2>
+          <p id="modal-desc" class="modal-desc"></p>
+        </div>
+        <button type="button" id="modal-close" class="icon-btn" aria-label="Close">&times;</button>
+      </header>
+
+      <div class="modal-body">
+        <div id="map" class="map-container" role="region" aria-label="District map"></div>
+        <aside class="sidebar" aria-labelledby="sidebar-heading">
+          <h3 id="sidebar-heading">Districts</h3>
+          <p class="sidebar-hint">Click a shape on the map or pick one below to see its candidates.</p>
+          <ul id="district-list" class="district-list"></ul>
+          <p id="selection-status" class="selection-status" aria-live="polite"></p>
+        </aside>
+      </div>
+
+      <footer class="modal-footer">
+        <button type="button" id="modal-cancel" class="btn btn-secondary">Cancel</button>
+      </footer>
+    </div>
+  </div>
+
+  <div id="candidate-overlay" class="modal-overlay" hidden>
+    <div
+      id="candidate-modal"
+      class="modal modal-compact"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="candidate-title"
+      aria-describedby="candidate-desc"
+    >
+      <header class="modal-header">
+        <div class="modal-heading">
+          <p id="candidate-eyebrow" class="modal-eyebrow"></p>
+          <h2 id="candidate-title">Candidates</h2>
+          <p id="candidate-desc" class="modal-desc"></p>
+        </div>
+        <button type="button" id="candidate-close" class="icon-btn" aria-label="Close">&times;</button>
+      </header>
+
+      <div class="candidate-body">
+        <ul id="candidate-list" class="candidate-list" aria-labelledby="candidate-title"></ul>
+      </div>
+
+      <footer class="modal-footer">
+        <button type="button" id="candidate-done" class="btn btn-primary">Done</button>
+      </footer>
+    </div>
+  </div>
+
+  <script
+    src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+    crossorigin=""
+  ></script>
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
