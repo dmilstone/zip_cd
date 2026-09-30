@@ -1,9 +1,17 @@
 (function () {
   "use strict";
 
-  const CIVIC_VOTERINFO_URL = "https://www.googleapis.com/civicinfo/v2/voterinfo";
+  const LEGISLATORS_URL = "https://unitedstates.github.io/congress-legislators/legislators-current.json";
+  const FEC_CANDIDATES_URL = "https://api.open.fec.gov/v1/candidates/";
+  // DEMO_KEY is heavily rate limited; a free api.data.gov key allows 1,000 requests per hour.
+  const FEC_API_KEY = window.FEC_API_KEY || "DEMO_KEY";
+  const CURRENT_YEAR = new Date().getFullYear();
+  const ELECTION_YEAR = CURRENT_YEAR + (CURRENT_YEAR % 2);
 
-  // The API reports parties inconsistently ("Democratic", "Democratic Party", "DEM"), so match loosely.
+  const NAME_HONORIFIC = /^(mr|mrs|ms|miss|dr|hon|rev)\.?$/i;
+  const NAME_SUFFIX = /^(jr|sr|ii|iii|iv)\.?$/i;
+
+  // Sources report parties inconsistently ("Democrat", "DEMOCRATIC PARTY", "DEM"), so match loosely.
   const PARTY_CLASSES = [
     [/^dem/i, "party-dem"],
     [/^rep/i, "party-rep"],
@@ -90,6 +98,9 @@
     candidateSeq: 0,
     candidateAbort: null,
   };
+
+  let representativesPromise = null;
+  const fecCandidatesByDistrict = new Map();
 
   let map = null;
   let districtLayer = null;
@@ -257,6 +268,8 @@
     const cdCode = geoid.slice(2);
     const [abbr, stateName] = STATES_BY_FIPS[stateFips] || [stateFips, "State " + stateFips];
 
+    // At-large seats and non-voting delegates are district 0 in both FEC and congress-legislators data.
+    let districtNumber = 0;
     let suffix;
     let label;
     if (cdCode === "00") {
@@ -266,15 +279,16 @@
       suffix = "AL";
       label = stateName + " — At-Large (Delegate)";
     } else {
-      const number = parseInt(cdCode, 10);
+      districtNumber = parseInt(cdCode, 10);
       suffix = cdCode;
-      label = stateName + " — " + ordinal(number) + " District";
+      label = stateName + " — " + ordinal(districtNumber) + " District";
     }
 
     return {
       id: abbr + "-" + suffix,
       state: abbr,
       stateName,
+      districtNumber,
       label,
       color: DISTRICT_COLORS[index % DISTRICT_COLORS.length],
       geometry: feature.geometry,
@@ -463,55 +477,153 @@
         el("span", { className: "party-badge " + partyClass, text: candidate.party }),
       ]),
       el("p", { className: "candidate-office" }, [
-        el("span", { className: "candidate-office-label", text: "Running for: " }),
-        candidate.office,
+        el("span", { className: "candidate-office-label", text: candidate.detailLabel }),
+        candidate.detail,
       ]),
     ]);
   }
 
-  async function fetchContests(zipCode, signal) {
-    const url = `${CIVIC_VOTERINFO_URL}?key=${CIVIC_API_KEY}&address=${encodeURIComponent(zipCode)}`;
-    const response = await fetch(url, { signal });
-    const data = await response.json().catch(() => ({}));
-    if (!response.ok || data.error) {
-      throw new Error("Civic API: " + ((data.error && data.error.message) || "HTTP " + response.status));
-    }
-    return data.contests || [];
+  function titleCase(text) {
+    return String(text)
+      .toLowerCase()
+      .replace(/(^|[\s\-'])([a-z])/g, (_, sep, letter) => sep + letter.toUpperCase())
+      .replace(/\b(Ii|Iii|Iv)\b/g, (numeral) => numeral.toUpperCase());
   }
 
-  // Contest districts are OCD IDs, e.g. "ocd-division/country:us/state:ny/cd:12".
-  // A ZIP can span several congressional districts, so drop House contests for the ones not selected.
-  function contestMatchesDistrict(contest, district) {
-    const ocdId = String((contest.district && contest.district.id) || "").toLowerCase();
-    const cdMatch = ocdId.match(/\/cd:(\d+)/);
-    if (!cdMatch) return true;
-    const stateMatch = ocdId.match(/\/state:([a-z]{2})/);
-    if (stateMatch && stateMatch[1] !== district.state.toLowerCase()) return false;
-    const suffix = district.id.split("-")[1];
-    return suffix !== "AL" && parseInt(cdMatch[1], 10) === parseInt(suffix, 10);
+  // FEC names look like "LANDER, BRAD MR." or "BITEMAN, DENNIS BO DEAN II".
+  function formatFecName(raw) {
+    const text = String(raw || "").trim();
+    const comma = text.indexOf(",");
+    if (comma === -1) return titleCase(text);
+    const last = text.slice(0, comma).trim();
+    const words = text
+      .slice(comma + 1)
+      .split(/[\s,]+/)
+      .filter((word) => word && !NAME_HONORIFIC.test(word));
+    const suffixes = [];
+    while (words.length > 1 && NAME_SUFFIX.test(words[words.length - 1])) suffixes.unshift(words.pop());
+    return titleCase([...words, last, ...suffixes].join(" "));
   }
 
-  function candidatesFromContests(contests, district) {
-    const candidates = [];
-    contests
-      .filter((contest) => contestMatchesDistrict(contest, district))
-      .forEach((contest) => {
-        const office = contest.office || contest.referendumTitle || "Unspecified office";
-        (contest.candidates || []).forEach((candidate) => {
-          if (!candidate.name) return;
-          candidates.push({ name: candidate.name, party: candidate.party || "Nonpartisan", office });
+  function representativeKey(stateCode, districtNumber) {
+    return stateCode + "-" + districtNumber;
+  }
+
+  // Shared across popups (the file is ~1.5 MB), so it isn't tied to any one popup's abort signal.
+  function loadRepresentatives() {
+    if (!representativesPromise) {
+      representativesPromise = fetch(LEGISLATORS_URL)
+        .then((response) => {
+          if (!response.ok) throw new Error("congress-legislators HTTP " + response.status);
+          return response.json();
+        })
+        .then((legislators) => {
+          const byDistrict = new Map();
+          legislators.forEach((legislator) => {
+            const term = legislator.terms[legislator.terms.length - 1];
+            if (!term || term.type !== "rep") return;
+            const name = legislator.name.official_full || legislator.name.first + " " + legislator.name.last;
+            byDistrict.set(representativeKey(term.state, term.district || 0), {
+              name,
+              party: term.party || "Independent",
+              termEnd: term.end,
+            });
+          });
+          return byDistrict;
+        })
+        .catch((err) => {
+          representativesPromise = null;
+          throw err;
         });
-      });
+    }
+    return representativesPromise;
+  }
+
+  async function fetchIncumbent(district) {
+    const byDistrict = await loadRepresentatives();
+    const rep = byDistrict.get(representativeKey(district.state, district.districtNumber));
+    if (!rep) return [];
+    return [
+      {
+        name: rep.name,
+        party: rep.party,
+        detailLabel: "Serving: ",
+        detail: "U.S. Representative" + (rep.termEnd ? ", term ends " + rep.termEnd.slice(0, 4) : ""),
+      },
+    ];
+  }
+
+  async function fetchFecCandidates(district, signal) {
+    const cached = fecCandidatesByDistrict.get(district.id);
+    if (cached) return cached;
+
+    const params = new URLSearchParams({
+      api_key: FEC_API_KEY,
+      office: "H",
+      state: district.state,
+      district: String(district.districtNumber).padStart(2, "0"),
+      election_year: String(ELECTION_YEAR),
+      candidate_status: "C",
+      is_active_candidate: "true",
+      sort: "name",
+      per_page: "100",
+    });
+    const response = await fetch(FEC_CANDIDATES_URL + "?" + params, { signal });
+    const data = await response.json().catch(() => ({}));
+    if (response.status === 429 || (data.error && data.error.code === "OVER_RATE_LIMIT")) {
+      throw new Error("FEC_RATE_LIMIT");
+    }
+    if (!response.ok || data.error) {
+      throw new Error("FEC API: " + ((data.error && data.error.message) || "HTTP " + response.status));
+    }
+
+    const candidates = (data.results || []).map((candidate) => ({
+      name: formatFecName(candidate.name),
+      party: titleCase(candidate.party_full || "") || "Unknown",
+      detailLabel: "Running for: ",
+      detail:
+        "U.S. House (" + ELECTION_YEAR + ")" +
+        (candidate.incumbent_challenge_full ? " · " + candidate.incumbent_challenge_full : ""),
+    }));
+    fecCandidatesByDistrict.set(district.id, candidates);
     return candidates;
   }
 
-  function setCandidateContent(description, candidates) {
-    els.candidateDesc.textContent = description;
-    els.candidateList.replaceChildren(...(candidates || []).map(renderCandidate));
-    els.candidateList.hidden = !candidates || candidates.length === 0;
+  // A section's result is undefined while loading, { rows } on success, or { error } on failure.
+  function sectionNodes(title, result, emptyText) {
+    const nodes = [el("li", { className: "candidate-section", text: title })];
+    if (!result) nodes.push(el("li", { className: "candidate-message", text: "Loading…" }));
+    else if (result.error) nodes.push(el("li", { className: "candidate-message is-error", text: result.error }));
+    else if (result.rows.length === 0) nodes.push(el("li", { className: "candidate-message", text: emptyText }));
+    else nodes.push(...result.rows.map(renderCandidate));
+    return nodes;
   }
 
-  async function showCandidatePopup(district, zipCode) {
+  function renderCandidateSections(district, zipCode, view) {
+    const count = view.candidates && view.candidates.rows ? view.candidates.rows.length : null;
+    els.candidateDesc.textContent =
+      "ZIP " + zipCode + " · " + ELECTION_YEAR + " election" +
+      (count == null ? "" : " · " + count + (count === 1 ? " candidate" : " candidates") + " filed with the FEC");
+    els.candidateList.replaceChildren(
+      ...sectionNodes("Current representative", view.incumbent, "No sitting representative on record; the seat may be vacant."),
+      ...sectionNodes(
+        ELECTION_YEAR + " candidates",
+        view.candidates,
+        "No active " + ELECTION_YEAR + " candidates have filed with the FEC for " + district.id + "."
+      )
+    );
+    els.candidateList.hidden = false;
+  }
+
+  function fecErrorMessage(err) {
+    if (err.message === "FEC_RATE_LIMIT") {
+      return "FEC rate limit reached. Set window.FEC_API_KEY in config.js to a free api.data.gov key.";
+    }
+    if (err.name === "AbortError") return "The FEC API took too long to respond. Please try again.";
+    return "Couldn't load candidates from the FEC API. Please try again.";
+  }
+
+  function showCandidatePopup(district, zipCode) {
     const seq = ++state.candidateSeq;
     if (state.candidateAbort) state.candidateAbort.abort();
     const controller = new AbortController();
@@ -520,34 +632,39 @@
 
     els.candidateEyebrow.textContent = district.id;
     els.candidateTitle.textContent = district.label || district.id;
-    setCandidateContent("Loading candidates for ZIP " + zipCode + "…", null);
+
+    const view = { incumbent: undefined, candidates: undefined };
+    const render = () => {
+      if (seq === state.candidateSeq) renderCandidateSections(district, zipCode, view);
+    };
+    render();
 
     if (!state.returnFocusTo) state.returnFocusTo = document.activeElement;
     els.candidateOverlay.hidden = false;
     document.body.classList.add("modal-open");
     els.candidateCloseBtn.focus();
 
-    let candidates;
-    try {
-      const contests = await fetchContests(zipCode, controller.signal);
-      candidates = candidatesFromContests(contests, district);
-    } catch (err) {
-      if (seq !== state.candidateSeq) return;
-      console.error(err);
-      setCandidateContent("Couldn't load candidates from the Google Civic Information API. Please try again.", null);
-      return;
-    } finally {
+    // Each source renders as soon as it settles, so one failing never blanks the other.
+    const incumbentTask = fetchIncumbent(district).then(
+      (rows) => { view.incumbent = { rows }; },
+      (err) => {
+        console.error(err);
+        view.incumbent = { error: "Couldn't load the current representative. Please try again." };
+      }
+    ).then(render);
+
+    const candidatesTask = fetchFecCandidates(district, controller.signal).then(
+      (rows) => { view.candidates = { rows }; },
+      (err) => {
+        console.error(err);
+        view.candidates = { error: fecErrorMessage(err) };
+      }
+    ).then(render);
+
+    Promise.all([incumbentTask, candidatesTask]).then(() => {
       clearTimeout(timeoutId);
       if (state.candidateAbort === controller) state.candidateAbort = null;
-    }
-
-    if (seq !== state.candidateSeq) return;
-    setCandidateContent(
-      candidates.length
-        ? candidates.length + (candidates.length === 1 ? " candidate" : " candidates") + " found for ZIP " + zipCode + "."
-        : "No upcoming contests with candidates were found for this district.",
-      candidates
-    );
+    });
   }
 
   function closeCandidatePopup() {
@@ -850,4 +967,7 @@
   window.addEventListener("resize", () => {
     if (map && !els.overlay.hidden) map.invalidateSize();
   });
+
+  // Warm the cache so the current representative renders immediately once a district is chosen.
+  loadRepresentatives().catch((err) => console.error(err));
 })();
