@@ -1,0 +1,167 @@
+{
+  "api_version": "1.0",
+  "pagination": {
+    "count": 4,
+    "is_count_exact": true,
+    "page": 1,
+    "pages": 1,
+    "per_page": 100
+  },
+  "results": [
+    {
+      "active_through": 2026,
+      "candidate_id": "H6CA22208",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "22",
+      "district_number": 22,
+      "election_districts": [
+        "22"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-07-16",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2025-07-16",
+      "last_file_date": "2025-07-16",
+      "load_date": "2025-10-16T21:01:04",
+      "name": "BAINS, JASMEET",
+      "office": "H",
+      "office_full": "House",
+      "party": "DEM",
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "CA"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H2CA21233",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2022,
+        2024,
+        2026
+      ],
+      "district": "22",
+      "district_number": 22,
+      "election_districts": [
+        "22",
+        "22",
+        "22"
+      ],
+      "election_years": [
+        2022,
+        2024,
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2021-10-17",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2026-01-13",
+      "last_file_date": "2026-01-13",
+      "load_date": "2026-01-13T21:02:51",
+      "name": "SALAS, RUDY",
+      "office": "H",
+      "office_full": "House",
+      "party": "DEM",
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "CA"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H2CA20094",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2012,
+        2014,
+        2016,
+        2018,
+        2020,
+        2022,
+        2024,
+        2026
+      ],
+      "district": "22",
+      "district_number": 22,
+      "election_districts": [
+        "21",
+        "21",
+        "21",
+        "21",
+        "21",
+        "22",
+        "22",
+        "22"
+      ],
+      "election_years": [
+        2012,
+        2014,
+        2016,
+        2018,
+        2020,
+        2022,
+        2024,
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2011-07-21",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "I",
+      "incumbent_challenge_full": "Incumbent",
+      "last_f2_date": "2026-09-10",
+      "last_file_date": "2026-09-10",
+      "load_date": "2026-09-10T21:04:18",
+      "name": "VALADAO, DAVID",
+      "office": "H",
+      "office_full": "House",
+      "party": "REP",
+      "party_full": "REPUBLICAN PARTY",
+      "state": "CA"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6CA22190",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "22",
+      "district_number": 22,
+      "election_districts": [
+        "22"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-04-14",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2026-08-03",
+      "last_file_date": "2026-08-03",
+      "load_date": "2026-08-03T20:59:17",
+      "name": "VILLEGAS, RANDY",
+      "office": "H",
+      "office_full": "House",
+      "party": "DEM",
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "CA"
+    }
+  ]
+}

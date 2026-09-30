@@ -1,0 +1,289 @@
+{
+  "api_version": "1.0",
+  "pagination": {
+    "count": 8,
+    "is_count_exact": true,
+    "page": 1,
+    "pages": 1,
+    "per_page": 100
+  },
+  "results": [
+    {
+      "active_through": 2026,
+      "candidate_id": "H6MN06231",
+      "candidate_inactive": false,
+      "candidate_status": "N",
+      "cycles": [
+        2026
+      ],
+      "district": "06",
+      "district_number": 6,
+      "election_districts": [
+        "06"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2026-02-06",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2026-02-06",
+      "last_file_date": "2026-02-06",
+      "load_date": "2026-03-03T21:23:02",
+      "name": "AMBERSON, ANSON",
+      "office": "H",
+      "office_full": "House",
+      "party": "DFL",
+      "party_full": "DEMOCRATIC-FARMER-LABOR",
+      "state": "MN"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6MN06215",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "06",
+      "district_number": 6,
+      "election_districts": [
+        "06"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-07-15",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2025-11-17",
+      "last_file_date": "2025-11-17",
+      "load_date": "2025-11-18T21:02:39",
+      "name": "CHAPIN, DOUG",
+      "office": "H",
+      "office_full": "House",
+      "party": "DFL",
+      "party_full": "DEMOCRATIC-FARMER-LABOR",
+      "state": "MN"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6MN06256",
+      "candidate_inactive": false,
+      "candidate_status": "N",
+      "cycles": [
+        2026
+      ],
+      "district": "06",
+      "district_number": 6,
+      "election_districts": [
+        "06"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2026-03-18",
+      "has_raised_funds": false,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2026-03-18",
+      "last_file_date": "2026-03-18",
+      "load_date": "2026-03-29T21:12:30",
+      "name": "DOSS, KELLY",
+      "office": "H",
+      "office_full": "House",
+      "party": "IND",
+      "party_full": "INDEPENDENT",
+      "state": "MN"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H4MN06087",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2014,
+        2016,
+        2018,
+        2020,
+        2022,
+        2024,
+        2026
+      ],
+      "district": "06",
+      "district_number": 6,
+      "election_districts": [
+        "06",
+        "06",
+        "06",
+        "06",
+        "06",
+        "06",
+        "06"
+      ],
+      "election_years": [
+        2014,
+        2016,
+        2018,
+        2020,
+        2022,
+        2024,
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2013-06-07",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "I",
+      "incumbent_challenge_full": "Incumbent",
+      "last_f2_date": "2024-11-12",
+      "last_file_date": "2024-11-12",
+      "load_date": "2025-02-03T21:02:03",
+      "name": "EMMER, THOMAS EARL JR.",
+      "office": "H",
+      "office_full": "House",
+      "party": "REP",
+      "party_full": "REPUBLICAN PARTY",
+      "state": "MN"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6MN06223",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "06",
+      "district_number": 6,
+      "election_districts": [
+        "06"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-12-01",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2025-12-01",
+      "last_file_date": "2025-12-01",
+      "load_date": "2026-04-06T21:14:27",
+      "name": "FOLEY, MICHAEL",
+      "office": "H",
+      "office_full": "House",
+      "party": "REP",
+      "party_full": "REPUBLICAN PARTY",
+      "state": "MN"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6MN06207",
+      "candidate_inactive": false,
+      "candidate_status": "N",
+      "cycles": [
+        2026
+      ],
+      "district": "06",
+      "district_number": 6,
+      "election_districts": [
+        "06"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-06-20",
+      "has_raised_funds": false,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2025-06-20",
+      "last_file_date": "2025-06-20",
+      "load_date": "2025-06-30T20:58:43",
+      "name": "GRANDY, SIERRA MARIE",
+      "office": "H",
+      "office_full": "House",
+      "party": "DFL",
+      "party_full": "DEMOCRATIC-FARMER-LABOR",
+      "state": "MN"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6MN06249",
+      "candidate_inactive": false,
+      "candidate_status": "N",
+      "cycles": [
+        2026
+      ],
+      "district": "06",
+      "district_number": 6,
+      "election_districts": [
+        "06"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2026-02-10",
+      "has_raised_funds": false,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2026-02-20",
+      "last_file_date": "2026-02-20",
+      "load_date": "2026-03-03T21:23:02",
+      "name": "WICKLUND, JEREMY",
+      "office": "H",
+      "office_full": "House",
+      "party": "DFL",
+      "party_full": "DEMOCRATIC-FARMER-LABOR",
+      "state": "MN"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H4MN06145",
+      "candidate_inactive": false,
+      "candidate_status": "N",
+      "cycles": [
+        2024,
+        2026
+      ],
+      "district": "06",
+      "district_number": 6,
+      "election_districts": [
+        "06",
+        "06"
+      ],
+      "election_years": [
+        2024,
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2023-12-12",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2026-01-28",
+      "last_file_date": "2026-01-28",
+      "load_date": "2026-02-05T21:01:18",
+      "name": "WINKELMAN, AUSTIN DANIEL",
+      "office": "H",
+      "office_full": "House",
+      "party": "IND",
+      "party_full": "INDEPENDENT",
+      "state": "MN"
+    }
+  ]
+}

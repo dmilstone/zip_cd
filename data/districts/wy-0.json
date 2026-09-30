@@ -1,0 +1,506 @@
+{
+  "api_version": "1.0",
+  "pagination": {
+    "count": 15,
+    "is_count_exact": true,
+    "page": 1,
+    "pages": 1,
+    "per_page": 100
+  },
+  "results": [
+    {
+      "active_through": 2026,
+      "candidate_id": "H6WY00225",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "00",
+      "district_number": 0,
+      "election_districts": [
+        "00"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2026-01-16",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "O",
+      "incumbent_challenge_full": "Open seat",
+      "last_f2_date": "2026-01-16",
+      "last_file_date": "2026-01-16",
+      "load_date": "2026-04-18T21:13:41",
+      "name": "BALOW, JILLIAN",
+      "office": "H",
+      "office_full": "House",
+      "party": "REP",
+      "party_full": "REPUBLICAN PARTY",
+      "state": "WY"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6WY00241",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "00",
+      "district_number": 0,
+      "election_districts": [
+        "00"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2026-03-12",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "O",
+      "incumbent_challenge_full": "Open seat",
+      "last_f2_date": "2026-03-12",
+      "last_file_date": "2026-03-12",
+      "load_date": "2026-04-18T21:13:41",
+      "name": "BITEMAN, DENNIS BO DEAN II",
+      "office": "H",
+      "office_full": "House",
+      "party": "REP",
+      "party_full": "REPUBLICAN PARTY",
+      "state": "WY"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6WY01199",
+      "candidate_inactive": false,
+      "candidate_status": "N",
+      "cycles": [
+        2026
+      ],
+      "district": "00",
+      "district_number": 0,
+      "election_districts": [
+        "00"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2026-07-10",
+      "has_raised_funds": false,
+      "inactive_election_years": null,
+      "incumbent_challenge": "O",
+      "incumbent_challenge_full": "Open seat",
+      "last_f2_date": "2026-07-10",
+      "last_file_date": "2026-07-14",
+      "load_date": "2026-07-21T20:58:46",
+      "name": "CARLSON, OWEN NICHOLAS",
+      "office": "H",
+      "office_full": "House",
+      "party": "IND",
+      "party_full": "INDEPENDENT",
+      "state": "WY"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6WY01157",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "00",
+      "district_number": 0,
+      "election_districts": [
+        "00"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2026-03-25",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "O",
+      "incumbent_challenge_full": "Open seat",
+      "last_f2_date": "2026-03-25",
+      "last_file_date": "2026-03-25",
+      "load_date": "2026-04-04T21:13:15",
+      "name": "CHAPMAN, FRANK",
+      "office": "H",
+      "office_full": "House",
+      "party": "REP",
+      "party_full": "REPUBLICAN PARTY",
+      "state": "WY"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6WY01140",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "00",
+      "district_number": 0,
+      "election_districts": [
+        "00"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2026-03-04",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "O",
+      "incumbent_challenge_full": "Open seat",
+      "last_f2_date": "2026-03-04",
+      "last_file_date": "2026-03-04",
+      "load_date": "2026-07-17T20:59:11",
+      "name": "CHRISTENSEN, KEVIN",
+      "office": "H",
+      "office_full": "House",
+      "party": "REP",
+      "party_full": "REPUBLICAN PARTY",
+      "state": "WY"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6WY01181",
+      "candidate_inactive": false,
+      "candidate_status": "N",
+      "cycles": [
+        2026
+      ],
+      "district": "00",
+      "district_number": 0,
+      "election_districts": [
+        "00"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2026-06-05",
+      "has_raised_funds": false,
+      "inactive_election_years": null,
+      "incumbent_challenge": "O",
+      "incumbent_challenge_full": "Open seat",
+      "last_f2_date": "2026-06-05",
+      "last_file_date": "2026-06-05",
+      "load_date": "2026-07-21T20:58:46",
+      "name": "DODSON, RICHARD",
+      "office": "H",
+      "office_full": "House",
+      "party": "REP",
+      "party_full": "REPUBLICAN PARTY",
+      "state": "WY"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6WY01165",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "00",
+      "district_number": 0,
+      "election_districts": [
+        "00"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2026-04-02",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "O",
+      "incumbent_challenge_full": "Open seat",
+      "last_f2_date": "2026-04-02",
+      "last_file_date": "2026-04-02",
+      "load_date": "2026-07-16T20:57:38",
+      "name": "FRIESS, STEPHEN",
+      "office": "H",
+      "office_full": "House",
+      "party": "REP",
+      "party_full": "REPUBLICAN PARTY",
+      "state": "WY"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6WY00233",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "00",
+      "district_number": 0,
+      "election_districts": [
+        "00"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2026-02-23",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "O",
+      "incumbent_challenge_full": "Open seat",
+      "last_f2_date": "2026-02-23",
+      "last_file_date": "2026-02-23",
+      "load_date": "2026-04-18T21:13:41",
+      "name": "GIRALT, DAVID",
+      "office": "H",
+      "office_full": "House",
+      "party": "REP",
+      "party_full": "REPUBLICAN PARTY",
+      "state": "WY"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6WY01207",
+      "candidate_inactive": false,
+      "candidate_status": "N",
+      "cycles": [
+        2026
+      ],
+      "district": "00",
+      "district_number": 0,
+      "election_districts": [
+        "00"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2026-07-12",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "O",
+      "incumbent_challenge_full": "Open seat",
+      "last_f2_date": "2026-07-12",
+      "last_file_date": "2026-07-12",
+      "load_date": "2026-07-21T20:58:46",
+      "name": "GOODENOUGH, KEITH BRIAN MR.",
+      "office": "H",
+      "office_full": "House",
+      "party": "REP",
+      "party_full": "REPUBLICAN PARTY",
+      "state": "WY"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6WY00217",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "00",
+      "district_number": 0,
+      "election_districts": [
+        "00"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-12-29",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "O",
+      "incumbent_challenge_full": "Open seat",
+      "last_f2_date": "2026-09-15",
+      "last_file_date": "2026-09-15",
+      "load_date": "2026-09-15T20:57:27",
+      "name": "GRAY, CHUCK",
+      "office": "H",
+      "office_full": "House",
+      "party": "REP",
+      "party_full": "REPUBLICAN PARTY",
+      "state": "WY"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H2WY00166",
+      "candidate_inactive": true,
+      "candidate_status": "C",
+      "cycles": [
+        2022,
+        2024,
+        2026
+      ],
+      "district": "00",
+      "district_number": 0,
+      "election_districts": [
+        "00",
+        "00",
+        "00"
+      ],
+      "election_years": [
+        2022,
+        2024,
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2021-09-09",
+      "has_raised_funds": true,
+      "inactive_election_years": [
+        2026
+      ],
+      "incumbent_challenge": "I",
+      "incumbent_challenge_full": "Incumbent",
+      "last_f2_date": "2025-06-06",
+      "last_file_date": "2025-06-06",
+      "load_date": "2025-06-06T20:59:52",
+      "name": "HAGEMAN, HARRIET",
+      "office": "H",
+      "office_full": "House",
+      "party": "REP",
+      "party_full": "REPUBLICAN PARTY",
+      "state": "WY"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H0WY01051",
+      "candidate_inactive": false,
+      "candidate_status": "N",
+      "cycles": [
+        2020,
+        2024,
+        2026
+      ],
+      "district": "00",
+      "district_number": 0,
+      "election_districts": [
+        "00",
+        "00",
+        "00"
+      ],
+      "election_years": [
+        2020,
+        2024,
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2020-08-10",
+      "has_raised_funds": false,
+      "inactive_election_years": null,
+      "incumbent_challenge": null,
+      "incumbent_challenge_full": null,
+      "last_f2_date": "2020-08-10",
+      "last_file_date": "2020-08-10",
+      "load_date": "2026-09-09T20:57:51",
+      "name": "HAGGIT, JEFFREY",
+      "office": "H",
+      "office_full": "House",
+      "party": "CON",
+      "party_full": "CONSTITUTION PARTY",
+      "state": "WY"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6WY01173",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "00",
+      "district_number": 0,
+      "election_districts": [
+        "00"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2026-05-28",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "O",
+      "incumbent_challenge_full": "Open seat",
+      "last_f2_date": "2026-05-28",
+      "last_file_date": "2026-05-28",
+      "load_date": "2026-07-14T20:57:57",
+      "name": "KINNEY, LISA",
+      "office": "H",
+      "office_full": "House",
+      "party": "DEM",
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "WY"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6WY01116",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "00",
+      "district_number": 0,
+      "election_districts": [
+        "00"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2026-01-12",
+      "has_raised_funds": false,
+      "inactive_election_years": null,
+      "incumbent_challenge": "O",
+      "incumbent_challenge_full": "Open seat",
+      "last_f2_date": "2026-01-12",
+      "last_file_date": "2026-01-12",
+      "load_date": "2026-03-29T21:12:30",
+      "name": "RASNER, REID",
+      "office": "H",
+      "office_full": "House",
+      "party": "REP",
+      "party_full": "REPUBLICAN PARTY",
+      "state": "WY"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6WY01108",
+      "candidate_inactive": false,
+      "candidate_status": "N",
+      "cycles": [
+        2026
+      ],
+      "district": "00",
+      "district_number": 0,
+      "election_districts": [
+        "00"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2026-01-07",
+      "has_raised_funds": false,
+      "inactive_election_years": null,
+      "incumbent_challenge": "O",
+      "incumbent_challenge_full": "Open seat",
+      "last_f2_date": "2026-01-07",
+      "last_file_date": "2026-01-08",
+      "load_date": "2026-03-29T21:12:30",
+      "name": "WORKMAN, DANIEL VERL",
+      "office": "H",
+      "office_full": "House",
+      "party": "IND",
+      "party_full": "INDEPENDENT",
+      "state": "WY"
+    }
+  ]
+}

@@ -1,0 +1,210 @@
+{
+  "api_version": "1.0",
+  "pagination": {
+    "count": 6,
+    "is_count_exact": true,
+    "page": 1,
+    "pages": 1,
+    "per_page": 100
+  },
+  "results": [
+    {
+      "active_through": 2026,
+      "candidate_id": "H6NY23542",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "23",
+      "district_number": 23,
+      "election_districts": [
+        "23"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-09-04",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2025-09-04",
+      "last_file_date": "2025-09-04",
+      "load_date": "2025-10-18T21:00:34",
+      "name": "COLLINS, STEPHEN",
+      "office": "H",
+      "office_full": "House",
+      "party": "DEM",
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "NY"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6NY23559",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "23",
+      "district_number": 23,
+      "election_districts": [
+        "23"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-10-15",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2025-10-15",
+      "last_file_date": "2025-10-15",
+      "load_date": "2025-11-13T21:02:32",
+      "name": "GIES, AARON DR.",
+      "office": "H",
+      "office_full": "House",
+      "party": "DEM",
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "NY"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H3NY23010",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "23",
+      "district_number": 23,
+      "election_districts": [
+        "23"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-11-18",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2025-11-18",
+      "last_file_date": "2025-11-18",
+      "load_date": "2026-07-08T20:57:02",
+      "name": "KING, JAMES GEORGE",
+      "office": "H",
+      "office_full": "House",
+      "party": "REP",
+      "party_full": "REPUBLICAN PARTY",
+      "state": "NY"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H2NY23228",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2022,
+        2024,
+        2026
+      ],
+      "district": "23",
+      "district_number": 23,
+      "election_districts": [
+        "23",
+        "23",
+        "23"
+      ],
+      "election_years": [
+        2022,
+        2024,
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2022-06-10",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "I",
+      "incumbent_challenge_full": "Incumbent",
+      "last_f2_date": "2026-08-06",
+      "last_file_date": "2026-08-06",
+      "load_date": "2026-08-06T20:57:11",
+      "name": "LANGWORTHY, NICK",
+      "office": "H",
+      "office_full": "House",
+      "party": "REP",
+      "party_full": "REPUBLICAN PARTY",
+      "state": "NY"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6NY23567",
+      "candidate_inactive": false,
+      "candidate_status": "N",
+      "cycles": [
+        2026
+      ],
+      "district": "23",
+      "district_number": 23,
+      "election_districts": [
+        "23"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-11-22",
+      "has_raised_funds": false,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2025-11-22",
+      "last_file_date": "2025-11-22",
+      "load_date": "2025-12-30T21:00:52",
+      "name": "RAYNER, JEFFREY",
+      "office": "H",
+      "office_full": "House",
+      "party": "DFL",
+      "party_full": "DEMOCRATIC-FARMER-LABOR",
+      "state": "NY"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6NY23534",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "23",
+      "district_number": 23,
+      "election_districts": [
+        "23"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-06-30",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2025-06-30",
+      "last_file_date": "2025-06-30",
+      "load_date": "2025-07-15T21:00:48",
+      "name": "STOCKER, KEVIN",
+      "office": "H",
+      "office_full": "House",
+      "party": "DEM",
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "NY"
+    }
+  ]
+}

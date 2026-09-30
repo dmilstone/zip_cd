@@ -1,0 +1,123 @@
+{
+  "api_version": "1.0",
+  "pagination": {
+    "count": 3,
+    "is_count_exact": true,
+    "page": 1,
+    "pages": 1,
+    "per_page": 100
+  },
+  "results": [
+    {
+      "active_through": 2026,
+      "candidate_id": "H2LA02305",
+      "candidate_inactive": false,
+      "candidate_status": "N",
+      "cycles": [
+        2026
+      ],
+      "district": "02",
+      "district_number": 2,
+      "election_districts": [
+        "02"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2026-08-21",
+      "has_raised_funds": false,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2026-08-21",
+      "last_file_date": "2026-08-21",
+      "load_date": "2026-08-28T20:56:23",
+      "name": "BALLAY, LISA",
+      "office": "H",
+      "office_full": "House",
+      "party": "LIB",
+      "party_full": "LIBERTARIAN PARTY",
+      "state": "LA"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H2LA02149",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2020,
+        2022,
+        2024,
+        2026
+      ],
+      "district": "02",
+      "district_number": 2,
+      "election_districts": [
+        "02",
+        "02",
+        "02",
+        "02"
+      ],
+      "election_years": [
+        2021,
+        2022,
+        2024,
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2020-11-24",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "I",
+      "incumbent_challenge_full": "Incumbent",
+      "last_f2_date": "2024-12-20",
+      "last_file_date": "2024-12-20",
+      "load_date": "2025-02-03T21:02:03",
+      "name": "CARTER, TROY A. SR.",
+      "office": "H",
+      "office_full": "House",
+      "party": "DEM",
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "LA"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H4LA05171",
+      "candidate_inactive": false,
+      "candidate_status": "N",
+      "cycles": [
+        2014,
+        2024,
+        2026
+      ],
+      "district": "02",
+      "district_number": 2,
+      "election_districts": [
+        "06",
+        "06",
+        "02"
+      ],
+      "election_years": [
+        2014,
+        2024,
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2024-11-12",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": null,
+      "last_file_date": "2024-11-12",
+      "load_date": "2026-09-14T20:56:54",
+      "name": "WILLIAMS, PETER",
+      "office": "H",
+      "office_full": "House",
+      "party": "REP",
+      "party_full": "REPUBLICAN PARTY",
+      "state": "LA"
+    }
+  ]
+}

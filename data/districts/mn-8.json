@@ -1,0 +1,344 @@
+{
+  "api_version": "1.0",
+  "pagination": {
+    "count": 10,
+    "is_count_exact": true,
+    "page": 1,
+    "pages": 1,
+    "per_page": 100
+  },
+  "results": [
+    {
+      "active_through": 2026,
+      "candidate_id": "H6MN08120",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "08",
+      "district_number": 8,
+      "election_districts": [
+        "08"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-06-04",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2026-01-30",
+      "last_file_date": "2026-01-30",
+      "load_date": "2026-04-10T21:13:55",
+      "name": "ANASTOS, EMANUEL",
+      "office": "H",
+      "office_full": "House",
+      "party": "DFL",
+      "party_full": "DEMOCRATIC-FARMER-LABOR",
+      "state": "MN"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6MN08138",
+      "candidate_inactive": false,
+      "candidate_status": "N",
+      "cycles": [
+        2026
+      ],
+      "district": "08",
+      "district_number": 8,
+      "election_districts": [
+        "08"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-06-13",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2025-08-05",
+      "last_file_date": "2025-08-05",
+      "load_date": "2026-01-13T21:02:51",
+      "name": "CRAMER, CYLE",
+      "office": "H",
+      "office_full": "House",
+      "party": "DFL",
+      "party_full": "DEMOCRATIC-FARMER-LABOR",
+      "state": "MN"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6MN08195",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "08",
+      "district_number": 8,
+      "election_districts": [
+        "08"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2026-04-15",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2026-04-15",
+      "last_file_date": "2026-04-15",
+      "load_date": "2026-07-16T20:57:38",
+      "name": "GULBRANSON, LUKE",
+      "office": "H",
+      "office_full": "House",
+      "party": "DEM",
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "MN"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6MN08203",
+      "candidate_inactive": false,
+      "candidate_status": "N",
+      "cycles": [
+        2026
+      ],
+      "district": "08",
+      "district_number": 8,
+      "election_districts": [
+        "08"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2026-04-28",
+      "has_raised_funds": false,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2026-05-04",
+      "last_file_date": "2026-05-04",
+      "load_date": "2026-05-04T20:59:59",
+      "name": "HAMILTON, ANTHONY DAVID MR.",
+      "office": "H",
+      "office_full": "House",
+      "party": "REP",
+      "party_full": "REPUBLICAN PARTY",
+      "state": "MN"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6MN08153",
+      "candidate_inactive": false,
+      "candidate_status": "N",
+      "cycles": [
+        2026
+      ],
+      "district": "08",
+      "district_number": 8,
+      "election_districts": [
+        "08"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-06-25",
+      "has_raised_funds": false,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2025-06-25",
+      "last_file_date": "2025-06-25",
+      "load_date": "2025-06-30T20:58:43",
+      "name": "MCBRIDE, JOHN-PAUL 2183436597",
+      "office": "H",
+      "office_full": "House",
+      "party": "DFL",
+      "party_full": "DEMOCRATIC-FARMER-LABOR",
+      "state": "MN"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6MN08146",
+      "candidate_inactive": false,
+      "candidate_status": "N",
+      "cycles": [
+        2026
+      ],
+      "district": "08",
+      "district_number": 8,
+      "election_districts": [
+        "08"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-06-20",
+      "has_raised_funds": false,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2025-06-20",
+      "last_file_date": "2025-06-20",
+      "load_date": "2025-06-30T20:58:43",
+      "name": "MCBRIDE, JOHN-PAUL 2183436597",
+      "office": "H",
+      "office_full": "House",
+      "party": "DFL",
+      "party_full": "DEMOCRATIC-FARMER-LABOR",
+      "state": "MN"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6MN08161",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "08",
+      "district_number": 8,
+      "election_districts": [
+        "08"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-07-09",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2025-07-09",
+      "last_file_date": "2025-07-09",
+      "load_date": "2025-10-18T21:00:34",
+      "name": "MCKENNA, CHAD",
+      "office": "H",
+      "office_full": "House",
+      "party": "DFL",
+      "party_full": "DEMOCRATIC-FARMER-LABOR",
+      "state": "MN"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6MN08187",
+      "candidate_inactive": false,
+      "candidate_status": "N",
+      "cycles": [
+        2026
+      ],
+      "district": "08",
+      "district_number": 8,
+      "election_districts": [
+        "08"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2026-03-23",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2026-03-23",
+      "last_file_date": "2026-03-23",
+      "load_date": "2026-03-29T21:12:30",
+      "name": "SMITH, WENDELL ROBERT",
+      "office": "H",
+      "office_full": "House",
+      "party": "DFL",
+      "party_full": "DEMOCRATIC-FARMER-LABOR",
+      "state": "MN"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H8MN08043",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2018,
+        2020,
+        2022,
+        2024,
+        2026
+      ],
+      "district": "08",
+      "district_number": 8,
+      "election_districts": [
+        "08",
+        "08",
+        "08",
+        "08",
+        "08"
+      ],
+      "election_years": [
+        2018,
+        2020,
+        2022,
+        2024,
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2017-07-18",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "I",
+      "incumbent_challenge_full": "Incumbent",
+      "last_f2_date": "2026-02-16",
+      "last_file_date": "2026-02-16",
+      "load_date": "2026-02-16T20:57:37",
+      "name": "STAUBER, PETER ALLEN",
+      "office": "H",
+      "office_full": "House",
+      "party": "REP",
+      "party_full": "REPUBLICAN PARTY",
+      "state": "MN"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6MN08179",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "08",
+      "district_number": 8,
+      "election_districts": [
+        "08"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2026-01-07",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2026-01-07",
+      "last_file_date": "2026-01-07",
+      "load_date": "2026-04-20T21:16:40",
+      "name": "SWANSON, TRINA",
+      "office": "H",
+      "office_full": "House",
+      "party": "DFL",
+      "party_full": "DEMOCRATIC-FARMER-LABOR",
+      "state": "MN"
+    }
+  ]
+}

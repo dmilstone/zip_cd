@@ -1,0 +1,167 @@
+{
+  "api_version": "1.0",
+  "pagination": {
+    "count": 4,
+    "is_count_exact": true,
+    "page": 1,
+    "pages": 1,
+    "per_page": 100
+  },
+  "results": [
+    {
+      "active_through": 2026,
+      "candidate_id": "H0CA35146",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2020,
+        2022,
+        2024,
+        2026
+      ],
+      "district": "35",
+      "district_number": 35,
+      "election_districts": [
+        "35",
+        "35",
+        "35",
+        "35"
+      ],
+      "election_years": [
+        2020,
+        2022,
+        2024,
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2019-12-12",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2025-01-28",
+      "last_file_date": "2025-01-28",
+      "load_date": "2026-05-01T21:18:54",
+      "name": "CARGILE, MIKE",
+      "office": "H",
+      "office_full": "House",
+      "party": "REP",
+      "party_full": "REPUBLICAN PARTY",
+      "state": "CA"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6CA35135",
+      "candidate_inactive": false,
+      "candidate_status": "N",
+      "cycles": [
+        2026
+      ],
+      "district": "35",
+      "district_number": 35,
+      "election_districts": [
+        "35"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-05-21",
+      "has_raised_funds": false,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2025-05-23",
+      "last_file_date": "2025-05-23",
+      "load_date": "2025-06-09T20:59:02",
+      "name": "HORVATH, MICHAEL",
+      "office": "H",
+      "office_full": "House",
+      "party": "REP",
+      "party_full": "REPUBLICAN PARTY",
+      "state": "CA"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6CA35143",
+      "candidate_inactive": false,
+      "candidate_status": "N",
+      "cycles": [
+        2026
+      ],
+      "district": "35",
+      "district_number": 35,
+      "election_districts": [
+        "35"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2026-01-14",
+      "has_raised_funds": false,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2026-01-14",
+      "last_file_date": "2026-01-14",
+      "load_date": "2026-01-28T21:00:03",
+      "name": "LANE, WH",
+      "office": "H",
+      "office_full": "House",
+      "party": "DEM",
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "CA"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H4CA35031",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2014,
+        2016,
+        2018,
+        2020,
+        2022,
+        2024,
+        2026
+      ],
+      "district": "35",
+      "district_number": 35,
+      "election_districts": [
+        "35",
+        "35",
+        "35",
+        "35",
+        "35",
+        "35",
+        "35"
+      ],
+      "election_years": [
+        2014,
+        2016,
+        2018,
+        2020,
+        2022,
+        2024,
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2014-02-24",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "I",
+      "incumbent_challenge_full": "Incumbent",
+      "last_f2_date": "2024-11-21",
+      "last_file_date": "2024-11-21",
+      "load_date": "2025-04-21T20:59:14",
+      "name": "TORRES, NORMA",
+      "office": "H",
+      "office_full": "House",
+      "party": "DEM",
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "CA"
+    }
+  ]
+}

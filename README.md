@@ -1,21 +1,30 @@
 # ZIP to Congressional District Lookup
 
-A static, client-side web app that maps a 5-digit ZIP code to its U.S. House district(s), then shows the sitting representative and the candidates who have filed with the Federal Election Commission (FEC) for the upcoming election.
+A static, client-side web app that maps a 5-digit ZIP code to its U.S. House district(s), then shows the sitting representative and the candidates who have filed with the Federal Election Commission (FEC) for the 2026 election.
 
-There is no backend, no build step, and no package manager. The site is four files served as-is, plus a local `config.js` that holds the FEC API key.
+There is no backend, no build step, and no package manager. Candidate data for all 50 states, all 435 voting House districts, and the Washington, D.C. delegate seat is pre-fetched from the FEC by a scheduled GitHub Actions job, committed to the repository as static JSON, and served from GitHub Pages at `https://dmilstone.github.io/zip_cd/data/districts/`. The browser never talks to the FEC and needs no API key.
 
 ---
 
 ## Table of contents
 
-1. [Architecture](#architecture)
-2. [Data sources](#data-sources)
-3. [Privacy and data flows](#privacy-and-data-flows)
-4. [FEC API key setup](#fec-api-key-setup)
-5. [Running locally](#running-locally)
-6. [Deploying](#deploying)
-7. [Maintenance notes](#maintenance-notes)
-8. [Troubleshooting](#troubleshooting)
+1. [Coverage](#coverage)
+2. [Architecture](#architecture)
+3. [Daily FEC sync](#daily-fec-sync)
+4. [Data sources](#data-sources)
+5. [Privacy and data flows](#privacy-and-data-flows)
+6. [Running locally](#running-locally)
+7. [Deploying](#deploying)
+8. [Maintenance notes](#maintenance-notes)
+9. [Troubleshooting](#troubleshooting)
+
+---
+
+## Coverage
+
+- **All 50 states, all 435 voting districts, plus DC (436 files).** `data/districts/` holds one file per district, named `<state>-<district>.json` (for example `ca-12.json`). The six at-large states (AK, DE, ND, SD, VT, WY) and DC use district `0`, for example `wy-0.json` and `dc-0.json`.
+- **Works on any site.** `app.js` loads candidate files from the absolute GitHub Pages URL (`DISTRICT_DATA_BASE_URL`), which GitHub serves with `Access-Control-Allow-Origin: *`. A page that embeds the widget doesn't need its own `data/` folder. There is no API key to configure.
+- **Not covered: territorial delegates.** Puerto Rico, Guam, the U.S. Virgin Islands, American Samoa, and the Northern Mariana Islands are not in the sync list. ZIPs in those areas still resolve to a district and show the current delegate, but the candidate section reports that data hasn't been published.
 
 ---
 
@@ -25,13 +34,12 @@ There is no backend, no build step, and no package manager. The site is four fil
 
 | File | Purpose |
 | --- | --- |
-| `index.html` | Page markup: the ZIP form, the multi-district map modal, and the candidate modal. Loads Leaflet from unpkg, then `config.js`, then `app.js`. |
-| `app.js` | All application logic, wrapped in a single IIFE. |
+| `index.html` | Page markup: the ZIP form, the multi-district map modal, and the candidate modal. Loads Leaflet from unpkg, then `app.js`. |
+| `app.js` | All browser logic, wrapped in a single IIFE. |
 | `styles.css` | All styling. |
-| `config.js` | **Not in git.** Sets `window.FEC_API_KEY`. See [FEC API key setup](#fec-api-key-setup). |
-| `.gitignore` | Excludes `config.js`. |
-
-Script load order matters: `config.js` must load before `app.js`, because `app.js` reads `window.FEC_API_KEY` once at startup.
+| `data/districts/*.json` | One raw FEC `/v1/candidates/` response per district. Written by `update_candidates.js`. |
+| `update_candidates.js` | Node script that fetches candidate data from the FEC. Runs in GitHub Actions, never in the browser. |
+| `.github/workflows/sync_candidates.yml` | Scheduled workflow that runs the sync script and pushes the results to `main`. |
 
 ### Request flow
 
@@ -47,169 +55,159 @@ flowchart TD
     D -- 2+ districts --> F[Map modal: Leaflet + OSM tiles]
     F -- user picks district --> G
     G --> H[congress-legislators JSON:<br/>current representative]
-    G --> I[FEC API: active House candidates]
+    G --> I[GitHub Pages static file:<br/>data/districts/state-N.json]
 ```
 
 ### Key implementation details (`app.js`)
 
 - **ZIP to district resolution.** A ZIP is resolved through its Census ZIP Code Tabulation Area (ZCTA). The ZCTA polygon is sent back to TIGERweb as an Esri polygon, and the query uses the DE-9IM relation `T********` ("interiors intersect"). That way districts that only share a border with the ZIP are excluded.
 - **District vintage.** `CD_QUERY_URL` uses TIGERweb Legislative layer `0` (120th Congress, the 2026 election districts). Layer `4` is the 119th Congress.
-- **Election year.** `ELECTION_YEAR` is the current year rounded up to the next even year.
-- **District IDs.** Districts are keyed as `STATE-NN`, for example `NY-10`. At-large seats (`00`) and non-voting delegates (`98`) become `STATE-AL`, and both map to district number `0` for the FEC and congress-legislators lookups. GEOIDs ending in `ZZ` (water or unassigned areas) are dropped.
+- **District IDs.** Districts are keyed as `STATE-NN`, for example `NY-10`. At-large seats (`00`) and non-voting delegates (`98`) become `STATE-AL`, and both map to district number `0` for the candidate file and congress-legislators lookups. GEOIDs ending in `ZZ` (water or unassigned areas) are dropped.
+- **Candidate data.** `fetchFecCandidates` requests `<DISTRICT_DATA_BASE_URL><state>-<district>.json` (`https://dmilstone.github.io/zip_cd/data/districts/`). Change that constant if you publish the data somewhere else. A `404` shows "Candidate data for XX-N hasn't been published yet."
 - **Concurrency.** Each lookup and each candidate modal has a sequence number and an `AbortController`. A newer request cancels the older one, and stale responses are discarded. Every request times out after `REQUEST_TIMEOUT_MS` (20 s).
-- **Caching (in memory, per page load only).**
-  - The congress-legislators file (about 1.5 MB) is fetched once at startup and shared.
-  - FEC results are cached per district ID in `fecCandidatesByDistrict`.
+- **Caching (in memory, per page load only).** The congress-legislators file (about 1.5 MB) is fetched once and shared. Candidate lists are cached per district ID in `fecCandidatesByDistrict`.
 - **Independent failure.** The representative section and the candidate section render separately, so if one source fails the other still shows.
 - **Accessibility.** Both modals trap focus, close on `Escape` or a backdrop click, and return focus to whatever element opened them.
 
 ---
 
+## Daily FEC sync
+
+`.github/workflows/sync_candidates.yml` runs `update_candidates.js` on a cron schedule of `0 0 * * *` (every day at 00:00 UTC). It can also be started by hand from the Actions tab (`workflow_dispatch`).
+
+Each run:
+
+1. Checks out `main` and sets up the current Node.js LTS.
+2. Runs `node update_candidates.js --force` with `FEC_API_KEY` taken from the repository secret of the same name.
+3. Stages `data/districts/`. If nothing changed, the job exits. Otherwise it commits as `github-actions[bot]` with the message `Sync FEC candidate data (YYYY-MM-DD)` and pushes straight to `main`.
+
+No one has to approve or merge anything. If the site is published from `main`, it picks up the new data on the next Pages build.
+
+### What the script does
+
+- Creates `data/districts/` if it doesn't exist.
+- Walks every state and district in `STATES_AND_DISTRICTS` (50 states plus DC, 436 districts) and calls `https://api.open.fec.gov/v1/candidates/` with `office=H`, `election_year=2026`, the state, and the zero-padded district.
+- Writes the raw FEC response, unchanged, to `data/districts/<state>-<district>.json`.
+- Waits 4 seconds between requests to stay under the api.data.gov limit of 1,000 requests per hour. A full run of all 436 districts takes about 30 minutes.
+- On HTTP `429`, it reads `X-RateLimit-Reset` or `Retry-After`, sleeps, and retries up to 3 times.
+- If a district fails, the existing file for that district is left alone, the remaining districts still run, and the job exits non-zero so the failure shows up in Actions.
+- Ends with a summary: district count, how many were fetched, skipped, and failed, the total number of candidates, and the elapsed time.
+
+### Refresh behavior
+
+With `--force` (what the workflow uses), every district is re-fetched on every run, and only files whose contents changed are committed. Without `--force`, the script **skips any district that already has a valid file** (JSON with a `results` array) and only fills in missing or corrupt ones.
+
+### Scheduling caveats
+
+- GitHub runs scheduled workflows on a best-effort basis. Runs at 00:00 UTC are often delayed by several minutes to an hour when Actions is busy, and occasionally skipped.
+- In public repositories, GitHub disables scheduled workflows after 60 days with no repository activity. Re-enable the workflow from the Actions tab if that happens.
+- The workflow needs `contents: write` permission, and `main` must allow `github-actions[bot]` to push. A branch protection rule that requires pull requests will block the push step.
+
+### Setting up the secret
+
+1. Get a free key at <https://api.data.gov/signup/>.
+2. In the GitHub repository, go to **Settings → Secrets and variables → Actions** and add a repository secret named `FEC_API_KEY`.
+
+The key only exists in GitHub Actions. It is never written to the repository or served to visitors.
+
+---
+
 ## Data sources
 
-| Source | Endpoint | Used for | Auth |
+| Source | Endpoint | Used for | Called from |
 | --- | --- | --- | --- |
-| U.S. Census TIGERweb | `tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/...` | ZCTA and congressional district geometry | None |
-| congress-legislators | `unitedstates.github.io/congress-legislators/legislators-current.json` | Current House representative | None |
-| OpenFEC | `api.open.fec.gov/v1/candidates/` | Active candidates for the election year | **API key** |
-| OpenStreetMap | `tile.openstreetmap.org` | Map tiles in the multi-district modal | None |
-| unpkg | `unpkg.com/leaflet@1.9.4` | Leaflet JS/CSS (pinned with SRI hashes) | None |
+| OpenFEC | `api.open.fec.gov/v1/candidates/` | House candidates for 2026 | **GitHub Actions only** (needs the API key) |
+| Static district files | `dmilstone.github.io/zip_cd/data/districts/*.json` | Candidate lists shown to visitors | Browser (GitHub Pages, CORS `*`) |
+| U.S. Census TIGERweb | `tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/...` | ZCTA and congressional district geometry | Browser |
+| congress-legislators | `unitedstates.github.io/congress-legislators/legislators-current.json` | Current House representative | Browser |
+| OpenStreetMap | `tile.openstreetmap.org` | Map tiles in the multi-district modal | Browser |
+| unpkg | `unpkg.com/leaflet@1.9.4` | Leaflet JS/CSS (pinned with SRI hashes) | Browser |
 
 ---
 
 ## Privacy and data flows
 
-The app has no server, no analytics, no cookies, and no `localStorage` or `sessionStorage`. Nothing the user enters is stored or sent to anything the organization runs. Everything happens in the user's browser, but these third-party services do receive data directly from it:
+**No API keys in the browser.** The FEC key lives only in GitHub Actions secrets. Nothing in the deployed site contains a key, so there is nothing for visitors to copy.
+
+**No FEC rate limits for visitors.** Candidate data is a static file on GitHub Pages. Visitors never call the FEC, so FEC or api.data.gov rate limits can't affect them, however much traffic the site gets.
+
+**The FEC never sees visitors.** Because the FEC isn't called from the browser, it receives no IP addresses, district lookups, or other visitor data.
+
+The app has no server of its own, no analytics, no cookies, and no `localStorage` or `sessionStorage`. The ZIP-to-district lookup, the map, and the current-representative lookup still run live in the browser, though, so these third parties do receive requests directly from visitors:
 
 | Recipient | What it receives |
 | --- | --- |
 | Census TIGERweb | The ZIP code entered, plus the ZCTA polygon for that ZIP. |
-| OpenFEC (api.data.gov) | State, district number, election year, and **our API key**. The ZIP itself is not sent. |
 | OpenStreetMap tile servers | Tile coordinates for the area around the ZIP. Only happens when the ZIP spans more than one district. |
 | GitHub Pages (congress-legislators) | A single static file request. No user input is sent. |
+| GitHub Pages (`dmilstone.github.io`) | The file name of the selected district, for example `ny-10.json`. The ZIP itself is not sent. |
 | unpkg | A static asset request. No user input is sent. |
 
-All of these recipients also see the user's IP address and browser headers, as with any web request. If the deployment has a privacy policy, it should name these services.
-
-### The FEC key is public once deployed
-
-Because the app runs entirely in the browser, **anyone visiting the deployed site can read the FEC API key**. It appears in `config.js` and in the `api_key=` query parameter of every FEC request in the browser's network tab. Keeping `config.js` out of git only protects the key from the repository, not from site visitors.
-
-The risk is limited: the key only grants read access to public FEC data. The realistic abuse is someone copying the key and using up its rate limit. Handle it like this:
-
-- **Use a dedicated key for each deployment** (production, staging, and each developer locally). Never reuse a personal key or a key tied to other services.
-- **Register production keys to an organizational email address**, not a personal one.
-- **Rotate the key** if the site starts hitting rate limits unexpectedly.
-- **If the key must stay secret**, put a small server-side proxy (for example a Cloudflare Worker, Netlify Function, or similar) in front of `api.open.fec.gov`. The proxy adds the key on the server and forwards the request, and `FEC_CANDIDATES_URL` in `app.js` points at the proxy instead. The current code does not include a proxy.
-
----
-
-## FEC API key setup
-
-### 1. Get a key
-
-1. Sign up at <https://api.data.gov/signup/>. The key is free and arrives by email right away.
-2. The same key works for every api.data.gov service, including OpenFEC.
-3. The default limit is **1,000 requests per hour per key**. The app makes at most one FEC request per district per page load, because results are cached.
-
-### 2. Create `config.js`
-
-In the project root, create `config.js`:
-
-```js
-// Free key from https://api.data.gov/signup/ — leave empty to fall back to the rate-limited DEMO_KEY.
-window.FEC_API_KEY = 'YOUR_API_DATA_GOV_KEY';
-```
-
-`config.js` is listed in `.gitignore`. **Do not commit it**, and do not paste the key into `app.js`, `index.html`, issues, pull requests, or chat.
-
-Before committing, check that git is still ignoring it:
-
-```sh
-git check-ignore -v config.js   # should print: .gitignore:1:config.js  config.js
-git status --short              # config.js should NOT appear
-```
-
-### 3. Fallback behavior
-
-If `config.js` is missing, or `window.FEC_API_KEY` is empty, `app.js` uses the public `DEMO_KEY`. The app still works, but `DEMO_KEY` has a very low shared rate limit. When the limit is hit, the candidate section shows:
-
-> FEC rate limit reached. Set window.FEC_API_KEY in config.js to a free api.data.gov key.
-
-The representative section and the map keep working, because they don't depend on the FEC.
-
-### 4. If a key is leaked into git
-
-If a key is ever committed, rewriting history is not enough, because the key may already be cloned or cached. Instead:
-
-1. Request a new key at <https://api.data.gov/signup/>.
-2. Put the new key in `config.js` on every environment that uses it.
-3. Stop using the old key. To have it deactivated, contact api.data.gov support.
+All of these also see the visitor's IP address and browser headers, as with any web request. If the deployment has a privacy policy, it should name these services.
 
 ---
 
 ## Running locally
 
-**Requirements:** a modern browser and any static file server. There are no dependencies to install.
+**Requirements:** a modern browser and any static file server. There is nothing to install and no key to set.
 
 ```sh
 git clone https://github.com/dmilstone/zip_cd.git
 cd zip_cd
-
-# Create config.js as described above, then:
 python3 -m http.server 8000
 ```
 
 Open <http://localhost:8000>.
 
-Serve the files over HTTP instead of opening `index.html` from disk (`file://`). Browsers treat `file://` pages as having a `null` origin, which can break cross-origin requests.
+Serve the files over HTTP instead of opening `index.html` from disk (`file://`). Browsers block `fetch` of local JSON files from `file://` pages, so candidate data won't load.
+
+### Running the sync script locally
+
+Requires Node.js 18 or later (for global `fetch`).
+
+```sh
+FEC_API_KEY=your_key node update_candidates.js          # only missing or invalid files
+FEC_API_KEY=your_key node update_candidates.js --force  # re-fetch everything
+```
+
+The local page still loads candidate data from GitHub Pages, not from your local `data/` folder. To test local files, temporarily set `DISTRICT_DATA_BASE_URL` in `app.js` to `./data/districts/`.
 
 ### Smoke test
 
-The hint row under the input has sample ZIPs to try:
-
 | ZIP | Expected result |
 | --- | --- |
-| `20001` | Single district (DC at-large delegate). The candidate modal opens directly. |
-| `05401` | Single district (Vermont at-large). |
-| `82001` | Single district (Wyoming at-large). |
+| `05401` | Single district (Vermont at-large, `vt-0.json`). The candidate modal opens directly. |
+| `82001` | Single district (Wyoming at-large, `wy-0.json`). |
 | `11201` | Spans two districts. The map modal opens, and picking a district opens its candidates. |
-
-Also confirm that the "2026 candidates" section loads without a rate-limit message. That shows your key is being picked up.
+| `20001` | DC delegate (`dc-0.json`). The delegate and the DC candidates load. |
 
 ---
 
 ## Deploying
 
-Any static host works, such as GitHub Pages, Netlify, Cloudflare Pages, S3 + CloudFront, or an internal web server. The deploy steps are the same everywhere:
+Any static host works, such as GitHub Pages, Netlify, Cloudflare Pages, S3 + CloudFront, or an internal web server.
 
-1. **Publish** `index.html`, `app.js`, and `styles.css`.
-2. **Provide `config.js` separately**, since it isn't in the repository. Either:
-   - upload it by hand or through a secured deploy step, or
-   - generate it at deploy time from a CI secret, for example:
-
-     ```sh
-     printf "window.FEC_API_KEY = '%s';\n" "$FEC_API_KEY" > config.js
-     ```
-
-     Store `FEC_API_KEY` as an encrypted secret in the CI provider (such as GitHub Actions secrets or Netlify environment variables). Never hard-code it in the workflow file.
-3. **Verify** the deployment by running the [smoke test](#smoke-test) against the live URL.
-
-> **GitHub Pages note:** Publishing straight from the repository branch won't include `config.js`, so the live site falls back to `DEMO_KEY`. Use a GitHub Actions workflow that writes `config.js` from a secret before uploading the Pages artifact.
+1. **Publish** `index.html`, `app.js`, `styles.css`, and the `data/` directory. There is no config file to generate.
+2. **Add the `FEC_API_KEY` secret** to the GitHub repository so the daily sync can run (see [Setting up the secret](#setting-up-the-secret)).
+3. **Deploy from `main`** (or rebuild on every push to `main`) so the bot's data commits go live automatically.
+4. **Verify** the deployment by running the [smoke test](#smoke-test) against the live URL.
 
 ### Deployment checklist
 
-- [ ] The production key is dedicated to this site and registered to an organizational email.
-- [ ] `config.js` is generated from a secret and doesn't appear in any commit, workflow log, or build artifact that's publicly stored.
+- [ ] All 436 files in `data/districts/` are committed and pushed, and `https://dmilstone.github.io/zip_cd/data/districts/vt-0.json` returns 200.
+- [ ] The `FEC_API_KEY` secret is set, and the latest `Sync FEC candidates` run in Actions succeeded.
+- [ ] `github-actions[bot]` can push to `main`.
+- [ ] No local `config.js` or other file containing a key is uploaded to the host.
 - [ ] The site is served over HTTPS.
-- [ ] The smoke-test ZIPs return candidates with no rate-limit message.
 - [ ] The privacy policy (if there is one) lists the third-party services in [Privacy and data flows](#privacy-and-data-flows).
 
 ---
 
 ## Maintenance notes
 
-- **After redistricting or a new Congress,** check that TIGERweb Legislative layer `0` in `CD_QUERY_URL` is still the district set you want, and update the comment next to it.
+- **Election year.** `ELECTION_YEAR` is hard-coded to `2026` in `update_candidates.js`. The browser computes it as the current year rounded up to the next even year. Update the script, and clear `data/districts/`, before the 2028 cycle.
+- **Apportionment.** `STATES_AND_DISTRICTS` reflects the post-2020 apportionment. Update it after the 2030 census or any mid-decade change in seat counts.
+- **After redistricting or a new Congress,** check that TIGERweb Legislative layer `0` in `CD_QUERY_URL` is still the district set you want.
 - **Leaflet upgrades:** update both the URLs and the `integrity` SRI hashes in `index.html`.
 - **FEC party names** vary in format. `PARTY_CLASSES` matches loosely on `dem` and `rep` prefixes, and everything else gets the neutral style.
 - **ZCTAs aren't ZIP codes.** ZCTAs approximate USPS delivery areas, so PO Box-only and single-business ZIPs have no ZCTA and return a "not found" error. This is expected.
@@ -220,8 +218,11 @@ Any static host works, such as GitHub Pages, Netlify, Cloudflare Pages, S3 + Clo
 
 | Symptom | Likely cause | Fix |
 | --- | --- | --- |
-| "FEC rate limit reached…" | `config.js` is missing or empty (so `DEMO_KEY` is used), or the key's hourly limit is used up. | Check that `config.js` is deployed and loads before `app.js`. Check the network tab for `api_key=`. Rotate the key if it's being abused. |
-| "Couldn't load candidates from the FEC API" | Invalid or deactivated key, or an FEC outage. | Test with `curl "https://api.open.fec.gov/v1/candidates/?api_key=YOUR_KEY&per_page=1"`. |
+| "Candidate data for XX-N hasn't been published yet." | The district's JSON file isn't on GitHub Pages yet, or it's a territorial delegate district. | Check that `data/districts/` is pushed to `main` and Pages has rebuilt. For a missing district, run the sync workflow by hand. |
+| "Couldn't load candidate data" | GitHub Pages returned an error or invalid JSON for the district file. | Open the file URL directly and check it. |
+| Candidate data looks out of date | The last sync run failed or was skipped by GitHub. | Check the Actions tab and run the workflow by hand. |
+| Sync workflow fails on push | Branch protection on `main`, or the workflow lacks `contents: write`. | Allow `github-actions[bot]` to push, or change the workflow to open a PR. |
+| Sync workflow fails with "FEC_API_KEY is not set." | The repository secret is missing. | Add it under Settings → Secrets and variables → Actions. |
 | "Couldn't reach the Census TIGERweb service" | TIGERweb outage or timeout. | Retry later. TIGERweb is occasionally slow. |
 | "No Census ZIP Code Tabulation Area found" | The ZIP has no ZCTA (PO Box or single business). | Expected behavior. |
 | Map area shows "Map failed to load" | unpkg or Leaflet is blocked, or the SRI hash doesn't match. | Check the network tab and the `integrity` attributes. The district list still works. |

@@ -1,0 +1,306 @@
+{
+  "api_version": "1.0",
+  "pagination": {
+    "count": 9,
+    "is_count_exact": true,
+    "page": 1,
+    "pages": 1,
+    "per_page": 100
+  },
+  "results": [
+    {
+      "active_through": 2026,
+      "candidate_id": "H6NY17221",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "17",
+      "district_number": 17,
+      "election_districts": [
+        "17"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-08-05",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2025-08-05",
+      "last_file_date": "2025-08-05",
+      "load_date": "2025-10-18T21:00:34",
+      "name": "CAPPELLO, JOHN",
+      "office": "H",
+      "office_full": "House",
+      "party": "DEM",
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "NY"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6NY17213",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "17",
+      "district_number": 17,
+      "election_districts": [
+        "17"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-05-29",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2025-05-29",
+      "last_file_date": "2025-05-29",
+      "load_date": "2025-07-15T21:00:48",
+      "name": "CHATZKY, PETER",
+      "office": "H",
+      "office_full": "House",
+      "party": "DEM",
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "NY"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6NY17171",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "17",
+      "district_number": 17,
+      "election_districts": [
+        "17"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-03-24",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2025-03-24",
+      "last_file_date": "2025-03-24",
+      "load_date": "2025-04-16T21:03:05",
+      "name": "CONLEY, CAIT",
+      "office": "H",
+      "office_full": "House",
+      "party": "DEM",
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "NY"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6NY17163",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "17",
+      "district_number": 17,
+      "election_districts": [
+        "17"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-02-18",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2025-02-18",
+      "last_file_date": "2025-02-18",
+      "load_date": "2025-04-16T21:03:05",
+      "name": "DAVIDSON, BETH",
+      "office": "H",
+      "office_full": "House",
+      "party": "DEM",
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "NY"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H2NY17162",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2022,
+        2024,
+        2026
+      ],
+      "district": "17",
+      "district_number": 17,
+      "election_districts": [
+        "17",
+        "17",
+        "17"
+      ],
+      "election_years": [
+        2022,
+        2024,
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2022-05-17",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "I",
+      "incumbent_challenge_full": "Incumbent",
+      "last_f2_date": "2026-08-09",
+      "last_file_date": "2026-08-09",
+      "load_date": "2026-08-09T20:56:14",
+      "name": "LAWLER, MICHAEL VINCENT",
+      "office": "H",
+      "office_full": "House",
+      "party": "REP",
+      "party_full": "REPUBLICAN PARTY",
+      "state": "NY"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6NY17205",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "17",
+      "district_number": 17,
+      "election_districts": [
+        "17"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-05-12",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2025-05-12",
+      "last_file_date": "2025-05-12",
+      "load_date": "2025-07-15T21:00:48",
+      "name": "PHILLIPS-STALEY, EFFIE",
+      "office": "H",
+      "office_full": "House",
+      "party": "DEM",
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "NY"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6NY17155",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "17",
+      "district_number": 17,
+      "election_districts": [
+        "17"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-01-07",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2025-01-07",
+      "last_file_date": "2025-01-07",
+      "load_date": "2025-04-16T21:03:05",
+      "name": "REINMANN, JESSICA",
+      "office": "H",
+      "office_full": "House",
+      "party": "DEM",
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "NY"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6NY17189",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "17",
+      "district_number": 17,
+      "election_districts": [
+        "17"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-04-08",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2025-04-08",
+      "last_file_date": "2025-04-08",
+      "load_date": "2025-07-16T21:02:06",
+      "name": "SACKS, MIKE",
+      "office": "H",
+      "office_full": "House",
+      "party": "DEM",
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "NY"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6NY17197",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "17",
+      "district_number": 17,
+      "election_districts": [
+        "17"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-04-22",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2025-04-22",
+      "last_file_date": "2025-04-22",
+      "load_date": "2025-07-16T21:02:06",
+      "name": "SULLIVAN, JOHN",
+      "office": "H",
+      "office_full": "House",
+      "party": "DEM",
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "NY"
+    }
+  ]
+}

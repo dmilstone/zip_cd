@@ -1,0 +1,134 @@
+{
+  "api_version": "1.0",
+  "pagination": {
+    "count": 3,
+    "is_count_exact": true,
+    "page": 1,
+    "pages": 1,
+    "per_page": 100
+  },
+  "results": [
+    {
+      "active_through": 2026,
+      "candidate_id": "H4IN04032",
+      "candidate_inactive": false,
+      "candidate_status": "N",
+      "cycles": [
+        1984,
+        2022,
+        2026
+      ],
+      "district": "03",
+      "district_number": 3,
+      "election_districts": [
+        "04",
+        "03",
+        "03"
+      ],
+      "election_years": [
+        1984,
+        2022,
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": null,
+      "has_raised_funds": false,
+      "inactive_election_years": null,
+      "incumbent_challenge": null,
+      "incumbent_challenge_full": null,
+      "last_f2_date": null,
+      "last_file_date": null,
+      "load_date": "2026-09-03T20:56:31",
+      "name": "BEACHY, PHILLIP D",
+      "office": "H",
+      "office_full": "House",
+      "party": "NNE",
+      "party_full": "NONE",
+      "state": "IN"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H0IN03198",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2010,
+        2012,
+        2014,
+        2016,
+        2018,
+        2020,
+        2022,
+        2024,
+        2026
+      ],
+      "district": "03",
+      "district_number": 3,
+      "election_districts": [
+        "03",
+        "03",
+        "00",
+        "03",
+        "03",
+        "03"
+      ],
+      "election_years": [
+        2010,
+        2012,
+        2014,
+        2016,
+        2024,
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2010-06-14",
+      "has_raised_funds": true,
+      "inactive_election_years": [
+        2016
+      ],
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2024-12-03",
+      "last_file_date": "2024-12-03",
+      "load_date": "2025-09-02T21:03:03",
+      "name": "STUTZMAN, MARLIN A",
+      "office": "H",
+      "office_full": "House",
+      "party": "REP",
+      "party_full": "REPUBLICAN PARTY",
+      "state": "IN"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6IN03294",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "03",
+      "district_number": 3,
+      "election_districts": [
+        "03"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-06-10",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2025-06-10",
+      "last_file_date": "2025-06-10",
+      "load_date": "2025-07-19T20:58:36",
+      "name": "THOMPSON, KELLY ELIZABETH",
+      "office": "H",
+      "office_full": "House",
+      "party": "DEM",
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "IN"
+    }
+  ]
+}

@@ -1,0 +1,464 @@
+{
+  "api_version": "1.0",
+  "pagination": {
+    "count": 13,
+    "is_count_exact": true,
+    "page": 1,
+    "pages": 1,
+    "per_page": 100
+  },
+  "results": [
+    {
+      "active_through": 2026,
+      "candidate_id": "H2AK00556",
+      "candidate_inactive": false,
+      "candidate_status": "N",
+      "cycles": [
+        2022,
+        2024,
+        2026
+      ],
+      "district": "00",
+      "district_number": 0,
+      "election_districts": [
+        "00",
+        "00",
+        "00"
+      ],
+      "election_years": [
+        2022,
+        2024,
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": null,
+      "has_raised_funds": false,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": null,
+      "last_file_date": null,
+      "load_date": "2026-07-21T20:58:46",
+      "name": "AMBROSE, DAVID",
+      "office": "H",
+      "office_full": "House",
+      "party": "N",
+      "party_full": "NONPARTISAN",
+      "state": "AK"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6AK01134",
+      "candidate_inactive": false,
+      "candidate_status": "N",
+      "cycles": [
+        2026
+      ],
+      "district": "00",
+      "district_number": 0,
+      "election_districts": [
+        "00"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2026-08-07",
+      "has_raised_funds": false,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2026-08-07",
+      "last_file_date": "2026-08-07",
+      "load_date": "2026-08-28T20:56:23",
+      "name": "AMBROSE, DAVID II",
+      "office": "H",
+      "office_full": "House",
+      "party": "UN",
+      "party_full": "UNAFFILIATED",
+      "state": "AK"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H2AK01083",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2022,
+        2024,
+        2026
+      ],
+      "district": "00",
+      "district_number": 0,
+      "election_districts": [
+        "00",
+        "00",
+        "00"
+      ],
+      "election_years": [
+        2022,
+        2024,
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2021-10-22",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "I",
+      "incumbent_challenge_full": "Incumbent",
+      "last_f2_date": "2025-07-03",
+      "last_file_date": "2025-07-03",
+      "load_date": "2025-07-03T20:59:29",
+      "name": "BEGICH, NICHOLAS III",
+      "office": "H",
+      "office_full": "House",
+      "party": "REP",
+      "party_full": "REPUBLICAN PARTY",
+      "state": "AK"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6AK01126",
+      "candidate_inactive": false,
+      "candidate_status": "N",
+      "cycles": [
+        2026
+      ],
+      "district": "00",
+      "district_number": 0,
+      "election_districts": [
+        "00"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2026-07-10",
+      "has_raised_funds": false,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2026-07-10",
+      "last_file_date": "2026-07-14",
+      "load_date": "2026-07-21T20:58:46",
+      "name": "CARLSON, OWEN NICHOLAS",
+      "office": "H",
+      "office_full": "House",
+      "party": "AKI",
+      "party_full": "ALASKAN INDEPENDENCE PARTY",
+      "state": "AK"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H2AK01182",
+      "candidate_inactive": false,
+      "candidate_status": "N",
+      "cycles": [
+        2022,
+        2024,
+        2026
+      ],
+      "district": "00",
+      "district_number": 0,
+      "election_districts": [
+        "00",
+        "00",
+        "00"
+      ],
+      "election_years": [
+        2022,
+        2024,
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2022-04-07",
+      "has_raised_funds": false,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2022-04-08",
+      "last_file_date": "2022-04-08",
+      "load_date": "2026-07-21T20:58:46",
+      "name": "DUTCHESS, LADY DONNA",
+      "office": "H",
+      "office_full": "House",
+      "party": "N",
+      "party_full": "NONPARTISAN",
+      "state": "AK"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H4AK00164",
+      "candidate_inactive": false,
+      "candidate_status": "N",
+      "cycles": [
+        2024,
+        2026
+      ],
+      "district": "00",
+      "district_number": 0,
+      "election_districts": [
+        null,
+        "00"
+      ],
+      "election_years": [
+        2024,
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2024-05-28",
+      "has_raised_funds": false,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2026-06-17",
+      "last_file_date": "2026-06-17",
+      "load_date": "2026-07-21T20:58:46",
+      "name": "ERIC, HAFNER",
+      "office": "H",
+      "office_full": "House",
+      "party": "DEM",
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "AK"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6AK01092",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "00",
+      "district_number": 0,
+      "election_districts": [
+        "00"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2026-01-20",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2026-09-15",
+      "last_file_date": "2026-09-15",
+      "load_date": "2026-09-15T20:57:27",
+      "name": "HILL, BILL",
+      "office": "H",
+      "office_full": "House",
+      "party": "IND",
+      "party_full": "INDEPENDENT",
+      "state": "AK"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H2AK00143",
+      "candidate_inactive": false,
+      "candidate_status": "N",
+      "cycles": [
+        2012,
+        2014,
+        2016,
+        2026
+      ],
+      "district": "00",
+      "district_number": 0,
+      "election_districts": [
+        "00",
+        "00",
+        "00",
+        "00"
+      ],
+      "election_years": [
+        2012,
+        2014,
+        2016,
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2014-09-26",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": null,
+      "incumbent_challenge_full": null,
+      "last_f2_date": "2014-09-26",
+      "last_file_date": "2014-09-26",
+      "load_date": "2026-09-03T20:56:31",
+      "name": "MCDERMOTT, JIM C",
+      "office": "H",
+      "office_full": "House",
+      "party": "LIB",
+      "party_full": "LIBERTARIAN PARTY",
+      "state": "AK"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H2AK01158",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2022,
+        2024,
+        2026
+      ],
+      "district": "00",
+      "district_number": 0,
+      "election_districts": [
+        "00",
+        "00",
+        "00"
+      ],
+      "election_years": [
+        2022,
+        2024,
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2022-04-01",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2024-11-08",
+      "last_file_date": "2024-11-08",
+      "load_date": "2025-02-02T20:58:51",
+      "name": "PELTOLA, MARY",
+      "office": "H",
+      "office_full": "House",
+      "party": "DEM",
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "AK"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6AK01118",
+      "candidate_inactive": false,
+      "candidate_status": "N",
+      "cycles": [
+        2026
+      ],
+      "district": "00",
+      "district_number": 0,
+      "election_districts": [
+        "00"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2026-06-30",
+      "has_raised_funds": false,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2026-06-30",
+      "last_file_date": "2026-06-30",
+      "load_date": "2026-07-21T20:58:46",
+      "name": "SALAZAR, MELANIE A.",
+      "office": "H",
+      "office_full": "House",
+      "party": "NON",
+      "party_full": "NON-PARTY",
+      "state": "AK"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6AK01084",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "00",
+      "district_number": 0,
+      "election_districts": [
+        "00"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-10-20",
+      "has_raised_funds": false,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2025-10-20",
+      "last_file_date": "2025-10-20",
+      "load_date": "2026-02-04T21:00:47",
+      "name": "SCHULTZ, MATTHEW DAMIAN",
+      "office": "H",
+      "office_full": "House",
+      "party": "DEM",
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "AK"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6AK01068",
+      "candidate_inactive": false,
+      "candidate_status": "N",
+      "cycles": [
+        2026
+      ],
+      "district": "00",
+      "district_number": 0,
+      "election_districts": [
+        "00"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-07-02",
+      "has_raised_funds": false,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2025-07-02",
+      "last_file_date": "2025-07-02",
+      "load_date": "2025-07-08T21:00:04",
+      "name": "WILLIAMS, JOHN BRENDAN",
+      "office": "H",
+      "office_full": "House",
+      "party": "DEM",
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "AK"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6AK01100",
+      "candidate_inactive": false,
+      "candidate_status": "N",
+      "cycles": [
+        2026
+      ],
+      "district": "00",
+      "district_number": 0,
+      "election_districts": [
+        "00"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2026-03-26",
+      "has_raised_funds": false,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2026-03-26",
+      "last_file_date": "2026-03-26",
+      "load_date": "2026-03-29T21:12:30",
+      "name": "WILLIAMS, MATTHEW CHRISTOPHER",
+      "office": "H",
+      "office_full": "House",
+      "party": "IND",
+      "party_full": "INDEPENDENT",
+      "state": "AK"
+    }
+  ]
+}

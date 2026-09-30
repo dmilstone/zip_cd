@@ -30,7 +30,7 @@ jobs:
       - name: Fetch candidate data from FEC
         env:
           FEC_API_KEY: ${{ secrets.FEC_API_KEY }}
-        run: node update_candidates.js
+        run: node update_candidates.js --force
 
       - name: Commit and push changes
         run: |

@@ -2,9 +2,8 @@
   "use strict";
 
   const LEGISLATORS_URL = "https://unitedstates.github.io/congress-legislators/legislators-current.json";
-  const FEC_CANDIDATES_URL = "https://api.open.fec.gov/v1/candidates/";
-  // DEMO_KEY is heavily rate limited; a free api.data.gov key allows 1,000 requests per hour.
-  const FEC_API_KEY = window.FEC_API_KEY || "DEMO_KEY";
+  // Absolute so the widget works when embedded on other sites; GitHub Pages serves it with CORS *.
+  const DISTRICT_DATA_BASE_URL = "https://dmilstone.github.io/zip_cd/data/districts/";
   const CURRENT_YEAR = new Date().getFullYear();
   const ELECTION_YEAR = CURRENT_YEAR + (CURRENT_YEAR % 2);
 
@@ -499,29 +498,19 @@
     ];
   }
 
+  // Compiled per-district snapshots of the FEC /v1/candidates/ response ({ results: [...] }),
+  // published to GitHub Pages by the daily sync workflow.
   async function fetchFecCandidates(district, signal) {
     const cached = fecCandidatesByDistrict.get(district.id);
     if (cached) return cached;
 
-    const params = new URLSearchParams({
-      api_key: FEC_API_KEY,
-      office: "H",
-      state: district.state,
-      district: String(district.districtNumber).padStart(2, "0"),
-      election_year: String(ELECTION_YEAR),
-      candidate_status: "C",
-      is_active_candidate: "true",
-      sort: "name",
-      per_page: "100",
-    });
-    const response = await fetch(FEC_CANDIDATES_URL + "?" + params, { signal });
-    const data = await response.json().catch(() => ({}));
-    if (response.status === 429 || (data.error && data.error.code === "OVER_RATE_LIMIT")) {
-      throw new Error("FEC_RATE_LIMIT");
-    }
-    if (!response.ok || data.error) {
-      throw new Error("FEC API: " + ((data.error && data.error.message) || "HTTP " + response.status));
-    }
+    const stateCode = district.state;
+    const districtNumber = district.districtNumber;
+    const dataUrl = `${DISTRICT_DATA_BASE_URL}${stateCode.toLowerCase()}-${districtNumber}.json`;
+    const response = await fetch(dataUrl, { signal });
+    if (response.status === 404) throw new Error("DISTRICT_DATA_MISSING");
+    if (!response.ok) throw new Error("District data HTTP " + response.status + " for " + dataUrl);
+    const data = await response.json();
 
     const candidates = (data.results || []).map((candidate) => ({
       name: formatFecName(candidate.name),
@@ -561,12 +550,12 @@
     els.candidateList.hidden = false;
   }
 
-  function fecErrorMessage(err) {
-    if (err.message === "FEC_RATE_LIMIT") {
-      return "FEC rate limit reached. Set window.FEC_API_KEY in config.js to a free api.data.gov key.";
+  function fecErrorMessage(err, district) {
+    if (err.message === "DISTRICT_DATA_MISSING") {
+      return "Candidate data for " + district.id + " hasn't been published yet.";
     }
-    if (err.name === "AbortError") return "The FEC API took too long to respond. Please try again.";
-    return "Couldn't load candidates from the FEC API. Please try again.";
+    if (err.name === "AbortError") return "Candidate data took too long to load. Please try again.";
+    return "Couldn't load candidate data. Please try again.";
   }
 
   function showCandidatePopup(district, zipCode) {
@@ -603,7 +592,7 @@
       (rows) => { view.candidates = { rows }; },
       (err) => {
         console.error(err);
-        view.candidates = { error: fecErrorMessage(err) };
+        view.candidates = { error: fecErrorMessage(err, district) };
       }
     ).then(render);
 

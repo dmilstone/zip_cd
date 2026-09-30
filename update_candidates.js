@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 // Refreshes ./data/districts/<state>-<district>.json with raw FEC /v1/candidates/ payloads.
 // Requires Node 18+ (global fetch) and FEC_API_KEY in the environment.
+// Pass --force to re-fetch every district even if a valid cached file exists.
 
 const fs = require("fs/promises");
 const path = require("path");
@@ -12,13 +13,14 @@ const OUTPUT_DIR = path.join(__dirname, "data", "districts");
 const REQUEST_DELAY_MS = 4000;
 
 // House seats per state for the 2026 election (post-2020 apportionment).
-const PRIORITY_STATES = {
-  GA: 14,
-  IA: 4,
-  MI: 13,
-  NC: 14,
-  OH: 15,
-  TX: 38,
+// 0 marks a single at-large seat, which FEC and the app both address as district 0.
+const STATES_AND_DISTRICTS = {
+  AK: 0, AL: 7, AR: 4, AZ: 9, CA: 52, CO: 8, CT: 5, DE: 0, FL: 28, GA: 14,
+  HI: 2, IA: 4, ID: 2, IL: 17, IN: 9, KS: 4, KY: 6, LA: 6, MA: 9, MD: 8,
+  ME: 2, MI: 13, MN: 8, MO: 8, MS: 4, MT: 2, NC: 14, ND: 0, NE: 3, NH: 2,
+  NJ: 12, NM: 3, NV: 4, NY: 26, OH: 15, OK: 5, OR: 6, PA: 17, RI: 2, SC: 7,
+  SD: 0, TN: 9, TX: 38, UT: 4, VA: 11, VT: 0, WA: 10, WI: 8, WV: 2, WY: 0,
+  DC: 0,
 };
 
 const MAX_RATE_LIMIT_RETRIES = 3;
@@ -93,21 +95,35 @@ async function main() {
     process.exit(1);
   }
 
+  const force = process.argv.slice(2).includes("--force");
+
   await fs.mkdir(OUTPUT_DIR, { recursive: true });
 
+  const startedAt = Date.now();
   const failures = [];
-  for (const [state, districtCount] of Object.entries(PRIORITY_STATES)) {
-    for (let district = 1; district <= districtCount; district++) {
+  let fetched = 0;
+  let skipped = 0;
+  let candidateTotal = 0;
+  for (const [state, districtCount] of Object.entries(STATES_AND_DISTRICTS)) {
+    const firstDistrict = districtCount === 0 ? 0 : 1;
+    for (let district = firstDistrict; district <= districtCount; district++) {
       const outFile = path.join(OUTPUT_DIR, `${state.toLowerCase()}-${district}.json`);
-      const existing = await readValidDistrictFile(outFile);
-      if (existing) {
-        console.log(`${state}-${district}: already cached (${existing.results.length} candidates), skipping`);
-        continue;
+      if (!force) {
+        const existing = await readValidDistrictFile(outFile);
+        if (existing) {
+          console.log(`${state}-${district}: already cached (${existing.results.length} candidates), skipping`);
+          skipped++;
+          candidateTotal += existing.results.length;
+          continue;
+        }
       }
       try {
         const payload = await fetchDistrictCandidates(apiKey, state, district);
         await fs.writeFile(outFile, JSON.stringify(payload, null, 2) + "\n");
-        console.log(`${state}-${district}: ${payload.results ? payload.results.length : 0} candidates`);
+        const count = payload.results ? payload.results.length : 0;
+        console.log(`${state}-${district}: ${count} candidates`);
+        fetched++;
+        candidateTotal += count;
       } catch (err) {
         failures.push(`${state}-${district}`);
         console.error(`${state}-${district}: ${err.message}`);
@@ -116,10 +132,24 @@ async function main() {
     }
   }
 
+  const total = fetched + skipped + failures.length;
+  const elapsedMin = ((Date.now() - startedAt) / 60000).toFixed(1);
+  console.log("");
+  console.log(`Sync summary (${ELECTION_YEAR}, ${force ? "forced refresh" : "missing files only"}):`);
+  console.log(`  States + DC:        ${Object.keys(STATES_AND_DISTRICTS).length}`);
+  console.log(`  Districts:          ${total}`);
+  console.log(`  Fetched from FEC:   ${fetched}`);
+  console.log(`  Skipped (cached):   ${skipped}`);
+  console.log(`  Failed:             ${failures.length}`);
+  console.log(`  Candidates:         ${candidateTotal}`);
+  console.log(`  Output directory:   ${path.relative(process.cwd(), OUTPUT_DIR) || OUTPUT_DIR}`);
+  console.log(`  Elapsed:            ${elapsedMin} min`);
+
   if (failures.length > 0) {
     console.error(`Failed districts (existing files left untouched): ${failures.join(", ")}`);
     process.exit(1);
   }
+  console.log(`Success: all ${total} district files are up to date.`);
 }
 
 main();
