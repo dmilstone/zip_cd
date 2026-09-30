@@ -177,12 +177,6 @@ p {
   background: #f9fafb;
 }
 
-.btn-small {
-  padding: 0.4rem 0.75rem;
-  font-size: 0.9rem;
-  justify-self: start;
-}
-
 .link-btn {
   font: inherit;
   background: none;
@@ -215,52 +209,7 @@ p {
   outline-offset: 2px;
 }
 
-/* ---------- Result ---------- */
-
-.result-body {
-  display: grid;
-  gap: 0.75rem;
-}
-
-.result-empty {
-  color: var(--muted);
-}
-
-.result-error {
-  color: var(--danger);
-}
-
-.result-note {
-  font-size: 0.9rem;
-  color: var(--muted);
-}
-
-.result-district {
-  display: grid;
-  grid-template-columns: auto 1fr;
-  gap: 0.75rem;
-  align-items: center;
-}
-
-.result-id {
-  font-size: 1.5rem;
-  font-weight: 700;
-}
-
-.result-label {
-  font-weight: 500;
-}
-
-.result-place {
-  font-size: 0.85rem;
-  color: var(--muted);
-}
-
-.result-actions {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-}
+/* ---------- Swatches ---------- */
 
 .swatch {
   display: inline-block;
@@ -268,12 +217,6 @@ p {
   height: 14px;
   border-radius: 3px;
   flex-shrink: 0;
-}
-
-.swatch-lg {
-  width: 32px;
-  height: 32px;
-  border-radius: 6px;
 }
 
 /* ---------- Modal ---------- */
@@ -477,6 +420,28 @@ p {
   align-items: center;
   justify-content: space-between;
   gap: 0.5rem;
+}
+
+.candidate-section {
+  margin-top: 0.5rem;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.candidate-section:first-child {
+  margin-top: 0;
+}
+
+.candidate-message {
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
+.candidate-message.is-error {
+  color: #b91c1c;
 }
 
 .candidate-name {

@@ -68,7 +68,6 @@
     submit: document.getElementById("zip-submit"),
     error: document.getElementById("zip-error"),
     hint: document.getElementById("zip-hint"),
-    result: document.getElementById("result-body"),
     overlay: document.getElementById("modal-overlay"),
     modal: document.getElementById("district-modal"),
     modalTitle: document.getElementById("modal-title"),
@@ -180,11 +179,10 @@
     ).then((data) => data.features || []);
   }
 
-  async function fetchDistricts(zip, signal, onProgress) {
+  async function fetchDistricts(zip, signal) {
     const zcta = await fetchZcta(zip, signal);
     if (!zcta || !zcta.geometry) return null;
 
-    if (onProgress) onProgress("Finding congressional districts for ZIP " + zip + "…");
     const features = await fetchIntersectingDistricts(zcta.geometry, signal);
     return buildEntry(zip, zcta, features);
   }
@@ -325,11 +323,12 @@
     return null;
   }
 
-  function showError(message) {
+  // Service failures aren't the input's fault, so they can skip the invalid-field styling.
+  function showError(message, markInvalid = true) {
     els.error.textContent = message;
     els.error.hidden = false;
-    els.input.setAttribute("aria-invalid", "true");
-    els.input.classList.add("is-invalid");
+    els.input.setAttribute("aria-invalid", String(markInvalid));
+    els.input.classList.toggle("is-invalid", markInvalid);
   }
 
   function clearError() {
@@ -358,22 +357,19 @@
     }, REQUEST_TIMEOUT_MS);
 
     setLoading(true);
-    renderMessage("Looking up ZIP " + zip + " boundary…");
 
     let entry;
     try {
-      entry = await fetchDistricts(zip, controller.signal, (text) => {
-        if (seq === state.requestSeq) renderMessage(text);
-      });
+      entry = await fetchDistricts(zip, controller.signal);
     } catch (err) {
       if (seq !== state.requestSeq) return;
       setLoading(false);
       console.error(err);
-      renderMessage(
+      showError(
         timedOut
           ? "The Census TIGERweb service took too long to respond. Please try again."
           : "Couldn't reach the Census TIGERweb service. Please try again.",
-        "result-error"
+        false
       );
       return;
     } finally {
@@ -386,78 +382,28 @@
     setLoading(false);
 
     if (!entry) {
-      renderMessage(
+      showError(
         "No Census ZIP Code Tabulation Area found for " + zip +
-          ". PO Box–only and single-business ZIPs have no mapped boundary.",
-        "result-error"
+          ". PO Box–only and single-business ZIPs have no mapped boundary."
       );
       return;
     }
 
     if (entry.districts.length === 0) {
-      renderMessage("No congressional district intersects ZIP " + zip + ".", "result-error");
+      showError("No congressional district intersects ZIP " + zip + ".");
       return;
     }
 
     if (entry.districts.length === 1) {
-      resolveDistrict(zip, entry, entry.districts[0]);
+      resolveDistrict(zip, entry.districts[0]);
       return;
     }
 
-    renderAmbiguous(zip, entry);
     openModal(zip, entry);
   }
 
-  // ---------- Result rendering ----------
-
-  function renderMessage(text, className) {
-    els.result.replaceChildren(el("p", { className: className || "result-empty", text }));
-  }
-
-  function renderResult(zip, entry, district) {
-    const note =
-      entry.districts.length > 1
-        ? el("p", {
-            className: "result-note",
-            text: "ZIP " + zip + " spans " + entry.districts.length + " districts; you selected this one.",
-          })
-        : null;
-
-    const candidatesBtn = el("button", {
-      type: "button",
-      className: "btn btn-primary btn-small",
-      text: "View candidates",
-      onClick: () => showCandidatePopup(district, zip),
-    });
-
-    const changeBtn =
-      entry.districts.length > 1
-        ? el("button", {
-            type: "button",
-            className: "btn btn-secondary btn-small",
-            text: "Change district",
-            onClick: () => openModal(zip, entry, district.id),
-          })
-        : null;
-
-    const nodes = [
-      el("div", { className: "result-district" }, [
-        el("span", { className: "swatch swatch-lg", style: { background: district.color }, "aria-hidden": "true" }),
-        el("div", null, [
-          el("p", { className: "result-id", text: district.id }),
-          el("p", { className: "result-label", text: district.label }),
-          el("p", { className: "result-place", text: "ZIP " + zip + " · " + entry.place }),
-        ]),
-      ]),
-      note,
-      el("div", { className: "result-actions" }, [candidatesBtn, changeBtn]),
-    ];
-    els.result.replaceChildren(...nodes.filter(Boolean));
-  }
-
   // Single entry point once a district is known, whether from an unambiguous ZIP or a map/list pick.
-  function resolveDistrict(zip, entry, district) {
-    renderResult(zip, entry, district);
+  function resolveDistrict(zip, district) {
     closeModal({ restoreFocus: false });
     showCandidatePopup(district, zip);
   }
@@ -675,23 +621,7 @@
     document.body.classList.remove("modal-open");
     const target = state.returnFocusTo;
     state.returnFocusTo = null;
-    // The element that opened the flow may have been replaced by the re-rendered result card.
-    (target && document.contains(target) ? target : els.result.querySelector("button"))?.focus();
-  }
-
-  function renderAmbiguous(zip, entry) {
-    els.result.replaceChildren(
-      el("p", {
-        className: "result-note",
-        text: "ZIP " + zip + " (" + entry.place + ") spans " + entry.districts.length + " districts.",
-      }),
-      el("button", {
-        type: "button",
-        className: "btn btn-primary btn-small",
-        text: "Choose your district",
-        onClick: () => openModal(zip, entry),
-      })
-    );
+    (target && document.contains(target) ? target : els.input).focus();
   }
 
   // ---------- Map ----------
@@ -782,32 +712,9 @@
     return state.entry && state.entry.districts.find((d) => d.id === id);
   }
 
-  // Marks the previously chosen district when the modal is reopened via "Change district".
-  function highlightDistrict(id) {
-    const district = findDistrict(id);
-    if (!district) return;
-
-    state.selectedId = id;
-
-    polygonById.forEach((_, pid) => applyPolygonStyle(pid));
-    buttonById.forEach((btn, bid) => {
-      const isSelected = bid === id;
-      btn.classList.toggle("is-selected", isSelected);
-      btn.setAttribute("aria-pressed", String(isSelected));
-    });
-
-    const poly = polygonById.get(id);
-    if (poly) {
-      poly.bringToFront();
-      if (zctaLayer) zctaLayer.bringToFront();
-    }
-
-    els.status.textContent = "Current: " + district.id;
-  }
-
   function chooseDistrict(id) {
     const district = findDistrict(id);
-    if (district) resolveDistrict(state.zip, state.entry, district);
+    if (district) resolveDistrict(state.zip, district);
   }
 
   function renderSidebar(entry) {
@@ -842,7 +749,7 @@
 
   // ---------- Modal ----------
 
-  function openModal(zip, entry, preselectId) {
+  function openModal(zip, entry) {
     state.zip = zip;
     state.entry = entry;
     state.selectedId = null;
@@ -863,10 +770,7 @@
       requestAnimationFrame(() => {
         map.invalidateSize();
         fitToDistricts();
-        if (preselectId) highlightDistrict(preselectId);
       });
-    } else if (preselectId) {
-      highlightDistrict(preselectId);
     }
 
     els.closeBtn.focus();
