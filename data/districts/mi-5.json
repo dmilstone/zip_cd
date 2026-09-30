@@ -1,0 +1,218 @@
+{
+  "api_version": "1.0",
+  "pagination": {
+    "count": 5,
+    "is_count_exact": true,
+    "page": 1,
+    "pages": 1,
+    "per_page": 100
+  },
+  "results": [
+    {
+      "active_through": 2026,
+      "candidate_id": "H4MI05172",
+      "candidate_inactive": false,
+      "candidate_status": "N",
+      "cycles": [
+        2024,
+        2026
+      ],
+      "district": "05",
+      "district_number": 5,
+      "election_districts": [
+        "05",
+        "05"
+      ],
+      "election_years": [
+        2024,
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2024-07-10",
+      "has_raised_funds": false,
+      "inactive_election_years": null,
+      "incumbent_challenge": null,
+      "incumbent_challenge_full": null,
+      "last_f2_date": "2024-07-10",
+      "last_file_date": "2024-07-10",
+      "load_date": "2026-09-15T20:57:27",
+      "name": "BRONKE, JAMES",
+      "office": "H",
+      "office_full": "House",
+      "party": "GRE",
+      "party_full": "GREEN PARTY",
+      "state": "MI"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6MI05235",
+      "candidate_inactive": false,
+      "candidate_status": "N",
+      "cycles": [
+        2026
+      ],
+      "district": "05",
+      "district_number": 5,
+      "election_districts": [
+        "05"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2026-07-13",
+      "has_raised_funds": false,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2026-07-13",
+      "last_file_date": "2026-07-13",
+      "load_date": "2026-07-21T20:58:46",
+      "name": "MUSZYNSKI, RONALD A",
+      "office": "H",
+      "office_full": "House",
+      "party": "LIB",
+      "party_full": "LIBERTARIAN PARTY",
+      "state": "MI"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H4MI07137",
+      "candidate_inactive": false,
+      "candidate_status": "N",
+      "cycles": [
+        2004,
+        2006,
+        2008,
+        2010,
+        2026
+      ],
+      "district": "05",
+      "district_number": 5,
+      "election_districts": [
+        "07",
+        "07",
+        "07",
+        "05"
+      ],
+      "election_years": [
+        2004,
+        2006,
+        2008,
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2004-03-22",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": null,
+      "incumbent_challenge_full": null,
+      "last_f2_date": "2008-09-17",
+      "last_file_date": "2008-09-17",
+      "load_date": "2026-09-15T20:57:27",
+      "name": "RENIER, SHARON MARIE",
+      "office": "H",
+      "office_full": "House",
+      "party": "UST",
+      "party_full": "U.S. TAXPAYERS PARTY",
+      "state": "MI"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6MI05227",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "05",
+      "district_number": 5,
+      "election_districts": [
+        "05"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2026-01-09",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2026-01-09",
+      "last_file_date": "2026-01-09",
+      "load_date": "2026-04-10T21:13:55",
+      "name": "VUKASOVICH, CHRISTIAN A",
+      "office": "H",
+      "office_full": "House",
+      "party": "DEM",
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "MI"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H4MI07103",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2004,
+        2006,
+        2008,
+        2010,
+        2012,
+        2014,
+        2016,
+        2018,
+        2020,
+        2022,
+        2024,
+        2026
+      ],
+      "district": "05",
+      "district_number": 5,
+      "election_districts": [
+        "07",
+        "07",
+        "07",
+        "07",
+        "07",
+        "07",
+        "07",
+        "07",
+        "07",
+        "07",
+        "05",
+        "05"
+      ],
+      "election_years": [
+        2004,
+        2006,
+        2008,
+        2010,
+        2012,
+        2014,
+        2016,
+        2018,
+        2020,
+        2022,
+        2024,
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2003-09-22",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "I",
+      "incumbent_challenge_full": "Incumbent",
+      "last_f2_date": "2025-01-10",
+      "last_file_date": "2025-01-10",
+      "load_date": "2025-02-03T21:02:03",
+      "name": "WALBERG, TIMOTHY L REP",
+      "office": "H",
+      "office_full": "House",
+      "party": "REP",
+      "party_full": "REPUBLICAN PARTY",
+      "state": "MI"
+    }
+  ]
+}

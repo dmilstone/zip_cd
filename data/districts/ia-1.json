@@ -1,0 +1,298 @@
+{
+  "api_version": "1.0",
+  "pagination": {
+    "count": 8,
+    "is_count_exact": true,
+    "page": 1,
+    "pages": 1,
+    "per_page": 100
+  },
+  "results": [
+    {
+      "active_through": 2026,
+      "candidate_id": "H2IA02111",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2022,
+        2024,
+        2026
+      ],
+      "district": "01",
+      "district_number": 1,
+      "election_districts": [
+        "01",
+        "01",
+        "01"
+      ],
+      "election_years": [
+        2022,
+        2024,
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2021-08-24",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2026-05-22",
+      "last_file_date": "2026-05-22",
+      "load_date": "2026-05-22T20:58:35",
+      "name": "BOHANNAN, CHRISTINA",
+      "office": "H",
+      "office_full": "House",
+      "party": "DEM",
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "IA"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6IA01213",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "01",
+      "district_number": 1,
+      "election_districts": [
+        "01"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2026-04-16",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2026-04-16",
+      "last_file_date": "2026-04-16",
+      "load_date": "2026-07-16T20:57:38",
+      "name": "BRIDGFORD, MICHAEL",
+      "office": "H",
+      "office_full": "House",
+      "party": "IND",
+      "party_full": "INDEPENDENT",
+      "state": "IA"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6IA01189",
+      "candidate_inactive": false,
+      "candidate_status": "N",
+      "cycles": [
+        2026
+      ],
+      "district": "01",
+      "district_number": 1,
+      "election_districts": [
+        "01"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-04-22",
+      "has_raised_funds": false,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2025-04-22",
+      "last_file_date": "2025-04-22",
+      "load_date": "2025-04-25T21:00:17",
+      "name": "HILL, GRANT D",
+      "office": "H",
+      "office_full": "House",
+      "party": "REP",
+      "party_full": "REPUBLICAN PARTY",
+      "state": "IA"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6IA01205",
+      "candidate_inactive": false,
+      "candidate_status": "N",
+      "cycles": [
+        2026
+      ],
+      "district": "01",
+      "district_number": 1,
+      "election_districts": [
+        "01"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-08-01",
+      "has_raised_funds": false,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2025-08-01",
+      "last_file_date": "2025-08-06",
+      "load_date": "2025-08-04T21:00:03",
+      "name": "KRAUSE, BOB MR.",
+      "office": "H",
+      "office_full": "House",
+      "party": "DEM",
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "IA"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H8IA02043",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2008,
+        2010,
+        2012,
+        2014,
+        2016,
+        2018,
+        2020,
+        2022,
+        2024,
+        2026
+      ],
+      "district": "01",
+      "district_number": 1,
+      "election_districts": [
+        "02",
+        "02",
+        "02",
+        "02",
+        "01",
+        "01",
+        "01"
+      ],
+      "election_years": [
+        2008,
+        2010,
+        2014,
+        2020,
+        2022,
+        2024,
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2007-11-23",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "I",
+      "incumbent_challenge_full": "Incumbent",
+      "last_f2_date": "2026-06-15",
+      "last_file_date": "2026-06-15",
+      "load_date": "2026-06-15T20:57:10",
+      "name": "MILLER-MEEKS, MARIANNETTE JANE",
+      "office": "H",
+      "office_full": "House",
+      "party": "REP",
+      "party_full": "REPUBLICAN PARTY",
+      "state": "IA"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H4IA01127",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2024,
+        2026
+      ],
+      "district": "01",
+      "district_number": 1,
+      "election_districts": [
+        "01",
+        "01"
+      ],
+      "election_years": [
+        2024,
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2023-11-14",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2025-02-13",
+      "last_file_date": "2025-02-13",
+      "load_date": "2025-04-12T20:58:10",
+      "name": "PAUTSCH, DAVID ALFRED MR.",
+      "office": "H",
+      "office_full": "House",
+      "party": "REP",
+      "party_full": "REPUBLICAN PARTY",
+      "state": "IA"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6IA01171",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "01",
+      "district_number": 1,
+      "election_districts": [
+        "01"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-03-31",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2025-03-31",
+      "last_file_date": "2025-03-31",
+      "load_date": "2025-10-08T21:01:45",
+      "name": "TERRELL, TRAVIS",
+      "office": "H",
+      "office_full": "House",
+      "party": "DEM",
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "IA"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6IA01197",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "01",
+      "district_number": 1,
+      "election_districts": [
+        "01"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-07-08",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2025-07-08",
+      "last_file_date": "2025-07-08",
+      "load_date": "2025-10-18T21:00:34",
+      "name": "WETTACH, TAYLOR",
+      "office": "H",
+      "office_full": "House",
+      "party": "DEM",
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "IA"
+    }
+  ]
+}

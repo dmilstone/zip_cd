@@ -1,0 +1,466 @@
+{
+  "api_version": "1.0",
+  "pagination": {
+    "count": 14,
+    "is_count_exact": true,
+    "page": 1,
+    "pages": 1,
+    "per_page": 100
+  },
+  "results": [
+    {
+      "active_through": 2026,
+      "candidate_id": "H6TX35111",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "35",
+      "district_number": 35,
+      "election_districts": [
+        "35"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-12-05",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2025-12-05",
+      "last_file_date": "2025-12-05",
+      "load_date": "2026-02-09T20:58:28",
+      "name": "ADAMS, RANDAL HASKEL",
+      "office": "H",
+      "office_full": "House",
+      "party": "REP",
+      "party_full": "REPUBLICAN PARTY",
+      "state": "TX"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6TX34072",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "35",
+      "district_number": 35,
+      "election_districts": [
+        "35"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-07-07",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2025-08-22",
+      "last_file_date": "2025-08-22",
+      "load_date": "2025-10-18T21:00:34",
+      "name": "CORTEZ, JOSHUA",
+      "office": "H",
+      "office_full": "House",
+      "party": "REP",
+      "party_full": "REPUBLICAN PARTY",
+      "state": "TX"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6TX35087",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "35",
+      "district_number": 35,
+      "election_districts": [
+        "35"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-10-07",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2025-10-07",
+      "last_file_date": "2025-10-07",
+      "load_date": "2026-02-09T20:58:28",
+      "name": "DE LA CRUZ, CARLOS JR.",
+      "office": "H",
+      "office_full": "House",
+      "party": "REP",
+      "party_full": "REPUBLICAN PARTY",
+      "state": "TX"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H4TX28129",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2024,
+        2026
+      ],
+      "district": "35",
+      "district_number": 35,
+      "election_districts": [
+        "28",
+        "35"
+      ],
+      "election_years": [
+        2024,
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2023-12-10",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2025-11-14",
+      "last_file_date": "2025-11-14",
+      "load_date": "2025-11-14T21:02:33",
+      "name": "FURMAN, JAY COMMANDER",
+      "office": "H",
+      "office_full": "House",
+      "party": "REP",
+      "party_full": "REPUBLICAN PARTY",
+      "state": "TX"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6TX35103",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "35",
+      "district_number": 35,
+      "election_districts": [
+        "35"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-11-18",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2025-11-18",
+      "last_file_date": "2025-11-18",
+      "load_date": "2026-04-20T21:16:40",
+      "name": "GALINDO, MAUREEN",
+      "office": "H",
+      "office_full": "House",
+      "party": "DEM",
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "TX"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6TX35095",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "35",
+      "district_number": 35,
+      "election_districts": [
+        "35"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-10-09",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2026-07-28",
+      "last_file_date": "2026-07-28",
+      "load_date": "2026-07-28T20:58:01",
+      "name": "GARCIA, JOHNNY",
+      "office": "H",
+      "office_full": "House",
+      "party": "DEM",
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "TX"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6TX35137",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "35",
+      "district_number": 35,
+      "election_districts": [
+        "35"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-12-23",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2025-12-23",
+      "last_file_date": "2025-12-23",
+      "load_date": "2026-02-20T21:03:04",
+      "name": "HICKS-CALLAWAY, VANESSA F.",
+      "office": "H",
+      "office_full": "House",
+      "party": "REP",
+      "party_full": "REPUBLICAN PARTY",
+      "state": "TX"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6TX35020",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "35",
+      "district_number": 35,
+      "election_districts": [
+        "35"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-05-17",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2025-05-17",
+      "last_file_date": "2025-05-17",
+      "load_date": "2025-07-17T21:01:06",
+      "name": "KRAUSE, RYAN P",
+      "office": "H",
+      "office_full": "House",
+      "party": "REP",
+      "party_full": "REPUBLICAN PARTY",
+      "state": "TX"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6TX35079",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "35",
+      "district_number": 35,
+      "election_districts": [
+        "35"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-09-03",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2025-09-03",
+      "last_file_date": "2025-09-03",
+      "load_date": "2025-10-18T21:00:34",
+      "name": "LIRA, JOHN",
+      "office": "H",
+      "office_full": "House",
+      "party": "DEM",
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "TX"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6TX35053",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "35",
+      "district_number": 35,
+      "election_districts": [
+        "35"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-08-27",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2025-08-27",
+      "last_file_date": "2025-08-27",
+      "load_date": "2025-10-18T21:00:34",
+      "name": "LUJAN, JOHN",
+      "office": "H",
+      "office_full": "House",
+      "party": "REP",
+      "party_full": "REPUBLICAN PARTY",
+      "state": "TX"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6TX35061",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "35",
+      "district_number": 35,
+      "election_districts": [
+        "35"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-08-31",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2025-09-05",
+      "last_file_date": "2025-09-05",
+      "load_date": "2026-01-13T21:02:51",
+      "name": "MASTERSON-MOYES, WHITNEY",
+      "office": "H",
+      "office_full": "House",
+      "party": "DEM",
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "TX"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6TX35046",
+      "candidate_inactive": false,
+      "candidate_status": "N",
+      "cycles": [
+        2026
+      ],
+      "district": "35",
+      "district_number": 35,
+      "election_districts": [
+        "35"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-08-27",
+      "has_raised_funds": false,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2025-08-27",
+      "last_file_date": "2025-08-27",
+      "load_date": "2025-09-02T21:03:03",
+      "name": "SCHUCHARDT, CHRISTOPHER THOMAS MR",
+      "office": "H",
+      "office_full": "House",
+      "party": "REP",
+      "party_full": "REPUBLICAN PARTY",
+      "state": "TX"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6TX35129",
+      "candidate_inactive": false,
+      "candidate_status": "N",
+      "cycles": [
+        2026
+      ],
+      "district": "35",
+      "district_number": 35,
+      "election_districts": [
+        "35"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-12-15",
+      "has_raised_funds": false,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2025-12-15",
+      "last_file_date": "2025-12-15",
+      "load_date": "2025-12-30T21:00:52",
+      "name": "SISSINE, ANTHONY RICHARD JR",
+      "office": "H",
+      "office_full": "House",
+      "party": "IND",
+      "party_full": "INDEPENDENT",
+      "state": "TX"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H4TX35025",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2024,
+        2026
+      ],
+      "district": "35",
+      "district_number": 35,
+      "election_districts": [
+        "35",
+        "35"
+      ],
+      "election_years": [
+        2024,
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2023-11-28",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2025-05-30",
+      "last_file_date": "2025-05-30",
+      "load_date": "2025-10-17T21:00:44",
+      "name": "WRIGHT, STEVEN WILLIAM",
+      "office": "H",
+      "office_full": "House",
+      "party": "REP",
+      "party_full": "REPUBLICAN PARTY",
+      "state": "TX"
+    }
+  ]
+}

@@ -1,0 +1,309 @@
+{
+  "api_version": "1.0",
+  "pagination": {
+    "count": 9,
+    "is_count_exact": true,
+    "page": 1,
+    "pages": 1,
+    "per_page": 100
+  },
+  "results": [
+    {
+      "active_through": 2026,
+      "candidate_id": "H6OH07192",
+      "candidate_inactive": false,
+      "candidate_status": "N",
+      "cycles": [
+        2026
+      ],
+      "district": "07",
+      "district_number": 7,
+      "election_districts": [
+        "07"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2026-08-30",
+      "has_raised_funds": false,
+      "inactive_election_years": null,
+      "incumbent_challenge": null,
+      "incumbent_challenge_full": null,
+      "last_f2_date": "2026-08-30",
+      "last_file_date": "2026-09-09",
+      "load_date": "2026-08-30T20:56:06",
+      "name": "ASAD, THAHBIA I",
+      "office": "H",
+      "office_full": "House",
+      "party": "IND",
+      "party_full": "INDEPENDENT",
+      "state": "OH"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6OH07184",
+      "candidate_inactive": false,
+      "candidate_status": "N",
+      "cycles": [
+        2026
+      ],
+      "district": "07",
+      "district_number": 7,
+      "election_districts": [
+        "07"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2026-02-09",
+      "has_raised_funds": false,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2026-02-09",
+      "last_file_date": "2026-02-09",
+      "load_date": "2026-03-03T21:23:02",
+      "name": "DONEGAN, ANN MARIE",
+      "office": "H",
+      "office_full": "House",
+      "party": "DEM",
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "OH"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6OH07135",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "07",
+      "district_number": 7,
+      "election_districts": [
+        "07"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-06-16",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2025-06-16",
+      "last_file_date": "2025-06-16",
+      "load_date": "2025-07-16T21:02:06",
+      "name": "EISNER, MICHAEL",
+      "office": "H",
+      "office_full": "House",
+      "party": "DEM",
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "OH"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6OH07143",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "07",
+      "district_number": 7,
+      "election_districts": [
+        "07"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-07-20",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2025-07-20",
+      "last_file_date": "2025-07-20",
+      "load_date": "2025-10-15T21:01:51",
+      "name": "FITZGERALD, EDWARD O'DONNELL",
+      "office": "H",
+      "office_full": "House",
+      "party": "DEM",
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "OH"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H2OH16051",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2022,
+        2024,
+        2026
+      ],
+      "district": "07",
+      "district_number": 7,
+      "election_districts": [
+        "07",
+        "07",
+        "07"
+      ],
+      "election_years": [
+        2022,
+        2024,
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2021-02-26",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "I",
+      "incumbent_challenge_full": "Incumbent",
+      "last_f2_date": "2026-08-14",
+      "last_file_date": "2026-08-14",
+      "load_date": "2026-08-14T20:58:49",
+      "name": "MILLER, MAX",
+      "office": "H",
+      "office_full": "House",
+      "party": "REP",
+      "party_full": "REPUBLICAN PARTY",
+      "state": "OH"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6OH07168",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "07",
+      "district_number": 7,
+      "election_districts": [
+        "07"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2026-01-07",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2026-08-13",
+      "last_file_date": "2026-08-13",
+      "load_date": "2026-08-13T20:57:33",
+      "name": "POINDEXTER, BRIAN",
+      "office": "H",
+      "office_full": "House",
+      "party": "DEM",
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "OH"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6OH07176",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "07",
+      "district_number": 7,
+      "election_districts": [
+        "07"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2026-02-04",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2026-02-04",
+      "last_file_date": "2026-02-04",
+      "load_date": "2026-04-18T21:13:41",
+      "name": "RODRIGUEZ-CARBONE, LAURA D",
+      "office": "H",
+      "office_full": "House",
+      "party": "DEM",
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "OH"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H2OH16069",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2022,
+        2026
+      ],
+      "district": "07",
+      "district_number": 7,
+      "election_districts": [
+        "13",
+        "07"
+      ],
+      "election_years": [
+        2022,
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2021-04-19",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2025-07-13",
+      "last_file_date": "2025-07-13",
+      "load_date": "2025-08-01T21:00:30",
+      "name": "SCHULZ, JONAH",
+      "office": "H",
+      "office_full": "House",
+      "party": "REP",
+      "party_full": "REPUBLICAN PARTY",
+      "state": "OH"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6OH07150",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "07",
+      "district_number": 7,
+      "election_districts": [
+        "07"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-10-01",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2025-10-01",
+      "last_file_date": "2025-10-01",
+      "load_date": "2026-01-15T21:02:19",
+      "name": "SCHULZ, SCOTT",
+      "office": "H",
+      "office_full": "House",
+      "party": "DEM",
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "OH"
+    }
+  ]
+}

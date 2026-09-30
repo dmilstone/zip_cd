@@ -1,0 +1,242 @@
+{
+  "api_version": "1.0",
+  "pagination": {
+    "count": 7,
+    "is_count_exact": true,
+    "page": 1,
+    "pages": 1,
+    "per_page": 100
+  },
+  "results": [
+    {
+      "active_through": 2026,
+      "candidate_id": "H6NC06156",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "06",
+      "district_number": 6,
+      "election_districts": [
+        "06"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-06-09",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2025-06-19",
+      "last_file_date": "2025-06-19",
+      "load_date": "2026-02-06T21:00:40",
+      "name": "BLAIR, BEAU",
+      "office": "H",
+      "office_full": "House",
+      "party": "DEM",
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "NC"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H4NC08082",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2024,
+        2026
+      ],
+      "district": "06",
+      "district_number": 6,
+      "election_districts": [
+        "08",
+        "06"
+      ],
+      "election_years": [
+        2024,
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2023-12-08",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2025-07-24",
+      "last_file_date": "2025-07-24",
+      "load_date": "2025-10-08T21:01:45",
+      "name": "DAVENPORT, KEITH",
+      "office": "H",
+      "office_full": "House",
+      "party": "DEM",
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "NC"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6NC06172",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "06",
+      "district_number": 6,
+      "election_districts": [
+        "06"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-10-02",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2025-10-02",
+      "last_file_date": "2025-10-02",
+      "load_date": "2026-01-27T21:02:03",
+      "name": "FELTON-STACKHOUSE, TAVIN",
+      "office": "H",
+      "office_full": "House",
+      "party": "DEM",
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "NC"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6NC06149",
+      "candidate_inactive": false,
+      "candidate_status": "N",
+      "cycles": [
+        2026
+      ],
+      "district": "06",
+      "district_number": 6,
+      "election_districts": [
+        "06"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-05-14",
+      "has_raised_funds": false,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2025-05-14",
+      "last_file_date": "2025-05-14",
+      "load_date": "2025-06-09T20:59:02",
+      "name": "HAGER, JOSHUA ISAAC",
+      "office": "H",
+      "office_full": "House",
+      "party": "NPA",
+      "party_full": "NO PARTY AFFILIATION",
+      "state": "NC"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6NC06164",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "06",
+      "district_number": 6,
+      "election_districts": [
+        "06"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-07-22",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2025-07-22",
+      "last_file_date": "2025-07-22",
+      "load_date": "2025-11-18T21:02:39",
+      "name": "JEFFERSON, CYRIL",
+      "office": "H",
+      "office_full": "House",
+      "party": "DEM",
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "NC"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6NC06180",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "06",
+      "district_number": 6,
+      "election_districts": [
+        "06"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-10-23",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2025-10-23",
+      "last_file_date": "2025-10-23",
+      "load_date": "2026-02-06T21:00:40",
+      "name": "KASSAY, ALYSA",
+      "office": "H",
+      "office_full": "House",
+      "party": "DEM",
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "NC"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H4NC06177",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2024,
+        2026
+      ],
+      "district": "06",
+      "district_number": 6,
+      "election_districts": [
+        "06",
+        "06"
+      ],
+      "election_years": [
+        2024,
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2023-12-12",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "I",
+      "incumbent_challenge_full": "Incumbent",
+      "last_f2_date": "2026-07-21",
+      "last_file_date": "2026-07-21",
+      "load_date": "2026-07-21T20:58:46",
+      "name": "MCDOWELL, ADDISON",
+      "office": "H",
+      "office_full": "House",
+      "party": "REP",
+      "party_full": "REPUBLICAN PARTY",
+      "state": "NC"
+    }
+  ]
+}

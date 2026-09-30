@@ -1,0 +1,349 @@
+{
+  "api_version": "1.0",
+  "pagination": {
+    "count": 10,
+    "is_count_exact": true,
+    "page": 1,
+    "pages": 1,
+    "per_page": 100
+  },
+  "results": [
+    {
+      "active_through": 2026,
+      "candidate_id": "H6TX08225",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "08",
+      "district_number": 8,
+      "election_districts": [
+        "08"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-09-23",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "O",
+      "incumbent_challenge_full": "Open seat",
+      "last_f2_date": "2025-09-23",
+      "last_file_date": "2025-09-23",
+      "load_date": "2026-02-09T20:58:28",
+      "name": "COLEMAN, KEITH",
+      "office": "H",
+      "office_full": "House",
+      "party": "DEM",
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "TX"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6TX08266",
+      "candidate_inactive": false,
+      "candidate_status": "N",
+      "cycles": [
+        2026
+      ],
+      "district": "08",
+      "district_number": 8,
+      "election_districts": [
+        "08"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2026-07-18",
+      "has_raised_funds": false,
+      "inactive_election_years": null,
+      "incumbent_challenge": "O",
+      "incumbent_challenge_full": "Open seat",
+      "last_f2_date": "2026-07-18",
+      "last_file_date": "2026-08-13",
+      "load_date": "2026-07-21T20:58:46",
+      "name": "COUGAR, ALEXANDER J",
+      "office": "H",
+      "office_full": "House",
+      "party": "IND",
+      "party_full": "INDEPENDENT",
+      "state": "TX"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6TX08241",
+      "candidate_inactive": false,
+      "candidate_status": "N",
+      "cycles": [
+        2026
+      ],
+      "district": "08",
+      "district_number": 8,
+      "election_districts": [
+        "08"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-10-20",
+      "has_raised_funds": false,
+      "inactive_election_years": null,
+      "incumbent_challenge": "O",
+      "incumbent_challenge_full": "Open seat",
+      "last_f2_date": "2025-10-20",
+      "last_file_date": "2025-10-20",
+      "load_date": "2025-11-13T21:02:32",
+      "name": "FONDREN, JAY",
+      "office": "H",
+      "office_full": "House",
+      "party": "REP",
+      "party_full": "REPUBLICAN PARTY",
+      "state": "TX"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6TX08233",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "08",
+      "district_number": 8,
+      "election_districts": [
+        "08"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-10-02",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "O",
+      "incumbent_challenge_full": "Open seat",
+      "last_f2_date": "2025-10-02",
+      "last_file_date": "2025-10-02",
+      "load_date": "2026-02-09T20:58:28",
+      "name": "JENSEN, BRETT",
+      "office": "H",
+      "office_full": "House",
+      "party": "REP",
+      "party_full": "REPUBLICAN PARTY",
+      "state": "TX"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H0TX08145",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2020,
+        2022,
+        2024,
+        2026
+      ],
+      "district": "08",
+      "district_number": 8,
+      "election_districts": [
+        "08",
+        "08",
+        "08",
+        "08"
+      ],
+      "election_years": [
+        2020,
+        2022,
+        2024,
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2020-01-10",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "O",
+      "incumbent_challenge_full": "Open seat",
+      "last_f2_date": "2025-07-29",
+      "last_file_date": "2025-07-29",
+      "load_date": "2026-01-25T21:00:52",
+      "name": "JONES, LAURA",
+      "office": "H",
+      "office_full": "House",
+      "party": "DEM",
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "TX"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6TX08258",
+      "candidate_inactive": false,
+      "candidate_status": "N",
+      "cycles": [
+        2026
+      ],
+      "district": "08",
+      "district_number": 8,
+      "election_districts": [
+        "08"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2026-01-09",
+      "has_raised_funds": false,
+      "inactive_election_years": null,
+      "incumbent_challenge": "O",
+      "incumbent_challenge_full": "Open seat",
+      "last_f2_date": "2026-01-09",
+      "last_file_date": "2026-01-09",
+      "load_date": "2026-01-13T21:02:51",
+      "name": "LONG, STEPHEN DAVID",
+      "office": "H",
+      "office_full": "House",
+      "party": "REP",
+      "party_full": "REPUBLICAN PARTY",
+      "state": "TX"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H2TX08182",
+      "candidate_inactive": true,
+      "candidate_status": "C",
+      "cycles": [
+        2022,
+        2024,
+        2026
+      ],
+      "district": "08",
+      "district_number": 8,
+      "election_districts": [
+        "08",
+        "08",
+        "08"
+      ],
+      "election_years": [
+        2022,
+        2024,
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2021-06-01",
+      "has_raised_funds": true,
+      "inactive_election_years": [
+        2026
+      ],
+      "incumbent_challenge": "I",
+      "incumbent_challenge_full": "Incumbent",
+      "last_f2_date": "2024-11-06",
+      "last_file_date": "2024-11-06",
+      "load_date": "2025-01-29T21:03:35",
+      "name": "LUTTRELL, MORGAN JOE",
+      "office": "H",
+      "office_full": "House",
+      "party": "REP",
+      "party_full": "REPUBLICAN PARTY",
+      "state": "TX"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6TX08209",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "08",
+      "district_number": 8,
+      "election_districts": [
+        "08"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-09-12",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "O",
+      "incumbent_challenge_full": "Open seat",
+      "last_f2_date": "2026-04-28",
+      "last_file_date": "2026-04-28",
+      "load_date": "2026-04-28T21:25:42",
+      "name": "STEINMANN, JESSICA HART",
+      "office": "H",
+      "office_full": "House",
+      "party": "REP",
+      "party_full": "REPUBLICAN PARTY",
+      "state": "TX"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6TX02228",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "08",
+      "district_number": 8,
+      "election_districts": [
+        "08"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-04-07",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2025-09-17",
+      "last_file_date": "2025-09-17",
+      "load_date": "2025-09-17T21:03:09",
+      "name": "TRAN, NICK B.",
+      "office": "H",
+      "office_full": "House",
+      "party": "REP",
+      "party_full": "REPUBLICAN PARTY",
+      "state": "TX"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6TX09090",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "08",
+      "district_number": 8,
+      "election_districts": [
+        "08"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-02-21",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2025-10-15",
+      "last_file_date": "2025-10-15",
+      "load_date": "2025-10-15T21:01:51",
+      "name": "WILMER, DEDDRICK T",
+      "office": "H",
+      "office_full": "House",
+      "party": "REP",
+      "party_full": "REPUBLICAN PARTY",
+      "state": "TX"
+    }
+  ]
+}

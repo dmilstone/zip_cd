@@ -1,0 +1,280 @@
+{
+  "api_version": "1.0",
+  "pagination": {
+    "count": 8,
+    "is_count_exact": true,
+    "page": 1,
+    "pages": 1,
+    "per_page": 100
+  },
+  "results": [
+    {
+      "active_through": 2026,
+      "candidate_id": "H6NC13244",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "13",
+      "district_number": 13,
+      "election_districts": [
+        "13"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2026-01-05",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2026-01-05",
+      "last_file_date": "2026-01-05",
+      "load_date": "2026-04-15T21:16:15",
+      "name": "AGUILAR, ANTHONY BAILEY MR.",
+      "office": "H",
+      "office_full": "House",
+      "party": "GRE",
+      "party_full": "GREEN PARTY",
+      "state": "NC"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6NC13228",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "13",
+      "district_number": 13,
+      "election_districts": [
+        "13"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-05-22",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2025-05-22",
+      "last_file_date": "2025-05-22",
+      "load_date": "2025-07-16T21:02:06",
+      "name": "BARRINGER, PAUL",
+      "office": "H",
+      "office_full": "House",
+      "party": "DEM",
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "NC"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H4NC13116",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2024,
+        2026
+      ],
+      "district": "13",
+      "district_number": 13,
+      "election_districts": [
+        "13",
+        "13"
+      ],
+      "election_years": [
+        2024,
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2023-11-01",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "I",
+      "incumbent_challenge_full": "Incumbent",
+      "last_f2_date": "2025-03-12",
+      "last_file_date": "2025-03-12",
+      "load_date": "2025-03-13T20:59:32",
+      "name": "KNOTT, BRAD",
+      "office": "H",
+      "office_full": "House",
+      "party": "REP",
+      "party_full": "REPUBLICAN PARTY",
+      "state": "NC"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H4NC13066",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2024,
+        2026
+      ],
+      "district": "13",
+      "district_number": 13,
+      "election_districts": [
+        "13",
+        "13"
+      ],
+      "election_years": [
+        2024,
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2023-02-21",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2024-04-06",
+      "last_file_date": "2024-04-06",
+      "load_date": "2025-04-12T20:58:10",
+      "name": "MCCONKEY, JOSH",
+      "office": "H",
+      "office_full": "House",
+      "party": "REP",
+      "party_full": "REPUBLICAN PARTY",
+      "state": "NC"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6NC13236",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "13",
+      "district_number": 13,
+      "election_districts": [
+        "13"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-12-10",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2025-12-10",
+      "last_file_date": "2025-12-10",
+      "load_date": "2026-02-09T20:58:28",
+      "name": "NICHOLI, ALEXANDER",
+      "office": "H",
+      "office_full": "House",
+      "party": "DEM",
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "NC"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H4NC13157",
+      "candidate_inactive": false,
+      "candidate_status": "N",
+      "cycles": [
+        2024,
+        2026
+      ],
+      "district": "13",
+      "district_number": 13,
+      "election_districts": [
+        "13",
+        "13"
+      ],
+      "election_years": [
+        2024,
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2024-01-10",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2024-11-17",
+      "last_file_date": "2024-11-17",
+      "load_date": "2025-01-10T21:01:11",
+      "name": "PIERCE, FRANK",
+      "office": "H",
+      "office_full": "House",
+      "party": "DEM",
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "NC"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H4NC13108",
+      "candidate_inactive": false,
+      "candidate_status": "N",
+      "cycles": [
+        2024,
+        2026
+      ],
+      "district": "13",
+      "district_number": 13,
+      "election_districts": [
+        "13",
+        "13"
+      ],
+      "election_years": [
+        2024,
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2023-09-26",
+      "has_raised_funds": false,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2024-11-20",
+      "last_file_date": "2024-11-20",
+      "load_date": "2025-01-10T21:01:11",
+      "name": "SHARMA, SIDDHANTH",
+      "office": "H",
+      "office_full": "House",
+      "party": "REP",
+      "party_full": "REPUBLICAN PARTY",
+      "state": "NC"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6NC13251",
+      "candidate_inactive": false,
+      "candidate_status": "N",
+      "cycles": [
+        2026
+      ],
+      "district": "13",
+      "district_number": 13,
+      "election_districts": [
+        "13"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": null,
+      "has_raised_funds": false,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": null,
+      "last_file_date": null,
+      "load_date": "2026-03-10T21:23:39",
+      "name": "SWINTON, STEVEN",
+      "office": "H",
+      "office_full": "House",
+      "party": "LIB",
+      "party_full": "LIBERTARIAN PARTY",
+      "state": "NC"
+    }
+  ]
+}

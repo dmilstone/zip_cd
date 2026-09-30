@@ -1,0 +1,370 @@
+{
+  "api_version": "1.0",
+  "pagination": {
+    "count": 11,
+    "is_count_exact": true,
+    "page": 1,
+    "pages": 1,
+    "per_page": 100
+  },
+  "results": [
+    {
+      "active_through": 2026,
+      "candidate_id": "H6OH01195",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "01",
+      "district_number": 1,
+      "election_districts": [
+        "01"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2026-02-04",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2026-02-04",
+      "last_file_date": "2026-02-04",
+      "load_date": "2026-04-18T21:13:41",
+      "name": "ADAMS, HOLLY",
+      "office": "H",
+      "office_full": "House",
+      "party": "REP",
+      "party_full": "REPUBLICAN PARTY",
+      "state": "OH"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6OH01138",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "01",
+      "district_number": 1,
+      "election_districts": [
+        "01"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-07-17",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2026-06-04",
+      "last_file_date": "2026-06-04",
+      "load_date": "2026-06-05T20:57:40",
+      "name": "CONROY, ERIC",
+      "office": "H",
+      "office_full": "House",
+      "party": "REP",
+      "party_full": "REPUBLICAN PARTY",
+      "state": "OH"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6OH01161",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "01",
+      "district_number": 1,
+      "election_districts": [
+        "01"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-09-23",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2025-09-23",
+      "last_file_date": "2025-09-23",
+      "load_date": "2025-10-18T21:00:34",
+      "name": "ERBECK, STEVEN",
+      "office": "H",
+      "office_full": "House",
+      "party": "REP",
+      "party_full": "REPUBLICAN PARTY",
+      "state": "OH"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6OH01120",
+      "candidate_inactive": false,
+      "candidate_status": "N",
+      "cycles": [
+        2026
+      ],
+      "district": "01",
+      "district_number": 1,
+      "election_districts": [
+        "01"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-02-13",
+      "has_raised_funds": false,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2025-02-13",
+      "last_file_date": "2025-02-13",
+      "load_date": "2025-02-14T21:05:30",
+      "name": "FERREIRA, LINDSEY MARIE",
+      "office": "H",
+      "office_full": "House",
+      "party": "DEM",
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "OH"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6OH01179",
+      "candidate_inactive": false,
+      "candidate_status": "N",
+      "cycles": [
+        2026
+      ],
+      "district": "01",
+      "district_number": 1,
+      "election_districts": [
+        "01"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-10-18",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2025-10-18",
+      "last_file_date": "2025-10-18",
+      "load_date": "2025-11-13T21:02:32",
+      "name": "HANCOCK, JOHN DAVID JR",
+      "office": "H",
+      "office_full": "House",
+      "party": "LIB",
+      "party_full": "LIBERTARIAN PARTY",
+      "state": "OH"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H2OH01194",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2022,
+        2024,
+        2026
+      ],
+      "district": "01",
+      "district_number": 1,
+      "election_districts": [
+        "01",
+        "01",
+        "01"
+      ],
+      "election_years": [
+        2022,
+        2024,
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2022-01-11",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "I",
+      "incumbent_challenge_full": "Incumbent",
+      "last_f2_date": "2026-04-13",
+      "last_file_date": "2026-04-13",
+      "load_date": "2026-04-14T21:14:42",
+      "name": "LANDSMAN, GREG",
+      "office": "H",
+      "office_full": "House",
+      "party": "DEM",
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "OH"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6OH01187",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "01",
+      "district_number": 1,
+      "election_districts": [
+        "01"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2026-01-28",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2026-01-29",
+      "last_file_date": "2026-01-29",
+      "load_date": "2026-04-18T21:13:41",
+      "name": "LYNCH, DAMON IV",
+      "office": "H",
+      "office_full": "House",
+      "party": "DEM",
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "OH"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6OH01146",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "01",
+      "district_number": 1,
+      "election_districts": [
+        "01"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-07-25",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2025-08-04",
+      "last_file_date": "2025-08-04",
+      "load_date": "2025-10-18T21:00:34",
+      "name": "OGLESBY-HENRY, ROSEMARY",
+      "office": "H",
+      "office_full": "House",
+      "party": "REP",
+      "party_full": "REPUBLICAN PARTY",
+      "state": "OH"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6OH01203",
+      "candidate_inactive": false,
+      "candidate_status": "N",
+      "cycles": [
+        2026
+      ],
+      "district": "01",
+      "district_number": 1,
+      "election_districts": [
+        "01"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2026-03-02",
+      "has_raised_funds": false,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2026-03-02",
+      "last_file_date": "2026-03-02",
+      "load_date": "2026-03-03T21:23:02",
+      "name": "STOOPS, JASON DWIGHT",
+      "office": "H",
+      "office_full": "House",
+      "party": "LIB",
+      "party_full": "LIBERTARIAN PARTY",
+      "state": "OH"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6OH01229",
+      "candidate_inactive": false,
+      "candidate_status": "N",
+      "cycles": [
+        2026
+      ],
+      "district": "01",
+      "district_number": 1,
+      "election_districts": [
+        "01"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2026-08-11",
+      "has_raised_funds": false,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2026-08-11",
+      "last_file_date": "2026-08-11",
+      "load_date": "2026-08-28T20:56:23",
+      "name": "WEISE, NATHAN",
+      "office": "H",
+      "office_full": "House",
+      "party": "LIB",
+      "party_full": "LIBERTARIAN PARTY",
+      "state": "OH"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6OH01237",
+      "candidate_inactive": false,
+      "candidate_status": "N",
+      "cycles": [
+        2026
+      ],
+      "district": "01",
+      "district_number": 1,
+      "election_districts": [
+        "01"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2026-08-11",
+      "has_raised_funds": false,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2026-08-11",
+      "last_file_date": "2026-08-11",
+      "load_date": "2026-08-28T20:56:23",
+      "name": "WEISE, NATHAN",
+      "office": "H",
+      "office_full": "House",
+      "party": "LIB",
+      "party_full": "LIBERTARIAN PARTY",
+      "state": "OH"
+    }
+  ]
+}

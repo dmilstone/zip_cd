@@ -1,0 +1,249 @@
+{
+  "api_version": "1.0",
+  "pagination": {
+    "count": 7,
+    "is_count_exact": true,
+    "page": 1,
+    "pages": 1,
+    "per_page": 100
+  },
+  "results": [
+    {
+      "active_through": 2026,
+      "candidate_id": "H6NC03195",
+      "candidate_inactive": false,
+      "candidate_status": "N",
+      "cycles": [
+        2026
+      ],
+      "district": "03",
+      "district_number": 3,
+      "election_districts": [
+        "03"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-05-30",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2026-01-27",
+      "last_file_date": "2026-01-27",
+      "load_date": "2026-01-28T21:00:03",
+      "name": "AYERS, AUSTIN JAY",
+      "office": "H",
+      "office_full": "House",
+      "party": "REP",
+      "party_full": "REPUBLICAN PARTY",
+      "state": "NC"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6NC03237",
+      "candidate_inactive": false,
+      "candidate_status": "N",
+      "cycles": [
+        2026
+      ],
+      "district": "03",
+      "district_number": 3,
+      "election_districts": [
+        "03"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": null,
+      "has_raised_funds": false,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": null,
+      "last_file_date": null,
+      "load_date": "2026-03-10T21:23:39",
+      "name": "CAVENDER, DANIEL",
+      "office": "H",
+      "office_full": "House",
+      "party": "LIB",
+      "party_full": "LIBERTARIAN PARTY",
+      "state": "NC"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6NC03211",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "03",
+      "district_number": 3,
+      "election_districts": [
+        "03"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2026-01-09",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2026-01-09",
+      "last_file_date": "2026-01-09",
+      "load_date": "2026-02-06T21:00:40",
+      "name": "JASLOW, ALLISON",
+      "office": "H",
+      "office_full": "House",
+      "party": "DEM",
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "NC"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H0NC03172",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2020,
+        2022,
+        2024,
+        2026
+      ],
+      "district": "03",
+      "district_number": 3,
+      "election_districts": [
+        "03",
+        "03",
+        "03",
+        "03"
+      ],
+      "election_years": [
+        2020,
+        2022,
+        2024,
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2019-02-25",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "I",
+      "incumbent_challenge_full": "Incumbent",
+      "last_f2_date": "2025-05-05",
+      "last_file_date": "2025-05-05",
+      "load_date": "2025-05-05T21:00:34",
+      "name": "MURPHY, GREGORY FRANCIS DR.",
+      "office": "H",
+      "office_full": "House",
+      "party": "REP",
+      "party_full": "REPUBLICAN PARTY",
+      "state": "NC"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H2NC03137",
+      "candidate_inactive": false,
+      "candidate_status": "N",
+      "cycles": [
+        2022,
+        2024,
+        2026
+      ],
+      "district": "03",
+      "district_number": 3,
+      "election_districts": [
+        "03",
+        "03"
+      ],
+      "election_years": [
+        2022,
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2022-03-04",
+      "has_raised_funds": false,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2025-05-29",
+      "last_file_date": "2025-05-29",
+      "load_date": "2025-06-09T20:59:02",
+      "name": "PAPASTRAT, GEORGE J",
+      "office": "H",
+      "office_full": "House",
+      "party": "DEM",
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "NC"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6NC03187",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "03",
+      "district_number": 3,
+      "election_districts": [
+        "03"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-02-06",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2025-02-06",
+      "last_file_date": "2025-02-06",
+      "load_date": "2025-04-16T21:03:05",
+      "name": "SCHULTE, CHRIS",
+      "office": "H",
+      "office_full": "House",
+      "party": "DEM",
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "NC"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6NC03229",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "03",
+      "district_number": 3,
+      "election_districts": [
+        "03"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2026-01-29",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2026-01-29",
+      "last_file_date": "2026-01-29",
+      "load_date": "2026-02-21T20:57:22",
+      "name": "SMITH, RAYMOND EDWARD DR. JR.",
+      "office": "H",
+      "office_full": "House",
+      "party": "DEM",
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "NC"
+    }
+  ]
+}

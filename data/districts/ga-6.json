@@ -1,0 +1,249 @@
+{
+  "api_version": "1.0",
+  "pagination": {
+    "count": 7,
+    "is_count_exact": true,
+    "page": 1,
+    "pages": 1,
+    "per_page": 100
+  },
+  "results": [
+    {
+      "active_through": 2026,
+      "candidate_id": "H6GA06173",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "06",
+      "district_number": 6,
+      "election_districts": [
+        "06"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2026-03-03",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2026-03-03",
+      "last_file_date": "2026-03-03",
+      "load_date": "2026-07-20T20:58:25",
+      "name": "BAPTISTE, CRYSTAL SHAUNA",
+      "office": "H",
+      "office_full": "House",
+      "party": "REP",
+      "party_full": "REPUBLICAN PARTY",
+      "state": "GA"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6GA06132",
+      "candidate_inactive": false,
+      "candidate_status": "N",
+      "cycles": [
+        2024,
+        2026
+      ],
+      "district": "06",
+      "district_number": 6,
+      "election_districts": [
+        "06"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2024-12-03",
+      "has_raised_funds": false,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2024-12-03",
+      "last_file_date": "2024-12-11",
+      "load_date": "2025-01-10T21:01:11",
+      "name": "CAPPARELL, CHRIS",
+      "office": "H",
+      "office_full": "House",
+      "party": "DEM",
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "GA"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6GA06140",
+      "candidate_inactive": false,
+      "candidate_status": "N",
+      "cycles": [
+        2026
+      ],
+      "district": "06",
+      "district_number": 6,
+      "election_districts": [
+        "06"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-03-25",
+      "has_raised_funds": false,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2025-03-25",
+      "last_file_date": "2025-03-25",
+      "load_date": "2025-04-02T21:01:27",
+      "name": "HALPERN, SONYA",
+      "office": "H",
+      "office_full": "House",
+      "party": "DEM",
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "GA"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6GA06181",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "06",
+      "district_number": 6,
+      "election_districts": [
+        "06"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2026-03-22",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2026-03-22",
+      "last_file_date": "2026-03-22",
+      "load_date": "2026-04-09T21:14:22",
+      "name": "MARTIN, KEVIN EUGENE",
+      "office": "H",
+      "office_full": "House",
+      "party": "REP",
+      "party_full": "REPUBLICAN PARTY",
+      "state": "GA"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H8GA06393",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2018,
+        2020,
+        2022,
+        2024,
+        2026
+      ],
+      "district": "06",
+      "district_number": 6,
+      "election_districts": [
+        "06",
+        "06",
+        "07",
+        "06",
+        "06"
+      ],
+      "election_years": [
+        2018,
+        2020,
+        2022,
+        2024,
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2018-03-05",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "I",
+      "incumbent_challenge_full": "Incumbent",
+      "last_f2_date": "2024-11-21",
+      "last_file_date": "2024-11-21",
+      "load_date": "2025-02-04T21:06:02",
+      "name": "MCBATH, LUCIA KAY MS.",
+      "office": "H",
+      "office_full": "House",
+      "party": "DEM",
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "GA"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6GA11157",
+      "candidate_inactive": false,
+      "candidate_status": "N",
+      "cycles": [
+        2026
+      ],
+      "district": "06",
+      "district_number": 6,
+      "election_districts": [
+        "06"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2026-01-24",
+      "has_raised_funds": false,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2026-02-04",
+      "last_file_date": "2026-02-04",
+      "load_date": "2026-02-04T21:00:47",
+      "name": "MEDINA-ELSTON, IRIS",
+      "office": "H",
+      "office_full": "House",
+      "party": "DEM",
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "GA"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6GA06157",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "06",
+      "district_number": 6,
+      "election_districts": [
+        "06"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-09-22",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2025-09-30",
+      "last_file_date": "2025-09-30",
+      "load_date": "2026-04-15T21:16:15",
+      "name": "PINKER, JUSTIN",
+      "office": "H",
+      "office_full": "House",
+      "party": "REP",
+      "party_full": "REPUBLICAN PARTY",
+      "state": "GA"
+    }
+  ]
+}

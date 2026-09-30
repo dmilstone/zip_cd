@@ -1,0 +1,283 @@
+{
+  "api_version": "1.0",
+  "pagination": {
+    "count": 8,
+    "is_count_exact": true,
+    "page": 1,
+    "pages": 1,
+    "per_page": 100
+  },
+  "results": [
+    {
+      "active_through": 2026,
+      "candidate_id": "H6GA03196",
+      "candidate_inactive": false,
+      "candidate_status": "N",
+      "cycles": [
+        2026
+      ],
+      "district": "03",
+      "district_number": 3,
+      "election_districts": [
+        "03"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-10-21",
+      "has_raised_funds": false,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2026-01-15",
+      "last_file_date": "2026-01-15",
+      "load_date": "2026-01-15T21:02:19",
+      "name": "BUHACOFF, ADRIENNE",
+      "office": "H",
+      "office_full": "House",
+      "party": "DEM",
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "GA"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6GA03188",
+      "candidate_inactive": false,
+      "candidate_status": "N",
+      "cycles": [
+        2024,
+        2026
+      ],
+      "district": "03",
+      "district_number": 3,
+      "election_districts": [
+        "03"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2024-12-09",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2024-12-09",
+      "last_file_date": "2024-12-09",
+      "load_date": "2025-01-10T21:01:11",
+      "name": "EKPETE KAMA, ULOMA",
+      "office": "H",
+      "office_full": "House",
+      "party": "REP",
+      "party_full": "REPUBLICAN PARTY",
+      "state": "GA"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6GA14052",
+      "candidate_inactive": false,
+      "candidate_status": "N",
+      "cycles": [
+        2024,
+        2026
+      ],
+      "district": "03",
+      "district_number": 3,
+      "election_districts": [
+        "03"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2024-08-01",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2024-12-09",
+      "last_file_date": "2024-12-09",
+      "load_date": "2025-01-10T21:01:11",
+      "name": "EKPETE KAMA, ULOMA",
+      "office": "H",
+      "office_full": "House",
+      "party": "REP",
+      "party_full": "REPUBLICAN PARTY",
+      "state": "GA"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6GA03162",
+      "candidate_inactive": false,
+      "candidate_status": "N",
+      "cycles": [
+        2024,
+        2026
+      ],
+      "district": "03",
+      "district_number": 3,
+      "election_districts": [
+        "03"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2024-04-01",
+      "has_raised_funds": false,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2024-04-01",
+      "last_file_date": "2024-04-01",
+      "load_date": "2025-01-10T21:01:11",
+      "name": "IGNELZI, DARELL",
+      "office": "H",
+      "office_full": "House",
+      "party": "REP",
+      "party_full": "REPUBLICAN PARTY",
+      "state": "GA"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H4GA03126",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2024,
+        2026
+      ],
+      "district": "03",
+      "district_number": 3,
+      "election_districts": [
+        "03",
+        "03"
+      ],
+      "election_years": [
+        2024,
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2024-03-07",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "I",
+      "incumbent_challenge_full": "Incumbent",
+      "last_f2_date": "2024-11-06",
+      "last_file_date": "2024-11-06",
+      "load_date": "2025-05-03T20:57:28",
+      "name": "JACK, BRIAN",
+      "office": "H",
+      "office_full": "House",
+      "party": "REP",
+      "party_full": "REPUBLICAN PARTY",
+      "state": "GA"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6GA03204",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "03",
+      "district_number": 3,
+      "election_districts": [
+        "03"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2026-03-03",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2026-03-03",
+      "last_file_date": "2026-03-03",
+      "load_date": "2026-05-09T20:57:31",
+      "name": "JOHNSON, GEORGE MELVILLE MR",
+      "office": "H",
+      "office_full": "House",
+      "party": "DEM",
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "GA"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H4GA03100",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2024,
+        2026
+      ],
+      "district": "03",
+      "district_number": 3,
+      "election_districts": [
+        "03",
+        "03"
+      ],
+      "election_years": [
+        2024,
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2024-01-19",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2026-01-23",
+      "last_file_date": "2026-01-23",
+      "load_date": "2026-01-28T21:00:03",
+      "name": "KELLER, MAURA",
+      "office": "H",
+      "office_full": "House",
+      "party": "DEM",
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "GA"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H2GA03153",
+      "candidate_inactive": false,
+      "candidate_status": "N",
+      "cycles": [
+        2022,
+        2024,
+        2026
+      ],
+      "district": "03",
+      "district_number": 3,
+      "election_districts": [
+        "03",
+        "03",
+        "03"
+      ],
+      "election_years": [
+        2022,
+        2024,
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2021-08-25",
+      "has_raised_funds": false,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2024-03-01",
+      "last_file_date": "2024-03-01",
+      "load_date": "2025-01-10T21:01:11",
+      "name": "MOORE, RODNEY R",
+      "office": "H",
+      "office_full": "House",
+      "party": "DEM",
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "GA"
+    }
+  ]
+}

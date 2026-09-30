@@ -1,0 +1,404 @@
+{
+  "api_version": "1.0",
+  "pagination": {
+    "count": 10,
+    "is_count_exact": true,
+    "page": 1,
+    "pages": 1,
+    "per_page": 100
+  },
+  "results": [
+    {
+      "active_through": 2026,
+      "candidate_id": "H8TX32098",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2018,
+        2020,
+        2022,
+        2024,
+        2026
+      ],
+      "district": "33",
+      "district_number": 33,
+      "election_districts": [
+        "32",
+        "32",
+        "32",
+        "32",
+        "33"
+      ],
+      "election_years": [
+        2018,
+        2020,
+        2022,
+        2024,
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2017-04-18",
+      "has_raised_funds": true,
+      "inactive_election_years": [
+        2024
+      ],
+      "incumbent_challenge": "O",
+      "incumbent_challenge_full": "Open seat",
+      "last_f2_date": "2026-08-14",
+      "last_file_date": "2026-08-14",
+      "load_date": "2026-08-14T20:58:49",
+      "name": "ALLRED, COLIN",
+      "office": "H",
+      "office_full": "House",
+      "party": "DEM",
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "TX"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H2TX33248",
+      "candidate_inactive": false,
+      "candidate_status": "N",
+      "cycles": [
+        2022,
+        2024,
+        2026
+      ],
+      "district": "33",
+      "district_number": 33,
+      "election_districts": [
+        "33",
+        "33",
+        "33"
+      ],
+      "election_years": [
+        2022,
+        2024,
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": null,
+      "has_raised_funds": false,
+      "inactive_election_years": null,
+      "incumbent_challenge": "O",
+      "incumbent_challenge_full": "Open seat",
+      "last_f2_date": null,
+      "last_file_date": null,
+      "load_date": "2026-03-03T21:23:02",
+      "name": "GILLESPIE, PATRICK DAVID",
+      "office": "H",
+      "office_full": "House",
+      "party": "REP",
+      "party_full": "REPUBLICAN PARTY",
+      "state": "TX"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6TX33074",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "33",
+      "district_number": 33,
+      "election_districts": [
+        "33"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-12-03",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "O",
+      "incumbent_challenge_full": "Open seat",
+      "last_f2_date": "2025-12-03",
+      "last_file_date": "2025-12-03",
+      "load_date": "2025-12-30T21:00:52",
+      "name": "HAFEEZ, ZEESHAN",
+      "office": "H",
+      "office_full": "House",
+      "party": "DEM",
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "TX"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6TX33058",
+      "candidate_inactive": false,
+      "candidate_status": "N",
+      "cycles": [
+        2026
+      ],
+      "district": "33",
+      "district_number": 33,
+      "election_districts": [
+        "33"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-06-27",
+      "has_raised_funds": false,
+      "inactive_election_years": null,
+      "incumbent_challenge": "O",
+      "incumbent_challenge_full": "Open seat",
+      "last_f2_date": "2025-06-27",
+      "last_file_date": "2025-06-27",
+      "load_date": "2025-12-30T21:00:52",
+      "name": "JACKSON, PAYTON",
+      "office": "H",
+      "office_full": "House",
+      "party": "REP",
+      "party_full": "REPUBLICAN PARTY",
+      "state": "TX"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H4TX32089",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2024,
+        2026
+      ],
+      "district": "33",
+      "district_number": 33,
+      "election_districts": [
+        "32",
+        "33"
+      ],
+      "election_years": [
+        2024,
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2023-06-15",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "O",
+      "incumbent_challenge_full": "Open seat",
+      "last_f2_date": "2025-12-08",
+      "last_file_date": "2025-12-08",
+      "load_date": "2026-01-09T16:56:43",
+      "name": "JOHNSON, JULIE",
+      "office": "H",
+      "office_full": "House",
+      "party": "DEM",
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "TX"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H2TX33099",
+      "candidate_inactive": false,
+      "candidate_status": "N",
+      "cycles": [
+        2012,
+        2014,
+        2016,
+        2018,
+        2026
+      ],
+      "district": "33",
+      "district_number": 33,
+      "election_districts": [
+        "33",
+        "33",
+        "33",
+        "33"
+      ],
+      "election_years": [
+        2012,
+        2014,
+        2016,
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2011-12-16",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "O",
+      "incumbent_challenge_full": "Open seat",
+      "last_f2_date": "2025-12-04",
+      "last_file_date": "2025-12-04",
+      "load_date": "2025-12-30T21:00:52",
+      "name": "MITCHELL, MONTE MARK",
+      "office": "H",
+      "office_full": "House",
+      "party": "REP",
+      "party_full": "REPUBLICAN PARTY",
+      "state": "TX"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H2TX06186",
+      "candidate_inactive": false,
+      "candidate_status": "N",
+      "cycles": [
+        2012,
+        2014,
+        2016,
+        2018,
+        2020,
+        2022,
+        2024,
+        2026
+      ],
+      "district": "33",
+      "district_number": 33,
+      "election_districts": [
+        "33",
+        "33",
+        "33",
+        "33",
+        "33"
+      ],
+      "election_years": [
+        2012,
+        2020,
+        2022,
+        2024,
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2012-03-27",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "O",
+      "incumbent_challenge_full": "Open seat",
+      "last_f2_date": "2026-01-08",
+      "last_file_date": "2026-01-08",
+      "load_date": "2026-01-13T21:02:51",
+      "name": "QUINTANILLA, CARLOS",
+      "office": "H",
+      "office_full": "House",
+      "party": "DEM",
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "TX"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6TX33041",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2024,
+        2026
+      ],
+      "district": "33",
+      "district_number": 33,
+      "election_districts": [
+        "33"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2024-11-21",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "O",
+      "incumbent_challenge_full": "Open seat",
+      "last_f2_date": "2024-11-21",
+      "last_file_date": "2024-11-21",
+      "load_date": "2025-12-30T21:00:52",
+      "name": "SCHWAB, KURT",
+      "office": "H",
+      "office_full": "House",
+      "party": "REP",
+      "party_full": "REPUBLICAN PARTY",
+      "state": "TX"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6TX33066",
+      "candidate_inactive": false,
+      "candidate_status": "N",
+      "cycles": [
+        2026
+      ],
+      "district": "33",
+      "district_number": 33,
+      "election_districts": [
+        "33"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-11-25",
+      "has_raised_funds": false,
+      "inactive_election_years": null,
+      "incumbent_challenge": "O",
+      "incumbent_challenge_full": "Open seat",
+      "last_f2_date": "2025-11-25",
+      "last_file_date": "2025-11-25",
+      "load_date": "2025-12-30T21:00:52",
+      "name": "SIMS, JOHN DAVID MR SR",
+      "office": "H",
+      "office_full": "House",
+      "party": "REP",
+      "party_full": "REPUBLICAN PARTY",
+      "state": "TX"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H2TX33073",
+      "candidate_inactive": true,
+      "candidate_status": "C",
+      "cycles": [
+        2012,
+        2014,
+        2016,
+        2018,
+        2020,
+        2022,
+        2024,
+        2026
+      ],
+      "district": "33",
+      "district_number": 33,
+      "election_districts": [
+        "33",
+        "33",
+        "33",
+        "33",
+        "33",
+        "33",
+        "33",
+        "33"
+      ],
+      "election_years": [
+        2012,
+        2014,
+        2016,
+        2018,
+        2020,
+        2022,
+        2024,
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2011-12-02",
+      "has_raised_funds": true,
+      "inactive_election_years": [
+        2026
+      ],
+      "incumbent_challenge": "I",
+      "incumbent_challenge_full": "Incumbent",
+      "last_f2_date": "2024-12-20",
+      "last_file_date": "2024-12-20",
+      "load_date": "2025-02-03T21:02:03",
+      "name": "VEASEY, MARC ALLISON",
+      "office": "H",
+      "office_full": "House",
+      "party": "DEM",
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "TX"
+    }
+  ]
+}

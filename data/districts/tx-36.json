@@ -1,0 +1,177 @@
+{
+  "api_version": "1.0",
+  "pagination": {
+    "count": 4,
+    "is_count_exact": true,
+    "page": 1,
+    "pages": 1,
+    "per_page": 100
+  },
+  "results": [
+    {
+      "active_through": 2026,
+      "candidate_id": "H6TX02079",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        1996,
+        1998,
+        2000,
+        2002,
+        2004,
+        2006,
+        2014,
+        2016,
+        2018,
+        2020,
+        2022,
+        2024,
+        2026
+      ],
+      "district": "36",
+      "district_number": 36,
+      "election_districts": [
+        "02",
+        "02",
+        "36",
+        "36",
+        "36",
+        "36",
+        "36",
+        "36",
+        "36"
+      ],
+      "election_years": [
+        1996,
+        1998,
+        2014,
+        2016,
+        2018,
+        2020,
+        2022,
+        2024,
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "1995-07-13",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "I",
+      "incumbent_challenge_full": "Incumbent",
+      "last_f2_date": "2024-11-19",
+      "last_file_date": "2024-11-19",
+      "load_date": "2025-01-29T21:03:35",
+      "name": "BABIN, BRIAN",
+      "office": "H",
+      "office_full": "House",
+      "party": "REP",
+      "party_full": "REPUBLICAN PARTY",
+      "state": "TX"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H4TX14111",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2024,
+        2026
+      ],
+      "district": "36",
+      "district_number": 36,
+      "election_districts": [
+        "14",
+        "36"
+      ],
+      "election_years": [
+        2024,
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2023-12-19",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2023-12-19",
+      "last_file_date": "2026-01-12",
+      "load_date": "2026-03-03T21:23:02",
+      "name": "HART, RHONDA J",
+      "office": "H",
+      "office_full": "House",
+      "party": "DEM",
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "TX"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H2TX08125",
+      "candidate_inactive": false,
+      "candidate_status": "N",
+      "cycles": [
+        2022,
+        2024,
+        2026
+      ],
+      "district": "36",
+      "district_number": 36,
+      "election_districts": [
+        "08",
+        "36",
+        "36"
+      ],
+      "election_years": [
+        2022,
+        2024,
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2021-04-09",
+      "has_raised_funds": false,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2025-04-11",
+      "last_file_date": "2025-04-11",
+      "load_date": "2025-04-25T21:00:17",
+      "name": "MITCHELL, JONATHAN",
+      "office": "H",
+      "office_full": "House",
+      "party": "REP",
+      "party_full": "REPUBLICAN PARTY",
+      "state": "TX"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6TX36028",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "36",
+      "district_number": 36,
+      "election_districts": [
+        "36"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-11-21",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2025-11-21",
+      "last_file_date": "2025-11-21",
+      "load_date": "2026-02-09T20:58:28",
+      "name": "ROGERS, DOUG",
+      "office": "H",
+      "office_full": "House",
+      "party": "DEM",
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "TX"
+    }
+  ]
+}

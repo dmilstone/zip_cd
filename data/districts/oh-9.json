@@ -1,0 +1,401 @@
+{
+  "api_version": "1.0",
+  "pagination": {
+    "count": 10,
+    "is_count_exact": true,
+    "page": 1,
+    "pages": 1,
+    "per_page": 100
+  },
+  "results": [
+    {
+      "active_through": 2026,
+      "candidate_id": "H6OH09149",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "09",
+      "district_number": 9,
+      "election_districts": [
+        "09"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-12-02",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2025-12-02",
+      "last_file_date": "2025-12-02",
+      "load_date": "2026-04-25T21:25:37",
+      "name": "CAMPBELL, ANTHONY BRUCE",
+      "office": "H",
+      "office_full": "House",
+      "party": "REP",
+      "party_full": "REPUBLICAN PARTY",
+      "state": "OH"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6OH09164",
+      "candidate_inactive": false,
+      "candidate_status": "N",
+      "cycles": [
+        2026
+      ],
+      "district": "09",
+      "district_number": 9,
+      "election_districts": [
+        "09"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-12-24",
+      "has_raised_funds": false,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2025-12-24",
+      "last_file_date": "2025-12-24",
+      "load_date": "2025-12-30T21:00:52",
+      "name": "FROST, JACOB THOMAS MR.",
+      "office": "H",
+      "office_full": "House",
+      "party": "REP",
+      "party_full": "REPUBLICAN PARTY",
+      "state": "OH"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6OH09156",
+      "candidate_inactive": false,
+      "candidate_status": "N",
+      "cycles": [
+        2026
+      ],
+      "district": "09",
+      "district_number": 9,
+      "election_districts": [
+        "09"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-12-19",
+      "has_raised_funds": false,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2025-12-19",
+      "last_file_date": "2025-12-19",
+      "load_date": "2025-12-30T21:00:52",
+      "name": "GEDERT, DAVID EDWARD",
+      "office": "H",
+      "office_full": "House",
+      "party": "LIB",
+      "party_full": "LIBERTARIAN PARTY",
+      "state": "OH"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H2OH09031",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        1982,
+        1984,
+        1986,
+        1988,
+        1990,
+        1992,
+        1994,
+        1996,
+        1998,
+        2000,
+        2002,
+        2004,
+        2006,
+        2008,
+        2010,
+        2012,
+        2014,
+        2016,
+        2018,
+        2020,
+        2022,
+        2024,
+        2026
+      ],
+      "district": "09",
+      "district_number": 9,
+      "election_districts": [
+        "09",
+        "09",
+        "09",
+        "09",
+        "09",
+        "09",
+        "09",
+        "09",
+        "09",
+        "09",
+        "09",
+        "09",
+        "09",
+        "09",
+        "09",
+        "09",
+        "09",
+        "09",
+        "09",
+        "09",
+        "09",
+        "09",
+        "09"
+      ],
+      "election_years": [
+        1982,
+        1984,
+        1986,
+        1988,
+        1990,
+        1992,
+        1994,
+        1996,
+        1998,
+        2000,
+        2002,
+        2004,
+        2006,
+        2008,
+        2010,
+        2012,
+        2014,
+        2016,
+        2018,
+        2020,
+        2022,
+        2024,
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "1982-04-20",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "I",
+      "incumbent_challenge_full": "Incumbent",
+      "last_f2_date": "2026-08-26",
+      "last_file_date": "2026-08-26",
+      "load_date": "2026-08-26T20:57:27",
+      "name": "KAPTUR, MARCY HON. M.C.",
+      "office": "H",
+      "office_full": "House",
+      "party": "DEM",
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "OH"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6OH09123",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "09",
+      "district_number": 9,
+      "election_districts": [
+        "09"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-06-19",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2025-06-19",
+      "last_file_date": "2025-06-19",
+      "load_date": "2025-10-14T21:00:58",
+      "name": "KINSEL, WAYNE CHARLES",
+      "office": "H",
+      "office_full": "House",
+      "party": "REP",
+      "party_full": "REPUBLICAN PARTY",
+      "state": "OH"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6OH09180",
+      "candidate_inactive": false,
+      "candidate_status": "N",
+      "cycles": [
+        2026
+      ],
+      "district": "09",
+      "district_number": 9,
+      "election_districts": [
+        "09"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2026-03-20",
+      "has_raised_funds": false,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2026-03-20",
+      "last_file_date": "2026-03-20",
+      "load_date": "2026-03-29T21:12:30",
+      "name": "MCKINSTRY, KATHY",
+      "office": "H",
+      "office_full": "House",
+      "party": "W",
+      "party_full": "WRITE-IN",
+      "state": "OH"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H4OH09169",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2024,
+        2026
+      ],
+      "district": "09",
+      "district_number": 9,
+      "election_districts": [
+        "09",
+        "09"
+      ],
+      "election_years": [
+        2024,
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2023-12-29",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2026-06-08",
+      "last_file_date": "2026-06-08",
+      "load_date": "2026-06-08T20:58:02",
+      "name": "MERRIN, DEREK",
+      "office": "H",
+      "office_full": "House",
+      "party": "REP",
+      "party_full": "REPUBLICAN PARTY",
+      "state": "OH"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6OH09115",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "09",
+      "district_number": 9,
+      "election_districts": [
+        "09"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-04-24",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2025-04-24",
+      "last_file_date": "2025-04-24",
+      "load_date": "2025-07-15T21:00:48",
+      "name": "NADEEM, ALEA",
+      "office": "H",
+      "office_full": "House",
+      "party": "REP",
+      "party_full": "REPUBLICAN PARTY",
+      "state": "OH"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6OH09172",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "09",
+      "district_number": 9,
+      "election_districts": [
+        "09"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2026-01-15",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2026-01-15",
+      "last_file_date": "2026-01-15",
+      "load_date": "2026-04-18T21:13:41",
+      "name": "SHEAHAN, MADISON",
+      "office": "H",
+      "office_full": "House",
+      "party": "REP",
+      "party_full": "REPUBLICAN PARTY",
+      "state": "OH"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6OH09131",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "09",
+      "district_number": 9,
+      "election_districts": [
+        "09"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-07-01",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2025-07-01",
+      "last_file_date": "2025-07-01",
+      "load_date": "2025-10-18T21:00:34",
+      "name": "WILLIAMS, JOSH",
+      "office": "H",
+      "office_full": "House",
+      "party": "REP",
+      "party_full": "REPUBLICAN PARTY",
+      "state": "OH"
+    }
+  ]
+}

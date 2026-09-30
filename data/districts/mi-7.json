@@ -1,0 +1,306 @@
+{
+  "api_version": "1.0",
+  "pagination": {
+    "count": 9,
+    "is_count_exact": true,
+    "page": 1,
+    "pages": 1,
+    "per_page": 100
+  },
+  "results": [
+    {
+      "active_through": 2026,
+      "candidate_id": "H2MI07123",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2022,
+        2024,
+        2026
+      ],
+      "district": "07",
+      "district_number": 7,
+      "election_districts": [
+        "07",
+        "07",
+        "07"
+      ],
+      "election_years": [
+        2022,
+        2024,
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2021-11-17",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "I",
+      "incumbent_challenge_full": "Incumbent",
+      "last_f2_date": "2026-08-30",
+      "last_file_date": "2026-08-30",
+      "load_date": "2026-08-30T20:56:06",
+      "name": "BARRETT, THOMAS MORE",
+      "office": "H",
+      "office_full": "House",
+      "party": "REP",
+      "party_full": "REPUBLICAN PARTY",
+      "state": "MI"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6MI07256",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "07",
+      "district_number": 7,
+      "election_districts": [
+        "07"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-06-18",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2026-04-08",
+      "last_file_date": "2026-04-08",
+      "load_date": "2026-04-08T21:14:48",
+      "name": "BRINK,, BRIDGET",
+      "office": "H",
+      "office_full": "House",
+      "party": "DEM",
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "MI"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6MI07280",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "07",
+      "district_number": 7,
+      "election_districts": [
+        "07"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-07-10",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2025-07-10",
+      "last_file_date": "2025-07-10",
+      "load_date": "2025-10-18T21:00:34",
+      "name": "COWEN, JOSH",
+      "office": "H",
+      "office_full": "House",
+      "party": "DEM",
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "MI"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6MI07306",
+      "candidate_inactive": false,
+      "candidate_status": "N",
+      "cycles": [
+        2026
+      ],
+      "district": "07",
+      "district_number": 7,
+      "election_districts": [
+        "07"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": null,
+      "has_raised_funds": false,
+      "inactive_election_years": null,
+      "incumbent_challenge": null,
+      "incumbent_challenge_full": null,
+      "last_f2_date": null,
+      "last_file_date": null,
+      "load_date": "2026-09-15T20:57:27",
+      "name": "DEDRICK, SHANE",
+      "office": "H",
+      "office_full": "House",
+      "party": "GRE",
+      "party_full": "GREEN PARTY",
+      "state": "MI"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6MI07298",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "07",
+      "district_number": 7,
+      "election_districts": [
+        "07"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-08-21",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2026-09-28",
+      "last_file_date": "2026-09-28",
+      "load_date": "2026-09-28T20:57:09",
+      "name": "LAWRENCE, WILLIAM",
+      "office": "H",
+      "office_full": "House",
+      "party": "DEM",
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "MI"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6MI07272",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "07",
+      "district_number": 7,
+      "election_districts": [
+        "07"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-07-01",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2025-07-01",
+      "last_file_date": "2025-07-01",
+      "load_date": "2025-10-18T21:00:34",
+      "name": "MAASDAM, MATTHEW",
+      "office": "H",
+      "office_full": "House",
+      "party": "DEM",
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "MI"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6MI07249",
+      "candidate_inactive": false,
+      "candidate_status": "N",
+      "cycles": [
+        2026
+      ],
+      "district": "07",
+      "district_number": 7,
+      "election_districts": [
+        "07"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-04-28",
+      "has_raised_funds": false,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2025-04-28",
+      "last_file_date": "2025-04-28",
+      "load_date": "2025-04-29T21:01:40",
+      "name": "PRIEDITIS, ALEXANDRA MICHELE MS.",
+      "office": "H",
+      "office_full": "House",
+      "party": "IND",
+      "party_full": "INDEPENDENT",
+      "state": "MI"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6MI07231",
+      "candidate_inactive": false,
+      "candidate_status": "N",
+      "cycles": [
+        2026
+      ],
+      "district": "07",
+      "district_number": 7,
+      "election_districts": [
+        "07"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-04-11",
+      "has_raised_funds": false,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2025-08-29",
+      "last_file_date": "2025-08-29",
+      "load_date": "2025-08-24T20:58:39",
+      "name": "RAIS, MUHAMMAD SALMAN",
+      "office": "H",
+      "office_full": "House",
+      "party": "DEM",
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "MI"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6MI07264",
+      "candidate_inactive": false,
+      "candidate_status": "N",
+      "cycles": [
+        2026
+      ],
+      "district": "07",
+      "district_number": 7,
+      "election_districts": [
+        "07"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-06-23",
+      "has_raised_funds": false,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2025-06-27",
+      "last_file_date": "2025-06-29",
+      "load_date": "2025-06-30T20:58:43",
+      "name": "SMELTZER BADGER, SAMUEL ELYON",
+      "office": "H",
+      "office_full": "House",
+      "party": "DEM",
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "MI"
+    }
+  ]
+}

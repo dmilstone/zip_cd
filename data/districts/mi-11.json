@@ -1,0 +1,477 @@
+{
+  "api_version": "1.0",
+  "pagination": {
+    "count": 14,
+    "is_count_exact": true,
+    "page": 1,
+    "pages": 1,
+    "per_page": 100
+  },
+  "results": [
+    {
+      "active_through": 2026,
+      "candidate_id": "H6MI11290",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "11",
+      "district_number": 11,
+      "election_districts": [
+        "11"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2026-03-07",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "O",
+      "incumbent_challenge_full": "Open seat",
+      "last_f2_date": "2026-03-07",
+      "last_file_date": "2026-03-07",
+      "load_date": "2026-07-17T20:59:11",
+      "name": "BAKER, ETHAN D",
+      "office": "H",
+      "office_full": "House",
+      "party": "REP",
+      "party_full": "REPUBLICAN PARTY",
+      "state": "MI"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6MI11258",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "11",
+      "district_number": 11,
+      "election_districts": [
+        "11"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-08-30",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "O",
+      "incumbent_challenge_full": "Open seat",
+      "last_f2_date": "2025-09-16",
+      "last_file_date": "2025-09-16",
+      "load_date": "2026-04-23T21:16:25",
+      "name": "BAKER, STU",
+      "office": "H",
+      "office_full": "House",
+      "party": "DEM",
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "MI"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6MI11225",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "11",
+      "district_number": 11,
+      "election_districts": [
+        "11"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-08-14",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "O",
+      "incumbent_challenge_full": "Open seat",
+      "last_f2_date": "2025-08-14",
+      "last_file_date": "2025-08-14",
+      "load_date": "2025-12-30T21:00:52",
+      "name": "FAROOQI, AISHA",
+      "office": "H",
+      "office_full": "House",
+      "party": "DEM",
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "MI"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6MI11316",
+      "candidate_inactive": false,
+      "candidate_status": "N",
+      "cycles": [
+        2026
+      ],
+      "district": "11",
+      "district_number": 11,
+      "election_districts": [
+        "11"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": null,
+      "has_raised_funds": false,
+      "inactive_election_years": null,
+      "incumbent_challenge": null,
+      "incumbent_challenge_full": null,
+      "last_f2_date": null,
+      "last_file_date": null,
+      "load_date": "2026-09-15T20:57:27",
+      "name": "ISHAC, FARID",
+      "office": "H",
+      "office_full": "House",
+      "party": "LIB",
+      "party_full": "LIBERTARIAN PARTY",
+      "state": "MI"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H4MI10131",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2024,
+        2026
+      ],
+      "district": "11",
+      "district_number": 11,
+      "election_districts": [
+        "10",
+        "11"
+      ],
+      "election_years": [
+        2024,
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2023-10-12",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "O",
+      "incumbent_challenge_full": "Open seat",
+      "last_f2_date": "2026-03-18",
+      "last_file_date": "2026-03-18",
+      "load_date": "2026-03-18T21:15:49",
+      "name": "KUMAR, ANIL DR.",
+      "office": "H",
+      "office_full": "House",
+      "party": "UN",
+      "party_full": "UNAFFILIATED",
+      "state": "MI"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6MI11191",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "11",
+      "district_number": 11,
+      "election_districts": [
+        "11"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-05-08",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "O",
+      "incumbent_challenge_full": "Open seat",
+      "last_f2_date": "2025-05-08",
+      "last_file_date": "2025-05-08",
+      "load_date": "2025-12-30T21:00:52",
+      "name": "MOSS, JEREMY",
+      "office": "H",
+      "office_full": "House",
+      "party": "DEM",
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "MI"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6MI11282",
+      "candidate_inactive": false,
+      "candidate_status": "N",
+      "cycles": [
+        2026
+      ],
+      "district": "11",
+      "district_number": 11,
+      "election_districts": [
+        "11"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2026-01-29",
+      "has_raised_funds": false,
+      "inactive_election_years": null,
+      "incumbent_challenge": "O",
+      "incumbent_challenge_full": "Open seat",
+      "last_f2_date": "2026-01-29",
+      "last_file_date": "2026-01-29",
+      "load_date": "2026-02-05T21:01:18",
+      "name": "MURPHY, MICHELLE M.",
+      "office": "H",
+      "office_full": "House",
+      "party": "DEM",
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "MI"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6MI11217",
+      "candidate_inactive": false,
+      "candidate_status": "N",
+      "cycles": [
+        2026
+      ],
+      "district": "11",
+      "district_number": 11,
+      "election_districts": [
+        "11"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-08-04",
+      "has_raised_funds": false,
+      "inactive_election_years": null,
+      "incumbent_challenge": "O",
+      "incumbent_challenge_full": "Open seat",
+      "last_f2_date": "2025-08-04",
+      "last_file_date": "2025-08-04",
+      "load_date": "2025-12-30T21:00:52",
+      "name": "PAESANO, ANTHONY MEDIA",
+      "office": "H",
+      "office_full": "House",
+      "party": "REP",
+      "party_full": "REPUBLICAN PARTY",
+      "state": "MI"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6MI11266",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "11",
+      "district_number": 11,
+      "election_districts": [
+        "11"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-10-09",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "O",
+      "incumbent_challenge_full": "Open seat",
+      "last_f2_date": "2025-10-09",
+      "last_file_date": "2025-10-09",
+      "load_date": "2026-07-31T20:56:43",
+      "name": "PRIETO, ANTONIO J",
+      "office": "H",
+      "office_full": "House",
+      "party": "REP",
+      "party_full": "REPUBLICAN PARTY",
+      "state": "MI"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6MI11209",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "11",
+      "district_number": 11,
+      "election_districts": [
+        "11"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-07-09",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "O",
+      "incumbent_challenge_full": "Open seat",
+      "last_f2_date": "2025-07-09",
+      "last_file_date": "2025-07-09",
+      "load_date": "2025-12-30T21:00:52",
+      "name": "STEGER, MIKE",
+      "office": "H",
+      "office_full": "House",
+      "party": "REP",
+      "party_full": "REPUBLICAN PARTY",
+      "state": "MI"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H8MI11254",
+      "candidate_inactive": true,
+      "candidate_status": "C",
+      "cycles": [
+        2018,
+        2020,
+        2022,
+        2024,
+        2026
+      ],
+      "district": "11",
+      "district_number": 11,
+      "election_districts": [
+        "11",
+        "11",
+        "11",
+        "11",
+        "11"
+      ],
+      "election_years": [
+        2018,
+        2020,
+        2022,
+        2024,
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2017-04-26",
+      "has_raised_funds": true,
+      "inactive_election_years": [
+        2026
+      ],
+      "incumbent_challenge": "I",
+      "incumbent_challenge_full": "Incumbent",
+      "last_f2_date": "2024-11-15",
+      "last_file_date": "2024-11-15",
+      "load_date": "2025-02-06T22:28:35",
+      "name": "STEVENS, HALEY",
+      "office": "H",
+      "office_full": "House",
+      "party": "DEM",
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "MI"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6MI11308",
+      "candidate_inactive": false,
+      "candidate_status": "N",
+      "cycles": [
+        2026
+      ],
+      "district": "11",
+      "district_number": 11,
+      "election_districts": [
+        "11"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": null,
+      "has_raised_funds": false,
+      "inactive_election_years": null,
+      "incumbent_challenge": null,
+      "incumbent_challenge_full": null,
+      "last_f2_date": null,
+      "last_file_date": null,
+      "load_date": "2026-09-15T20:57:27",
+      "name": "TEASDALE, RYAN",
+      "office": "H",
+      "office_full": "House",
+      "party": "GRE",
+      "party_full": "GREEN PARTY",
+      "state": "MI"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6MI11274",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "11",
+      "district_number": 11,
+      "election_districts": [
+        "11"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-10-09",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "O",
+      "incumbent_challenge_full": "Open seat",
+      "last_f2_date": "2025-10-09",
+      "last_file_date": "2025-10-09",
+      "load_date": "2026-02-05T21:01:18",
+      "name": "TORRES, JOHN PAUL",
+      "office": "H",
+      "office_full": "House",
+      "party": "DEM",
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "MI"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6MI11241",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "11",
+      "district_number": 11,
+      "election_districts": [
+        "11"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-08-27",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "O",
+      "incumbent_challenge_full": "Open seat",
+      "last_f2_date": "2025-08-27",
+      "last_file_date": "2025-08-27",
+      "load_date": "2025-12-30T21:00:52",
+      "name": "UFFORD, DON",
+      "office": "H",
+      "office_full": "House",
+      "party": "DEM",
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "MI"
+    }
+  ]
+}

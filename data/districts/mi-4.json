@@ -1,0 +1,263 @@
+{
+  "api_version": "1.0",
+  "pagination": {
+    "count": 7,
+    "is_count_exact": true,
+    "page": 1,
+    "pages": 1,
+    "per_page": 100
+  },
+  "results": [
+    {
+      "active_through": 2026,
+      "candidate_id": "H6MI04188",
+      "candidate_inactive": false,
+      "candidate_status": "N",
+      "cycles": [
+        2026
+      ],
+      "district": "04",
+      "district_number": 4,
+      "election_districts": [
+        "04"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-02-20",
+      "has_raised_funds": false,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2025-02-20",
+      "last_file_date": "2025-02-20",
+      "load_date": "2025-03-13T20:59:32",
+      "name": "AARON, RICHARD",
+      "office": "H",
+      "office_full": "House",
+      "party": "DEM",
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "MI"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6MI04220",
+      "candidate_inactive": false,
+      "candidate_status": "N",
+      "cycles": [
+        2026
+      ],
+      "district": "04",
+      "district_number": 4,
+      "election_districts": [
+        "04"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": null,
+      "has_raised_funds": false,
+      "inactive_election_years": null,
+      "incumbent_challenge": null,
+      "incumbent_challenge_full": null,
+      "last_f2_date": null,
+      "last_file_date": null,
+      "load_date": "2026-09-15T20:57:27",
+      "name": "BARNETT, SHAFINA CHE",
+      "office": "H",
+      "office_full": "House",
+      "party": "GRE",
+      "party_full": "GREEN PARTY",
+      "state": "MI"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6MI04196",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "04",
+      "district_number": 4,
+      "election_districts": [
+        "04"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-04-21",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2025-06-27",
+      "last_file_date": "2025-06-27",
+      "load_date": "2025-07-06T20:59:39",
+      "name": "HARRIS, DIOP JERMAINE MR II",
+      "office": "H",
+      "office_full": "House",
+      "party": "DEM",
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "MI"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H0MI02094",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2010,
+        2012,
+        2014,
+        2016,
+        2018,
+        2020,
+        2022,
+        2024,
+        2026
+      ],
+      "district": "04",
+      "district_number": 4,
+      "election_districts": [
+        "02",
+        "02",
+        "02",
+        "02",
+        "02",
+        "02",
+        "04",
+        "04",
+        "04"
+      ],
+      "election_years": [
+        2010,
+        2012,
+        2014,
+        2016,
+        2018,
+        2020,
+        2022,
+        2024,
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2009-02-23",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "I",
+      "incumbent_challenge_full": "Incumbent",
+      "last_f2_date": "2026-06-18",
+      "last_file_date": "2026-06-18",
+      "load_date": "2026-06-18T20:57:48",
+      "name": "HUIZENGA, WILLIAM P",
+      "office": "H",
+      "office_full": "House",
+      "party": "REP",
+      "party_full": "REPUBLICAN PARTY",
+      "state": "MI"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6MI04212",
+      "candidate_inactive": false,
+      "candidate_status": "N",
+      "cycles": [
+        2026
+      ],
+      "district": "04",
+      "district_number": 4,
+      "election_districts": [
+        "04"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2026-07-04",
+      "has_raised_funds": false,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2026-07-04",
+      "last_file_date": "2026-07-04",
+      "load_date": "2026-07-21T20:58:46",
+      "name": "JOHNSON, AUSTIN",
+      "office": "H",
+      "office_full": "House",
+      "party": "UST",
+      "party_full": "U.S. TAXPAYERS PARTY",
+      "state": "MI"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6MI04204",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "04",
+      "district_number": 4,
+      "election_districts": [
+        "04"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-07-14",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2026-06-24",
+      "last_file_date": "2026-06-24",
+      "load_date": "2026-06-24T20:58:06",
+      "name": "MCCANN, SEAN",
+      "office": "H",
+      "office_full": "House",
+      "party": "DEM",
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "MI"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H4MI04159",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2024,
+        2026
+      ],
+      "district": "04",
+      "district_number": 4,
+      "election_districts": [
+        "04",
+        "04"
+      ],
+      "election_years": [
+        2024,
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2023-07-19",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2025-04-09",
+      "last_file_date": "2025-04-09",
+      "load_date": "2025-07-15T21:00:48",
+      "name": "SWARTZ, JESSICA",
+      "office": "H",
+      "office_full": "House",
+      "party": "DEM",
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "MI"
+    }
+  ]
+}

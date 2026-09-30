@@ -1,0 +1,226 @@
+{
+  "api_version": "1.0",
+  "pagination": {
+    "count": 6,
+    "is_count_exact": true,
+    "page": 1,
+    "pages": 1,
+    "per_page": 100
+  },
+  "results": [
+    {
+      "active_through": 2026,
+      "candidate_id": "H6TX27134",
+      "candidate_inactive": false,
+      "candidate_status": "N",
+      "cycles": [
+        2026
+      ],
+      "district": "27",
+      "district_number": 27,
+      "election_districts": [
+        "27"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-12-08",
+      "has_raised_funds": false,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2025-12-08",
+      "last_file_date": "2025-12-08",
+      "load_date": "2025-12-30T21:00:52",
+      "name": "CASTRO-MENDOZA, EUSTAQUIO",
+      "office": "H",
+      "office_full": "House",
+      "party": "DEM",
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "TX"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H8TX27049",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2018,
+        2020,
+        2022,
+        2024,
+        2026
+      ],
+      "district": "27",
+      "district_number": 27,
+      "election_districts": [
+        "27",
+        "27",
+        "27",
+        "27",
+        "27"
+      ],
+      "election_years": [
+        2018,
+        2020,
+        2022,
+        2024,
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2017-10-05",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "I",
+      "incumbent_challenge_full": "Incumbent",
+      "last_f2_date": "2024-11-20",
+      "last_file_date": "2024-11-20",
+      "load_date": "2025-02-07T21:00:11",
+      "name": "CLOUD, MICHAEL",
+      "office": "H",
+      "office_full": "House",
+      "party": "REP",
+      "party_full": "REPUBLICAN PARTY",
+      "state": "TX"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6TX27126",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "27",
+      "district_number": 27,
+      "election_districts": [
+        "27"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-10-14",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2025-10-14",
+      "last_file_date": "2025-10-14",
+      "load_date": "2026-02-09T20:58:28",
+      "name": "HATLEY, CHRIS",
+      "office": "H",
+      "office_full": "House",
+      "party": "REP",
+      "party_full": "REPUBLICAN PARTY",
+      "state": "TX"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6TX10163",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "27",
+      "district_number": 27,
+      "election_districts": [
+        "27"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-04-07",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2026-04-07",
+      "last_file_date": "2026-04-07",
+      "load_date": "2026-04-07T21:14:51",
+      "name": "HAWBAKER, BRANDON",
+      "office": "H",
+      "office_full": "House",
+      "party": "REP",
+      "party_full": "REPUBLICAN PARTY",
+      "state": "TX"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H4TX27089",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2024,
+        2026
+      ],
+      "district": "27",
+      "district_number": 27,
+      "election_districts": [
+        "27",
+        "27"
+      ],
+      "election_years": [
+        2024,
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2023-12-07",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2025-06-09",
+      "last_file_date": "2025-06-09",
+      "load_date": "2025-10-16T21:01:04",
+      "name": "LLOYD, TANYA W",
+      "office": "H",
+      "office_full": "House",
+      "party": "DEM",
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "TX"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H2TX05170",
+      "candidate_inactive": false,
+      "candidate_status": null,
+      "cycles": [
+        2002,
+        2004,
+        2006,
+        2026
+      ],
+      "district": "27",
+      "district_number": 27,
+      "election_districts": [
+        "05",
+        "11",
+        "27"
+      ],
+      "election_years": [
+        2002,
+        2004,
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2002-03-05",
+      "has_raised_funds": false,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2015-02-11",
+      "last_file_date": "2015-02-11",
+      "load_date": "2026-03-03T21:23:02",
+      "name": "RAASCH, WAYNE",
+      "office": "H",
+      "office_full": "House",
+      "party": "DEM",
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "TX"
+    }
+  ]
+}

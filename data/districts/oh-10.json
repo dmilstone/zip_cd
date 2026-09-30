@@ -1,0 +1,298 @@
+{
+  "api_version": "1.0",
+  "pagination": {
+    "count": 7,
+    "is_count_exact": true,
+    "page": 1,
+    "pages": 1,
+    "per_page": 100
+  },
+  "results": [
+    {
+      "active_through": 2026,
+      "candidate_id": "H6OH10139",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "10",
+      "district_number": 10,
+      "election_districts": [
+        "10"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2026-02-04",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2026-02-04",
+      "last_file_date": "2026-02-04",
+      "load_date": "2026-04-18T21:13:41",
+      "name": "BECKETT, JANICE",
+      "office": "H",
+      "office_full": "House",
+      "party": "DEM",
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "OH"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H8OH03098",
+      "candidate_inactive": false,
+      "candidate_status": "N",
+      "cycles": [
+        2008,
+        2010,
+        2012,
+        2014,
+        2016,
+        2022,
+        2024,
+        2026
+      ],
+      "district": "10",
+      "district_number": 10,
+      "election_districts": [
+        "03",
+        "03",
+        "10",
+        "10",
+        "10",
+        "10"
+      ],
+      "election_years": [
+        2008,
+        2010,
+        2012,
+        2022,
+        2024,
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2008-01-30",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2026-03-03",
+      "last_file_date": "2026-03-03",
+      "load_date": "2026-03-06T21:23:49",
+      "name": "ESRATI, DAVID",
+      "office": "H",
+      "office_full": "House",
+      "party": "DEM",
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "OH"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6OH10147",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "10",
+      "district_number": 10,
+      "election_districts": [
+        "10"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2026-02-19",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2026-02-19",
+      "last_file_date": "2026-02-19",
+      "load_date": "2026-04-03T21:13:47",
+      "name": "KINNER, JAN",
+      "office": "H",
+      "office_full": "House",
+      "party": "DEM",
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "OH"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6OH10121",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "10",
+      "district_number": 10,
+      "election_districts": [
+        "10"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2026-01-13",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2026-07-02",
+      "last_file_date": "2026-07-02",
+      "load_date": "2026-07-02T20:57:30",
+      "name": "KNICKERBOCKER, KRISTINA",
+      "office": "H",
+      "office_full": "House",
+      "party": "DEM",
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "OH"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6OH10113",
+      "candidate_inactive": false,
+      "candidate_status": "N",
+      "cycles": [
+        2016,
+        2018,
+        2026
+      ],
+      "district": "10",
+      "district_number": 10,
+      "election_districts": [
+        "10",
+        "10"
+      ],
+      "election_years": [
+        2016,
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2016-03-31",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": null,
+      "incumbent_challenge_full": null,
+      "last_f2_date": "2016-03-31",
+      "last_file_date": "2016-03-31",
+      "load_date": "2026-09-03T20:56:31",
+      "name": "MCMASTERS, THOMAS",
+      "office": "H",
+      "office_full": "House",
+      "party": "LIB",
+      "party_full": "LIBERTARIAN PARTY",
+      "state": "OH"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H4OH10191",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2024,
+        2026
+      ],
+      "district": "10",
+      "district_number": 10,
+      "election_districts": [
+        "10",
+        "10"
+      ],
+      "election_years": [
+        2024,
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2024-02-25",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2026-03-30",
+      "last_file_date": "2026-03-30",
+      "load_date": "2026-04-16T21:15:09",
+      "name": "POMBO, TONY",
+      "office": "H",
+      "office_full": "House",
+      "party": "DEM",
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "OH"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H2OH03067",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2002,
+        2004,
+        2006,
+        2008,
+        2010,
+        2012,
+        2014,
+        2016,
+        2018,
+        2020,
+        2022,
+        2024,
+        2026
+      ],
+      "district": "10",
+      "district_number": 10,
+      "election_districts": [
+        "03",
+        "03",
+        "03",
+        "03",
+        "03",
+        "10",
+        "10",
+        "10",
+        "10",
+        "10",
+        "10",
+        "10",
+        "10"
+      ],
+      "election_years": [
+        2002,
+        2004,
+        2006,
+        2008,
+        2010,
+        2012,
+        2014,
+        2016,
+        2018,
+        2020,
+        2022,
+        2024,
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2002-02-12",
+      "has_raised_funds": true,
+      "inactive_election_years": [
+        2004
+      ],
+      "incumbent_challenge": "I",
+      "incumbent_challenge_full": "Incumbent",
+      "last_f2_date": "2025-09-24",
+      "last_file_date": "2025-09-24",
+      "load_date": "2025-09-24T21:04:28",
+      "name": "TURNER, MICHAEL R REP.",
+      "office": "H",
+      "office_full": "House",
+      "party": "REP",
+      "party_full": "REPUBLICAN PARTY",
+      "state": "OH"
+    }
+  ]
+}

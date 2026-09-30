@@ -1,0 +1,413 @@
+{
+  "api_version": "1.0",
+  "pagination": {
+    "count": 12,
+    "is_count_exact": true,
+    "page": 1,
+    "pages": 1,
+    "per_page": 100
+  },
+  "results": [
+    {
+      "active_through": 2026,
+      "candidate_id": "H6IA04217",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "04",
+      "district_number": 4,
+      "election_districts": [
+        "04"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-08-26",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "O",
+      "incumbent_challenge_full": "Open seat",
+      "last_f2_date": "2025-08-26",
+      "last_file_date": "2025-08-26",
+      "load_date": "2025-12-30T21:00:52",
+      "name": "DAWSON, DAVE",
+      "office": "H",
+      "office_full": "House",
+      "party": "DEM",
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "IA"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6IA04233",
+      "candidate_inactive": false,
+      "candidate_status": "N",
+      "cycles": [
+        2026
+      ],
+      "district": "04",
+      "district_number": 4,
+      "election_districts": [
+        "04"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-09-23",
+      "has_raised_funds": false,
+      "inactive_election_years": null,
+      "incumbent_challenge": "O",
+      "incumbent_challenge_full": "Open seat",
+      "last_f2_date": "2025-09-23",
+      "last_file_date": "2025-09-23",
+      "load_date": "2025-12-30T21:00:52",
+      "name": "DECKER, JERMAINE",
+      "office": "H",
+      "office_full": "House",
+      "party": "UN",
+      "party_full": "UNAFFILIATED",
+      "state": "IA"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H0IA04145",
+      "candidate_inactive": true,
+      "candidate_status": "C",
+      "cycles": [
+        2020,
+        2022,
+        2024,
+        2026
+      ],
+      "district": "04",
+      "district_number": 4,
+      "election_districts": [
+        "04",
+        "04",
+        "04",
+        "04"
+      ],
+      "election_years": [
+        2020,
+        2022,
+        2024,
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2019-01-25",
+      "has_raised_funds": true,
+      "inactive_election_years": [
+        2026
+      ],
+      "incumbent_challenge": "I",
+      "incumbent_challenge_full": "Incumbent",
+      "last_f2_date": "2024-11-11",
+      "last_file_date": "2024-11-11",
+      "load_date": "2025-02-02T20:58:51",
+      "name": "FEENSTRA, RANDALL",
+      "office": "H",
+      "office_full": "House",
+      "party": "REP",
+      "party_full": "REPUBLICAN PARTY",
+      "state": "IA"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6IA04241",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "04",
+      "district_number": 4,
+      "election_districts": [
+        "04"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-10-25",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "O",
+      "incumbent_challenge_full": "Open seat",
+      "last_f2_date": "2025-10-25",
+      "last_file_date": "2025-10-25",
+      "load_date": "2025-12-30T21:00:52",
+      "name": "JENSEN, DOUGLAS",
+      "office": "H",
+      "office_full": "House",
+      "party": "REP",
+      "party_full": "REPUBLICAN PARTY",
+      "state": "IA"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6IA04191",
+      "candidate_inactive": false,
+      "candidate_status": "N",
+      "cycles": [
+        2026
+      ],
+      "district": "04",
+      "district_number": 4,
+      "election_districts": [
+        "04"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-07-14",
+      "has_raised_funds": false,
+      "inactive_election_years": null,
+      "incumbent_challenge": "O",
+      "incumbent_challenge_full": "Open seat",
+      "last_f2_date": "2025-07-14",
+      "last_file_date": "2025-07-14",
+      "load_date": "2025-12-30T21:00:52",
+      "name": "LARSEN, KYLE",
+      "office": "H",
+      "office_full": "House",
+      "party": "REP",
+      "party_full": "REPUBLICAN PARTY",
+      "state": "IA"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6IA04167",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "04",
+      "district_number": 4,
+      "election_districts": [
+        "04"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-07-01",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "O",
+      "incumbent_challenge_full": "Open seat",
+      "last_f2_date": "2026-06-30",
+      "last_file_date": "2026-06-30",
+      "load_date": "2026-06-30T20:57:00",
+      "name": "MCGOWAN, CHRIS",
+      "office": "H",
+      "office_full": "House",
+      "party": "REP",
+      "party_full": "REPUBLICAN PARTY",
+      "state": "IA"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H2IA04141",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2022,
+        2024,
+        2026
+      ],
+      "district": "04",
+      "district_number": 4,
+      "election_districts": [
+        "04",
+        "04",
+        "04"
+      ],
+      "election_years": [
+        2022,
+        2024,
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2022-01-28",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "O",
+      "incumbent_challenge_full": "Open seat",
+      "last_f2_date": "2025-04-03",
+      "last_file_date": "2025-04-03",
+      "load_date": "2025-12-30T21:00:52",
+      "name": "MELTON, RYAN MICHAEL APPLETON",
+      "office": "H",
+      "office_full": "House",
+      "party": "DEM",
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "IA"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6IA04209",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "04",
+      "district_number": 4,
+      "election_districts": [
+        "04"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-07-24",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "O",
+      "incumbent_challenge_full": "Open seat",
+      "last_f2_date": "2025-07-24",
+      "last_file_date": "2025-07-24",
+      "load_date": "2025-12-30T21:00:52",
+      "name": "RHODES, RYAN",
+      "office": "H",
+      "office_full": "House",
+      "party": "REP",
+      "party_full": "REPUBLICAN PARTY",
+      "state": "IA"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6IA04225",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "04",
+      "district_number": 4,
+      "election_districts": [
+        "04"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-09-05",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "O",
+      "incumbent_challenge_full": "Open seat",
+      "last_f2_date": "2025-09-05",
+      "last_file_date": "2025-09-05",
+      "load_date": "2026-02-05T21:01:18",
+      "name": "SCHLAEFER, CHRISTIAN",
+      "office": "H",
+      "office_full": "House",
+      "party": "REP",
+      "party_full": "REPUBLICAN PARTY",
+      "state": "IA"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6IA04183",
+      "candidate_inactive": false,
+      "candidate_status": "N",
+      "cycles": [
+        2026
+      ],
+      "district": "04",
+      "district_number": 4,
+      "election_districts": [
+        "04"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-07-09",
+      "has_raised_funds": false,
+      "inactive_election_years": null,
+      "incumbent_challenge": "O",
+      "incumbent_challenge_full": "Open seat",
+      "last_f2_date": "2025-07-09",
+      "last_file_date": "2025-07-09",
+      "load_date": "2025-12-30T21:00:52",
+      "name": "STEINER, STEPHANIE",
+      "office": "H",
+      "office_full": "House",
+      "party": "DEM",
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "IA"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6IA04175",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "04",
+      "district_number": 4,
+      "election_districts": [
+        "04"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-07-07",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "O",
+      "incumbent_challenge_full": "Open seat",
+      "last_f2_date": "2025-07-07",
+      "last_file_date": "2025-07-07",
+      "load_date": "2025-12-30T21:00:52",
+      "name": "WINDSCHITL, MATT",
+      "office": "H",
+      "office_full": "House",
+      "party": "REP",
+      "party_full": "REPUBLICAN PARTY",
+      "state": "IA"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6IA04159",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "04",
+      "district_number": 4,
+      "election_districts": [
+        "04"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-06-30",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "O",
+      "incumbent_challenge_full": "Open seat",
+      "last_f2_date": "2026-01-28",
+      "last_file_date": "2026-01-28",
+      "load_date": "2026-01-28T21:00:03",
+      "name": "WOLFTORNABANE, ASHLEY",
+      "office": "H",
+      "office_full": "House",
+      "party": "DEM",
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "IA"
+    }
+  ]
+}

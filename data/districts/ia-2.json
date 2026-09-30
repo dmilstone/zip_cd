@@ -1,0 +1,422 @@
+{
+  "api_version": "1.0",
+  "pagination": {
+    "count": 12,
+    "is_count_exact": true,
+    "page": 1,
+    "pages": 1,
+    "per_page": 100
+  },
+  "results": [
+    {
+      "active_through": 2026,
+      "candidate_id": "H0IA01174",
+      "candidate_inactive": true,
+      "candidate_status": "C",
+      "cycles": [
+        2020,
+        2022,
+        2024,
+        2026
+      ],
+      "district": "02",
+      "district_number": 2,
+      "election_districts": [
+        "01",
+        "02",
+        "02",
+        "02"
+      ],
+      "election_years": [
+        2020,
+        2022,
+        2024,
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2019-05-13",
+      "has_raised_funds": true,
+      "inactive_election_years": [
+        2026
+      ],
+      "incumbent_challenge": "I",
+      "incumbent_challenge_full": "Incumbent",
+      "last_f2_date": "2024-11-06",
+      "last_file_date": "2024-11-06",
+      "load_date": "2025-01-29T21:03:35",
+      "name": "ARENHOLZ, ASHLEY HINSON",
+      "office": "H",
+      "office_full": "House",
+      "party": "REP",
+      "party_full": "REPUBLICAN PARTY",
+      "state": "IA"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H2IA01055",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2012,
+        2014,
+        2016,
+        2018,
+        2020,
+        2022,
+        2024,
+        2026
+      ],
+      "district": "02",
+      "district_number": 2,
+      "election_districts": [
+        "01",
+        "01",
+        "01",
+        "01",
+        "02"
+      ],
+      "election_years": [
+        2012,
+        2014,
+        2016,
+        2018,
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2011-11-03",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "O",
+      "incumbent_challenge_full": "Open seat",
+      "last_f2_date": "2025-09-09",
+      "last_file_date": "2025-09-09",
+      "load_date": "2025-12-30T21:00:52",
+      "name": "BLUM, RODNEY",
+      "office": "H",
+      "office_full": "House",
+      "party": "REP",
+      "party_full": "REPUBLICAN PARTY",
+      "state": "IA"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6IA02260",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "02",
+      "district_number": 2,
+      "election_districts": [
+        "02"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-11-13",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "O",
+      "incumbent_challenge_full": "Open seat",
+      "last_f2_date": "2025-11-13",
+      "last_file_date": "2025-11-13",
+      "load_date": "2026-01-29T21:02:11",
+      "name": "BUSHAW, DAVE",
+      "office": "H",
+      "office_full": "House",
+      "party": "IND",
+      "party_full": "INDEPENDENT",
+      "state": "IA"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6IA02187",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "02",
+      "district_number": 2,
+      "election_districts": [
+        "02"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-07-08",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "O",
+      "incumbent_challenge_full": "Open seat",
+      "last_f2_date": "2025-07-08",
+      "last_file_date": "2025-07-08",
+      "load_date": "2025-12-30T21:00:52",
+      "name": "DOLTER, KATHRYN J",
+      "office": "H",
+      "office_full": "House",
+      "party": "DEM",
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "IA"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6IA02211",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "02",
+      "district_number": 2,
+      "election_districts": [
+        "02"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-08-19",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "O",
+      "incumbent_challenge_full": "Open seat",
+      "last_f2_date": "2026-06-29",
+      "last_file_date": "2026-06-29",
+      "load_date": "2026-06-29T20:57:55",
+      "name": "JAMES, LINDSAY",
+      "office": "H",
+      "office_full": "House",
+      "party": "DEM",
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "IA"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6IA02252",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "02",
+      "district_number": 2,
+      "election_districts": [
+        "02"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-10-01",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "O",
+      "incumbent_challenge_full": "Open seat",
+      "last_f2_date": "2025-10-01",
+      "last_file_date": "2025-10-01",
+      "load_date": "2026-02-05T21:01:18",
+      "name": "LUNDGREN, SHANNON",
+      "office": "H",
+      "office_full": "House",
+      "party": "REP",
+      "party_full": "REPUBLICAN PARTY",
+      "state": "IA"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6IA02229",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "02",
+      "district_number": 2,
+      "election_districts": [
+        "02"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-09-04",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "O",
+      "incumbent_challenge_full": "Open seat",
+      "last_f2_date": "2025-09-04",
+      "last_file_date": "2025-09-04",
+      "load_date": "2025-12-30T21:00:52",
+      "name": "MCCLINTOCK, CHARLIE",
+      "office": "H",
+      "office_full": "House",
+      "party": "REP",
+      "party_full": "REPUBLICAN PARTY",
+      "state": "IA"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6IA02237",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "02",
+      "district_number": 2,
+      "election_districts": [
+        "02"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-09-08",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "O",
+      "incumbent_challenge_full": "Open seat",
+      "last_f2_date": "2026-09-01",
+      "last_file_date": "2026-09-01",
+      "load_date": "2026-09-01T20:57:25",
+      "name": "MITCHELL, JOE",
+      "office": "H",
+      "office_full": "House",
+      "party": "REP",
+      "party_full": "REPUBLICAN PARTY",
+      "state": "IA"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6IA02245",
+      "candidate_inactive": false,
+      "candidate_status": "N",
+      "cycles": [
+        2026
+      ],
+      "district": "02",
+      "district_number": 2,
+      "election_districts": [
+        "02"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-09-20",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "O",
+      "incumbent_challenge_full": "Open seat",
+      "last_f2_date": "2025-09-20",
+      "last_file_date": "2025-09-20",
+      "load_date": "2025-12-30T21:00:52",
+      "name": "MORGAN, GUY",
+      "office": "H",
+      "office_full": "House",
+      "party": "DEM",
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "IA"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6IA02203",
+      "candidate_inactive": false,
+      "candidate_status": "N",
+      "cycles": [
+        2026
+      ],
+      "district": "02",
+      "district_number": 2,
+      "election_districts": [
+        "02"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-08-13",
+      "has_raised_funds": false,
+      "inactive_election_years": null,
+      "incumbent_challenge": "O",
+      "incumbent_challenge_full": "Open seat",
+      "last_f2_date": "2025-08-13",
+      "last_file_date": "2025-08-13",
+      "load_date": "2025-12-30T21:00:52",
+      "name": "PRIMUS, DONALD K.",
+      "office": "H",
+      "office_full": "House",
+      "party": "DEM",
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "IA"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6IA02179",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "02",
+      "district_number": 2,
+      "election_districts": [
+        "02"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-04-17",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "O",
+      "incumbent_challenge_full": "Open seat",
+      "last_f2_date": "2025-04-17",
+      "last_file_date": "2025-04-17",
+      "load_date": "2025-12-30T21:00:52",
+      "name": "TECHAU, KEVIN W",
+      "office": "H",
+      "office_full": "House",
+      "party": "DEM",
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "IA"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6IA02195",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "02",
+      "district_number": 2,
+      "election_districts": [
+        "02"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-07-22",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "O",
+      "incumbent_challenge_full": "Open seat",
+      "last_f2_date": "2025-07-22",
+      "last_file_date": "2025-07-22",
+      "load_date": "2025-12-30T21:00:52",
+      "name": "TWEDT-BALL, CLINTON GENE",
+      "office": "H",
+      "office_full": "House",
+      "party": "DEM",
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "IA"
+    }
+  ]
+}
