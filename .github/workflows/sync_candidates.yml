@@ -1,0 +1,45 @@
+name: Sync FEC candidates
+
+on:
+  schedule:
+    # Every day at 00:00 UTC.
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-candidates
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "lts/*"
+
+      - name: Fetch candidate data from FEC
+        env:
+          FEC_API_KEY: ${{ secrets.FEC_API_KEY }}
+        run: node update_candidates.js
+
+      - name: Commit and push changes
+        run: |
+          git add data/districts
+          if git diff --cached --quiet; then
+            echo "No candidate data changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Sync FEC candidate data ($(date -u +%Y-%m-%d))"
+          git push origin HEAD:main
