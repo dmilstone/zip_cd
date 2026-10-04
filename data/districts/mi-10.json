@@ -1,7 +1,7 @@
 {
   "api_version": "1.0",
   "pagination": {
-    "count": 16,
+    "count": 17,
     "is_count_exact": true,
     "page": 1,
     "pages": 1,
@@ -555,6 +555,38 @@
       "last_f2_date": null,
       "last_file_date": null,
       "load_date": "2026-09-15T20:57:27",
+      "name": "SALIBA, MIKE",
+      "office": "H",
+      "office_full": "House",
+      "party": "LIB",
+      "party_full": "LIBERTARIAN PARTY",
+      "state": "MI"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6MI10383",
+      "candidate_inactive": false,
+      "candidate_status": "N",
+      "cycles": [
+        2026
+      ],
+      "district": "10",
+      "district_number": 10,
+      "election_districts": [
+        "10"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2026-10-02",
+      "has_raised_funds": false,
+      "inactive_election_years": null,
+      "incumbent_challenge": null,
+      "incumbent_challenge_full": null,
+      "last_f2_date": "2026-10-02",
+      "last_file_date": "2026-10-02",
+      "load_date": "2026-10-02T20:56:17",
       "name": "SALIBA, MIKE",
       "office": "H",
       "office_full": "House",

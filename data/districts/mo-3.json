@@ -270,38 +270,6 @@
     },
     {
       "active_through": 2026,
-      "candidate_id": "H6MO03366",
-      "candidate_inactive": false,
-      "candidate_status": "N",
-      "cycles": [
-        2026
-      ],
-      "district": "03",
-      "district_number": 3,
-      "election_districts": [
-        "03"
-      ],
-      "election_years": [
-        2026
-      ],
-      "federal_funds_flag": false,
-      "first_file_date": "2025-07-21",
-      "has_raised_funds": false,
-      "inactive_election_years": null,
-      "incumbent_challenge": "C",
-      "incumbent_challenge_full": "Challenger",
-      "last_f2_date": "2025-07-21",
-      "last_file_date": "2025-07-21",
-      "load_date": "2025-08-01T21:00:30",
-      "name": "THURMON, ALEXANDER",
-      "office": "H",
-      "office_full": "House",
-      "party": "DEM",
-      "party_full": "DEMOCRATIC PARTY",
-      "state": "MO"
-    },
-    {
-      "active_through": 2026,
       "candidate_id": "H6MO03374",
       "candidate_inactive": false,
       "candidate_status": "N",
@@ -324,6 +292,38 @@
       "incumbent_challenge_full": "Challenger",
       "last_f2_date": "2025-07-22",
       "last_file_date": "2025-07-22",
+      "load_date": "2025-08-01T21:00:30",
+      "name": "THURMON, ALEXANDER",
+      "office": "H",
+      "office_full": "House",
+      "party": "DEM",
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "MO"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6MO03366",
+      "candidate_inactive": false,
+      "candidate_status": "N",
+      "cycles": [
+        2026
+      ],
+      "district": "03",
+      "district_number": 3,
+      "election_districts": [
+        "03"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-07-21",
+      "has_raised_funds": false,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2025-07-21",
+      "last_file_date": "2025-07-21",
       "load_date": "2025-08-01T21:00:30",
       "name": "THURMON, ALEXANDER",
       "office": "H",

@@ -75,7 +75,7 @@
     },
     {
       "active_through": 2026,
-      "candidate_id": "H6SC02159",
+      "candidate_id": "H6SC02167",
       "candidate_inactive": false,
       "candidate_status": "C",
       "cycles": [
@@ -107,7 +107,7 @@
     },
     {
       "active_through": 2026,
-      "candidate_id": "H6SC02167",
+      "candidate_id": "H6SC02159",
       "candidate_inactive": false,
       "candidate_status": "C",
       "cycles": [

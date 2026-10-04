@@ -106,38 +106,6 @@
     },
     {
       "active_through": 2026,
-      "candidate_id": "H6TX14157",
-      "candidate_inactive": false,
-      "candidate_status": "C",
-      "cycles": [
-        2026
-      ],
-      "district": "14",
-      "district_number": 14,
-      "election_districts": [
-        "14"
-      ],
-      "election_years": [
-        2026
-      ],
-      "federal_funds_flag": false,
-      "first_file_date": "2025-10-16",
-      "has_raised_funds": true,
-      "inactive_election_years": null,
-      "incumbent_challenge": "C",
-      "incumbent_challenge_full": "Challenger",
-      "last_f2_date": "2025-10-16",
-      "last_file_date": "2025-10-16",
-      "load_date": "2026-02-09T20:58:28",
-      "name": "VOGIATZIS, KONSTANTINOS",
-      "office": "H",
-      "office_full": "House",
-      "party": "DEM",
-      "party_full": "DEMOCRATIC PARTY",
-      "state": "TX"
-    },
-    {
-      "active_through": 2026,
       "candidate_id": "H6TX14165",
       "candidate_inactive": false,
       "candidate_status": "C",
@@ -160,6 +128,38 @@
       "incumbent_challenge_full": "Challenger",
       "last_f2_date": "2025-10-21",
       "last_file_date": "2025-10-21",
+      "load_date": "2026-02-09T20:58:28",
+      "name": "VOGIATZIS, KONSTANTINOS",
+      "office": "H",
+      "office_full": "House",
+      "party": "DEM",
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "TX"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6TX14157",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "14",
+      "district_number": 14,
+      "election_districts": [
+        "14"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-10-16",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2025-10-16",
+      "last_file_date": "2025-10-16",
       "load_date": "2026-02-09T20:58:28",
       "name": "VOGIATZIS, KONSTANTINOS",
       "office": "H",
