@@ -76,7 +76,7 @@
       "active_through": 2026,
       "candidate_id": "H6NY07255",
       "candidate_inactive": false,
-      "candidate_status": "N",
+      "candidate_status": "C",
       "cycles": [
         2026
       ],
@@ -96,7 +96,7 @@
       "incumbent_challenge_full": "Open seat",
       "last_f2_date": "2026-09-08",
       "last_file_date": "2026-09-08",
-      "load_date": "2026-09-08T20:57:21",
+      "load_date": "2026-10-04T20:55:49",
       "name": "GHAZNAVI, PRISCILLA MS.",
       "office": "H",
       "office_full": "House",
