@@ -104,6 +104,11 @@ p {
   font-size: 0.9rem;
 }
 
+/* The label sits outside .zip-form, so the card's grid gap sets its distance to the input. */
+.lookup-card {
+  gap: 0.5rem;
+}
+
 .input-row {
   display: grid;
   grid-template-columns: 1fr auto;
