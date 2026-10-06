@@ -88,7 +88,7 @@ No one has to approve or merge anything. If the site is published from `main`, i
 - Creates `data/districts/` if it doesn't exist.
 - Walks every state and district in `STATES_AND_DISTRICTS` (50 states plus DC, 436 districts) and calls `https://api.open.fec.gov/v1/candidates/` with `office=H`, `election_year=2026`, the state, and the zero-padded district.
 - Writes the raw FEC response, unchanged, to `data/districts/<state>-<district>.json`.
-- Waits 4 seconds between requests to stay under the api.data.gov limit of 1,000 requests per hour. A full run of all 436 districts takes about 30 minutes.
+- Waits 500 ms between requests (`REQUEST_DELAY_MS`) to stay under the production key's limit of 120 requests per minute. A full run of all 436 districts takes about 4 to 6 minutes, depending on FEC response times.
 - On HTTP `429`, it reads `X-RateLimit-Reset` or `Retry-After`, sleeps, and retries up to 3 times.
 - If a district fails, the existing file for that district is left alone, the remaining districts still run, and the job exits non-zero so the failure shows up in Actions.
 - Ends with a summary: district count, how many were fetched, skipped, and failed, the total number of candidates, and the elapsed time.
@@ -103,10 +103,18 @@ With `--force` (what the workflow uses), every district is re-fetched on every r
 - In public repositories, GitHub disables scheduled workflows after 60 days with no repository activity. Re-enable the workflow from the Actions tab if that happens.
 - The workflow needs `contents: write` permission, and `main` must allow `github-actions[bot]` to push. A branch protection rule that requires pull requests will block the push step.
 
+### API key and rate limits
+
+The sync runs on an approved high-volume OpenFEC production key, which allows **7,200 requests per hour and 120 requests per minute**. The per-minute cap is the one that matters: a full run is 436 requests, well under the hourly limit, but requests have to be spaced at least 500 ms apart to stay under 120 per minute. That puts the minimum time for a full national snapshot at about 3.6 minutes. With network latency, the nightly run usually finishes in 4 to 6 minutes.
+
+Don't lower `REQUEST_DELAY_MS` below `500`. Faster spacing trips the per-minute limit, and each `429` makes the script sleep until the limit resets, so the run ends up slower, not faster.
+
+A standard api.data.gov key (1,000 requests per hour) will not keep up at this pace. If the secret is ever replaced with a standard key, raise `REQUEST_DELAY_MS` to `4000`.
+
 ### Setting up the secret
 
-1. Get a free key at <https://api.data.gov/signup/>.
-2. In the GitHub repository, go to **Settings → Secrets and variables → Actions** and add a repository secret named `FEC_API_KEY`.
+1. In the GitHub repository, go to **Settings → Secrets and variables → Actions** and add a repository secret named `FEC_API_KEY` containing the production key.
+2. Start the workflow by hand from the Actions tab and confirm the summary reports `Failed: 0`.
 
 The key only exists in GitHub Actions. It is never written to the repository or served to visitors.
 
@@ -223,6 +231,9 @@ Any static host works, such as GitHub Pages, Netlify, Cloudflare Pages, S3 + Clo
 | Candidate data looks out of date | The last sync run failed or was skipped by GitHub. | Check the Actions tab and run the workflow by hand. |
 | Sync workflow fails on push | Branch protection on `main`, or the workflow lacks `contents: write`. | Allow `github-actions[bot]` to push, or change the workflow to open a PR. |
 | Sync workflow fails with "FEC_API_KEY is not set." | The repository secret is missing. | Add it under Settings → Secrets and variables → Actions. |
+| Sync log shows "Rate limit hit, sleeping..." | `REQUEST_DELAY_MS` is below `500`, another job is using the same key, or the secret holds a standard 1,000/hour key instead of the production key. | Keep the delay at `500` or higher, stop other jobs from sharing the key, and check which key the secret holds. |
+| Sync run takes much longer than 6 minutes | Repeated `429` retries, or slow FEC responses. | Look for rate-limit warnings in the log. If there are none, the FEC API is slow. Nothing needs fixing. |
+| Sync fails with `FEC HTTP 403` | The key is invalid, revoked, or missing from the secret. | Check the key and update the `FEC_API_KEY` secret. |
 | "Couldn't reach the Census TIGERweb service" | TIGERweb outage or timeout. | Retry later. TIGERweb is occasionally slow. |
 | "No Census ZIP Code Tabulation Area found" | The ZIP has no ZCTA (PO Box or single business). | Expected behavior. |
 | Map area shows "Map failed to load" | unpkg or Leaflet is blocked, or the SRI hash doesn't match. | Check the network tab and the `integrity` attributes. The district list still works. |

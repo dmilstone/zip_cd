@@ -9,8 +9,9 @@ const path = require("path");
 const ELECTION_YEAR = 2026;
 const FEC_CANDIDATES_URL = "https://api.open.fec.gov/v1/candidates/";
 const OUTPUT_DIR = path.join(__dirname, "data", "districts");
-// api.data.gov keys allow 1,000 requests/hour; 4s spacing caps a run at ~900 requests/hour.
-const REQUEST_DELAY_MS = 4000;
+// The production FEC key allows 120 requests/minute (7,200/hour). 500ms is the minimum
+// spacing that stays under the per-minute cap; anything lower will draw 429s.
+const REQUEST_DELAY_MS = 500;
 
 // House seats per state for the 2026 election (post-2020 apportionment).
 // 0 marks a single at-large seat, which FEC and the app both address as district 0.
