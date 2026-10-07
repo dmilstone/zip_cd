@@ -383,6 +383,38 @@
     },
     {
       "active_through": 2026,
+      "candidate_id": "H6NV03204",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "03",
+      "district_number": 3,
+      "election_districts": [
+        "03"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-03-31",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2026-05-06",
+      "last_file_date": "2026-05-06",
+      "load_date": "2026-05-07T20:58:39",
+      "name": "O'DONNELL, MARTY",
+      "office": "H",
+      "office_full": "House",
+      "party": "REP",
+      "party_full": "REPUBLICAN PARTY",
+      "state": "NV"
+    },
+    {
+      "active_through": 2026,
       "candidate_id": "H4NV03225",
       "candidate_inactive": false,
       "candidate_status": "C",
@@ -409,38 +441,6 @@
       "last_f2_date": "2026-08-10",
       "last_file_date": "2026-08-10",
       "load_date": "2026-08-10T20:57:07",
-      "name": "O'DONNELL, MARTY",
-      "office": "H",
-      "office_full": "House",
-      "party": "REP",
-      "party_full": "REPUBLICAN PARTY",
-      "state": "NV"
-    },
-    {
-      "active_through": 2026,
-      "candidate_id": "H6NV03204",
-      "candidate_inactive": false,
-      "candidate_status": "C",
-      "cycles": [
-        2026
-      ],
-      "district": "03",
-      "district_number": 3,
-      "election_districts": [
-        "03"
-      ],
-      "election_years": [
-        2026
-      ],
-      "federal_funds_flag": false,
-      "first_file_date": "2025-03-31",
-      "has_raised_funds": true,
-      "inactive_election_years": null,
-      "incumbent_challenge": "C",
-      "incumbent_challenge_full": "Challenger",
-      "last_f2_date": "2026-05-06",
-      "last_file_date": "2026-05-06",
-      "load_date": "2026-05-07T20:58:39",
       "name": "O'DONNELL, MARTY",
       "office": "H",
       "office_full": "House",

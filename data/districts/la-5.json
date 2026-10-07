@@ -473,7 +473,7 @@
     },
     {
       "active_through": 2026,
-      "candidate_id": "H6LA05333",
+      "candidate_id": "H6LA05325",
       "candidate_inactive": false,
       "candidate_status": "N",
       "cycles": [
@@ -505,7 +505,7 @@
     },
     {
       "active_through": 2026,
-      "candidate_id": "H6LA05325",
+      "candidate_id": "H6LA05333",
       "candidate_inactive": false,
       "candidate_status": "N",
       "cycles": [

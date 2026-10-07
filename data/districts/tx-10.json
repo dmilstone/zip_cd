@@ -172,7 +172,7 @@
     },
     {
       "active_through": 2026,
-      "candidate_id": "H6TX10254",
+      "candidate_id": "H6TX10262",
       "candidate_inactive": false,
       "candidate_status": "C",
       "cycles": [
@@ -204,7 +204,7 @@
     },
     {
       "active_through": 2026,
-      "candidate_id": "H6TX10262",
+      "candidate_id": "H6TX10254",
       "candidate_inactive": false,
       "candidate_status": "C",
       "cycles": [

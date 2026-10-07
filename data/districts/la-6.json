@@ -1,7 +1,7 @@
 {
   "api_version": "1.0",
   "pagination": {
-    "count": 11,
+    "count": 12,
     "is_count_exact": true,
     "page": 1,
     "pages": 1,
@@ -212,6 +212,38 @@
       "last_file_date": "2024-11-18",
       "load_date": "2025-02-03T21:02:03",
       "name": "FIELDS, CLEO",
+      "office": "H",
+      "office_full": "House",
+      "party": "DEM",
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "LA"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6LA06190",
+      "candidate_inactive": false,
+      "candidate_status": "N",
+      "cycles": [
+        2026
+      ],
+      "district": "06",
+      "district_number": 6,
+      "election_districts": [
+        "06"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2026-10-05",
+      "has_raised_funds": false,
+      "inactive_election_years": null,
+      "incumbent_challenge": null,
+      "incumbent_challenge_full": null,
+      "last_f2_date": "2026-10-05",
+      "last_file_date": "2026-10-05",
+      "load_date": "2026-10-05T20:57:49",
+      "name": "FORBES, PATRICK WAYNE",
       "office": "H",
       "office_full": "House",
       "party": "DEM",

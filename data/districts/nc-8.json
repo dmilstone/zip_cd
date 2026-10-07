@@ -75,41 +75,6 @@
     },
     {
       "active_through": 2026,
-      "candidate_id": "H4NC08066",
-      "candidate_inactive": false,
-      "candidate_status": "C",
-      "cycles": [
-        2024,
-        2026
-      ],
-      "district": "08",
-      "district_number": 8,
-      "election_districts": [
-        "08",
-        "08"
-      ],
-      "election_years": [
-        2024,
-        2026
-      ],
-      "federal_funds_flag": false,
-      "first_file_date": null,
-      "has_raised_funds": true,
-      "inactive_election_years": null,
-      "incumbent_challenge": "I",
-      "incumbent_challenge_full": "Incumbent",
-      "last_f2_date": null,
-      "last_file_date": null,
-      "load_date": "2025-01-12T20:59:39",
-      "name": "HARRIS, MARK E",
-      "office": "H",
-      "office_full": "House",
-      "party": "REP",
-      "party_full": "REPUBLICAN PARTY",
-      "state": "NC"
-    },
-    {
-      "active_through": 2026,
       "candidate_id": "H6NC09200",
       "candidate_inactive": false,
       "candidate_status": "C",
@@ -140,6 +105,41 @@
       "last_f2_date": "2025-02-27",
       "last_file_date": "2025-02-27",
       "load_date": "2025-04-23T21:01:21",
+      "name": "HARRIS, MARK E",
+      "office": "H",
+      "office_full": "House",
+      "party": "REP",
+      "party_full": "REPUBLICAN PARTY",
+      "state": "NC"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H4NC08066",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2024,
+        2026
+      ],
+      "district": "08",
+      "district_number": 8,
+      "election_districts": [
+        "08",
+        "08"
+      ],
+      "election_years": [
+        2024,
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": null,
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "I",
+      "incumbent_challenge_full": "Incumbent",
+      "last_f2_date": null,
+      "last_file_date": null,
+      "load_date": "2025-01-12T20:59:39",
       "name": "HARRIS, MARK E",
       "office": "H",
       "office_full": "House",

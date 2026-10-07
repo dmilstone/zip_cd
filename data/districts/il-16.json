@@ -42,38 +42,6 @@
     },
     {
       "active_through": 2026,
-      "candidate_id": "H6IL16157",
-      "candidate_inactive": false,
-      "candidate_status": "N",
-      "cycles": [
-        2026
-      ],
-      "district": "16",
-      "district_number": 16,
-      "election_districts": [
-        "16"
-      ],
-      "election_years": [
-        2026
-      ],
-      "federal_funds_flag": false,
-      "first_file_date": "2025-08-31",
-      "has_raised_funds": false,
-      "inactive_election_years": null,
-      "incumbent_challenge": "C",
-      "incumbent_challenge_full": "Challenger",
-      "last_f2_date": "2025-08-31",
-      "last_file_date": "2025-08-31",
-      "load_date": "2025-09-02T21:03:03",
-      "name": "BEST, SCOTT ALLAN MR.",
-      "office": "H",
-      "office_full": "House",
-      "party": "DEM",
-      "party_full": "DEMOCRATIC PARTY",
-      "state": "IL"
-    },
-    {
-      "active_through": 2026,
       "candidate_id": "H6IL16132",
       "candidate_inactive": false,
       "candidate_status": "N",
@@ -97,6 +65,38 @@
       "last_f2_date": "2025-07-27",
       "last_file_date": "2025-07-27",
       "load_date": "2025-08-01T21:00:30",
+      "name": "BEST, SCOTT ALLAN MR.",
+      "office": "H",
+      "office_full": "House",
+      "party": "DEM",
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "IL"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6IL16157",
+      "candidate_inactive": false,
+      "candidate_status": "N",
+      "cycles": [
+        2026
+      ],
+      "district": "16",
+      "district_number": 16,
+      "election_districts": [
+        "16"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-08-31",
+      "has_raised_funds": false,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2025-08-31",
+      "last_file_date": "2025-08-31",
+      "load_date": "2025-09-02T21:03:03",
       "name": "BEST, SCOTT ALLAN MR.",
       "office": "H",
       "office_full": "House",

@@ -1,7 +1,7 @@
 {
   "api_version": "1.0",
   "pagination": {
-    "count": 7,
+    "count": 6,
     "is_count_exact": true,
     "page": 1,
     "pages": 1,
@@ -34,38 +34,6 @@
       "last_file_date": "2026-07-28",
       "load_date": "2026-09-04T20:56:18",
       "name": "ARMINIO, JOSEPH DR. JOE PH.D.",
-      "office": "H",
-      "office_full": "House",
-      "party": "REP",
-      "party_full": "REPUBLICAN PARTY",
-      "state": "DE"
-    },
-    {
-      "active_through": 2026,
-      "candidate_id": "H6DE01113",
-      "candidate_inactive": false,
-      "candidate_status": "N",
-      "cycles": [
-        2026
-      ],
-      "district": "00",
-      "district_number": 0,
-      "election_districts": [
-        "00"
-      ],
-      "election_years": [
-        2026
-      ],
-      "federal_funds_flag": false,
-      "first_file_date": "2026-07-10",
-      "has_raised_funds": false,
-      "inactive_election_years": null,
-      "incumbent_challenge": "C",
-      "incumbent_challenge_full": "Challenger",
-      "last_f2_date": "2026-07-10",
-      "last_file_date": "2026-07-14",
-      "load_date": "2026-07-21T20:58:46",
-      "name": "CARLSON, OWEN NICHOLAS",
       "office": "H",
       "office_full": "House",
       "party": "REP",
