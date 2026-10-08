@@ -192,7 +192,7 @@
       ],
       "federal_funds_flag": false,
       "first_file_date": "2025-05-12",
-      "has_raised_funds": true,
+      "has_raised_funds": false,
       "inactive_election_years": null,
       "incumbent_challenge": "C",
       "incumbent_challenge_full": "Challenger",

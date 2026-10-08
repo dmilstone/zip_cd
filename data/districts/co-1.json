@@ -12,7 +12,7 @@
       "active_through": 2026,
       "candidate_id": "H6CO01356",
       "candidate_inactive": false,
-      "candidate_status": "N",
+      "candidate_status": "C",
       "cycles": [
         2026
       ],
@@ -32,7 +32,7 @@
       "incumbent_challenge_full": "Challenger",
       "last_f2_date": "2026-07-21",
       "last_file_date": "2026-07-21",
-      "load_date": "2026-08-28T20:56:23",
+      "load_date": "2026-10-06T21:18:52",
       "name": "BLAU, SHIMON",
       "office": "H",
       "office_full": "House",

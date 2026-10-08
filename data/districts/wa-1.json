@@ -196,7 +196,7 @@
       "active_through": 2026,
       "candidate_id": "H4WA01282",
       "candidate_inactive": false,
-      "candidate_status": "N",
+      "candidate_status": "C",
       "cycles": [
         2024,
         2026
@@ -219,7 +219,7 @@
       "incumbent_challenge_full": "Challenger",
       "last_f2_date": "2026-05-24",
       "last_file_date": "2026-05-24",
-      "load_date": "2026-06-01T20:57:55",
+      "load_date": "2026-10-06T21:18:52",
       "name": "SILVA, MARY",
       "office": "H",
       "office_full": "House",

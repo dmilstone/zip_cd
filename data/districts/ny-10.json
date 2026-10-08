@@ -196,7 +196,7 @@
       ],
       "federal_funds_flag": false,
       "first_file_date": "2026-06-27",
-      "has_raised_funds": false,
+      "has_raised_funds": true,
       "inactive_election_years": null,
       "incumbent_challenge": "C",
       "incumbent_challenge_full": "Challenger",

@@ -44,7 +44,7 @@
       "active_through": 2026,
       "candidate_id": "H2CA20144",
       "candidate_inactive": false,
-      "candidate_status": "N",
+      "candidate_status": "C",
       "cycles": [
         2022,
         2024,
@@ -70,7 +70,7 @@
       "incumbent_challenge_full": "Challenger",
       "last_f2_date": "2026-03-11",
       "last_file_date": "2026-03-11",
-      "load_date": "2026-03-29T21:12:30",
+      "load_date": "2026-10-06T21:18:52",
       "name": "DEWELL, BEN",
       "office": "H",
       "office_full": "House",
