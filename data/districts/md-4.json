@@ -10,7 +10,7 @@
   "results": [
     {
       "active_through": 2026,
-      "candidate_id": "H6MD04365",
+      "candidate_id": "H6MD04373",
       "candidate_inactive": false,
       "candidate_status": "N",
       "cycles": [
@@ -42,7 +42,7 @@
     },
     {
       "active_through": 2026,
-      "candidate_id": "H6MD04373",
+      "candidate_id": "H6MD04365",
       "candidate_inactive": false,
       "candidate_status": "N",
       "cycles": [
