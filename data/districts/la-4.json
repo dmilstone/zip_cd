@@ -76,7 +76,7 @@
       "active_through": 2026,
       "candidate_id": "H6LA04229",
       "candidate_inactive": false,
-      "candidate_status": "N",
+      "candidate_status": "C",
       "cycles": [
         2026
       ],
@@ -96,7 +96,7 @@
       "incumbent_challenge_full": null,
       "last_f2_date": "2026-10-09",
       "last_file_date": "2026-10-09",
-      "load_date": "2026-10-09T20:56:16",
+      "load_date": "2026-10-11T20:58:32",
       "name": "HESLOP, GORDON BRIAN",
       "office": "H",
       "office_full": "House",

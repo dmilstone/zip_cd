@@ -263,7 +263,7 @@
       "active_through": 2026,
       "candidate_id": "H6TN08342",
       "candidate_inactive": false,
-      "candidate_status": "N",
+      "candidate_status": "C",
       "cycles": [
         2026
       ],
@@ -283,7 +283,7 @@
       "incumbent_challenge_full": "Challenger",
       "last_f2_date": "2026-03-31",
       "last_file_date": "2026-03-31",
-      "load_date": "2026-04-10T21:13:55",
+      "load_date": "2026-10-11T20:58:32",
       "name": "TAYLOR, HORACE",
       "office": "H",
       "office_full": "House",

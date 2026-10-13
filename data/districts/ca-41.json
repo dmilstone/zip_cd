@@ -76,7 +76,7 @@
       "active_through": 2026,
       "candidate_id": "H2CA38260",
       "candidate_inactive": false,
-      "candidate_status": "N",
+      "candidate_status": "C",
       "cycles": [
         2022,
         2026
@@ -99,7 +99,7 @@
       "incumbent_challenge_full": "Challenger",
       "last_f2_date": "2026-04-03",
       "last_file_date": "2026-04-03",
-      "load_date": "2026-04-10T21:13:55",
+      "load_date": "2026-10-11T20:58:32",
       "name": "CLEMMONS, MITCHELL",
       "office": "H",
       "office_full": "House",
@@ -111,7 +111,7 @@
       "active_through": 2026,
       "candidate_id": "H6CA41380",
       "candidate_inactive": false,
-      "candidate_status": "N",
+      "candidate_status": "C",
       "cycles": [
         2026
       ],
@@ -131,7 +131,7 @@
       "incumbent_challenge_full": "Challenger",
       "last_f2_date": "2026-04-02",
       "last_file_date": "2026-04-02",
-      "load_date": "2026-04-10T21:13:55",
+      "load_date": "2026-10-11T20:58:32",
       "name": "CLEMMONS, MITCHELL LEE",
       "office": "H",
       "office_full": "House",
