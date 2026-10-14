@@ -476,38 +476,6 @@
     },
     {
       "active_through": 2026,
-      "candidate_id": "H6IL09350",
-      "candidate_inactive": false,
-      "candidate_status": "N",
-      "cycles": [
-        2026
-      ],
-      "district": "09",
-      "district_number": 9,
-      "election_districts": [
-        "09"
-      ],
-      "election_years": [
-        2026
-      ],
-      "federal_funds_flag": false,
-      "first_file_date": "2025-08-27",
-      "has_raised_funds": false,
-      "inactive_election_years": null,
-      "incumbent_challenge": "O",
-      "incumbent_challenge_full": "Open seat",
-      "last_f2_date": "2025-09-25",
-      "last_file_date": "2025-09-25",
-      "load_date": "2025-09-25T21:04:18",
-      "name": "HILL, TAMIKA LA'SHON MRS.",
-      "office": "H",
-      "office_full": "House",
-      "party": "DEM",
-      "party_full": "DEMOCRATIC PARTY",
-      "state": "IL"
-    },
-    {
-      "active_through": 2026,
       "candidate_id": "H6IL09368",
       "candidate_inactive": false,
       "candidate_status": "N",
@@ -531,6 +499,38 @@
       "last_f2_date": "2025-08-29",
       "last_file_date": "2025-08-29",
       "load_date": "2025-09-02T21:03:03",
+      "name": "HILL, TAMIKA LA'SHON MRS.",
+      "office": "H",
+      "office_full": "House",
+      "party": "DEM",
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "IL"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6IL09350",
+      "candidate_inactive": false,
+      "candidate_status": "N",
+      "cycles": [
+        2026
+      ],
+      "district": "09",
+      "district_number": 9,
+      "election_districts": [
+        "09"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-08-27",
+      "has_raised_funds": false,
+      "inactive_election_years": null,
+      "incumbent_challenge": "O",
+      "incumbent_challenge_full": "Open seat",
+      "last_f2_date": "2025-09-25",
+      "last_file_date": "2025-09-25",
+      "load_date": "2025-09-25T21:04:18",
       "name": "HILL, TAMIKA LA'SHON MRS.",
       "office": "H",
       "office_full": "House",
