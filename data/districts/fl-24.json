@@ -44,7 +44,7 @@
       "active_through": 2026,
       "candidate_id": "H6FL24061",
       "candidate_inactive": false,
-      "candidate_status": "N",
+      "candidate_status": "C",
       "cycles": [
         2026
       ],
@@ -60,11 +60,11 @@
       "first_file_date": "2026-05-11",
       "has_raised_funds": true,
       "inactive_election_years": null,
-      "incumbent_challenge": "C",
-      "incumbent_challenge_full": "Challenger",
+      "incumbent_challenge": "O",
+      "incumbent_challenge_full": "Open seat",
       "last_f2_date": "2026-05-20",
       "last_file_date": "2026-05-20",
-      "load_date": "2026-06-01T20:57:55",
+      "load_date": "2026-10-13T21:00:20",
       "name": "DARO, ANDY",
       "office": "H",
       "office_full": "House",
