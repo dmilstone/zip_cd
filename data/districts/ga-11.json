@@ -483,6 +483,38 @@
     },
     {
       "active_through": 2026,
+      "candidate_id": "H6GA11207",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2026
+      ],
+      "district": "11",
+      "district_number": 11,
+      "election_districts": [
+        "11"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2026-03-03",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "O",
+      "incumbent_challenge_full": "Open seat",
+      "last_f2_date": "2026-03-03",
+      "last_file_date": "2026-03-03",
+      "load_date": "2026-04-16T21:15:09",
+      "name": "PRIDEMORE, TRICIA",
+      "office": "H",
+      "office_full": "House",
+      "party": "REP",
+      "party_full": "REPUBLICAN PARTY",
+      "state": "GA"
+    },
+    {
+      "active_through": 2026,
       "candidate_id": "H4GA11087",
       "candidate_inactive": false,
       "candidate_status": "C",
@@ -510,38 +542,6 @@
       "last_f2_date": "2026-04-15",
       "last_file_date": "2026-04-15",
       "load_date": "2026-05-14T20:57:57",
-      "name": "PRIDEMORE, TRICIA",
-      "office": "H",
-      "office_full": "House",
-      "party": "REP",
-      "party_full": "REPUBLICAN PARTY",
-      "state": "GA"
-    },
-    {
-      "active_through": 2026,
-      "candidate_id": "H6GA11207",
-      "candidate_inactive": false,
-      "candidate_status": "C",
-      "cycles": [
-        2026
-      ],
-      "district": "11",
-      "district_number": 11,
-      "election_districts": [
-        "11"
-      ],
-      "election_years": [
-        2026
-      ],
-      "federal_funds_flag": false,
-      "first_file_date": "2026-03-03",
-      "has_raised_funds": true,
-      "inactive_election_years": null,
-      "incumbent_challenge": "O",
-      "incumbent_challenge_full": "Open seat",
-      "last_f2_date": "2026-03-03",
-      "last_file_date": "2026-03-03",
-      "load_date": "2026-04-16T21:15:09",
       "name": "PRIDEMORE, TRICIA",
       "office": "H",
       "office_full": "House",

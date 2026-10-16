@@ -1,7 +1,7 @@
 {
   "api_version": "1.0",
   "pagination": {
-    "count": 13,
+    "count": 14,
     "is_count_exact": true,
     "page": 1,
     "pages": 1,
@@ -229,15 +229,56 @@
         2026
       ],
       "federal_funds_flag": false,
-      "first_file_date": "2025-12-09",
+      "first_file_date": null,
       "has_raised_funds": true,
       "inactive_election_years": null,
       "incumbent_challenge": "C",
       "incumbent_challenge_full": "Challenger",
-      "last_f2_date": "2026-04-15",
-      "last_file_date": "2026-04-15",
+      "last_f2_date": null,
+      "last_file_date": null,
       "load_date": "2026-04-15T21:16:15",
       "name": "PERRIELLO, THOMAS",
+      "office": "H",
+      "office_full": "House",
+      "party": "DEM",
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "VA"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H8VA05106",
+      "candidate_inactive": false,
+      "candidate_status": "N",
+      "cycles": [
+        2008,
+        2010,
+        2012,
+        2014,
+        2016,
+        2026
+      ],
+      "district": "05",
+      "district_number": 5,
+      "election_districts": [
+        "05",
+        "05",
+        "05"
+      ],
+      "election_years": [
+        2008,
+        2010,
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2007-11-06",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": null,
+      "incumbent_challenge_full": null,
+      "last_f2_date": "2026-04-15",
+      "last_file_date": "2026-04-15",
+      "load_date": "2026-10-14T20:57:35",
+      "name": "PERRIELLO, THOMAS STUART PRICE",
       "office": "H",
       "office_full": "House",
       "party": "DEM",
