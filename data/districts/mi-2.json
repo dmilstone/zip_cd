@@ -289,7 +289,7 @@
       "active_through": 2026,
       "candidate_id": "H6MI02240",
       "candidate_inactive": false,
-      "candidate_status": "N",
+      "candidate_status": "C",
       "cycles": [
         2026
       ],
@@ -309,7 +309,7 @@
       "incumbent_challenge_full": "Challenger",
       "last_f2_date": "2025-09-12",
       "last_file_date": "2025-09-12",
-      "load_date": "2025-09-16T21:03:29",
+      "load_date": "2026-10-15T21:00:42",
       "name": "WELFORD, KOFINSIA CLYDE ANTHONY MR.",
       "office": "H",
       "office_full": "House",

@@ -379,7 +379,7 @@
       "active_through": 2026,
       "candidate_id": "H6LA05341",
       "candidate_inactive": false,
-      "candidate_status": "N",
+      "candidate_status": "C",
       "cycles": [
         2026
       ],
@@ -399,7 +399,7 @@
       "incumbent_challenge_full": "Open seat",
       "last_f2_date": "2026-08-13",
       "last_file_date": "2026-08-13",
-      "load_date": "2026-08-28T20:56:23",
+      "load_date": "2026-10-15T21:00:42",
       "name": "MOORE, PATRICIA ANN",
       "office": "H",
       "office_full": "House",

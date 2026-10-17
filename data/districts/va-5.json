@@ -248,7 +248,7 @@
       "active_through": 2026,
       "candidate_id": "H8VA05106",
       "candidate_inactive": false,
-      "candidate_status": "N",
+      "candidate_status": "C",
       "cycles": [
         2008,
         2010,
@@ -277,7 +277,7 @@
       "incumbent_challenge_full": null,
       "last_f2_date": "2026-04-15",
       "last_file_date": "2026-04-15",
-      "load_date": "2026-10-14T20:57:35",
+      "load_date": "2026-10-15T21:00:42",
       "name": "PERRIELLO, THOMAS STUART PRICE",
       "office": "H",
       "office_full": "House",

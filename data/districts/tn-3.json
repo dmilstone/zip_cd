@@ -176,7 +176,7 @@
       "active_through": 2026,
       "candidate_id": "H6TN03251",
       "candidate_inactive": false,
-      "candidate_status": "N",
+      "candidate_status": "C",
       "cycles": [
         2026
       ],
@@ -196,7 +196,7 @@
       "incumbent_challenge_full": null,
       "last_f2_date": "2026-10-12",
       "last_file_date": "2026-10-12",
-      "load_date": "2026-10-12T20:58:47",
+      "load_date": "2026-10-15T21:00:42",
       "name": "KING, RODNEY JOE MR",
       "office": "H",
       "office_full": "House",

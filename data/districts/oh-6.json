@@ -140,7 +140,7 @@
       "active_through": 2026,
       "candidate_id": "H6OH06244",
       "candidate_inactive": false,
-      "candidate_status": "N",
+      "candidate_status": "C",
       "cycles": [
         2026
       ],
@@ -160,7 +160,7 @@
       "incumbent_challenge_full": "Challenger",
       "last_f2_date": "2026-03-06",
       "last_file_date": "2026-03-06",
-      "load_date": "2026-03-10T21:23:39",
+      "load_date": "2026-10-15T21:00:42",
       "name": "KIRTLEY, ELIZABETH ANN MRS.",
       "office": "H",
       "office_full": "House",
