@@ -119,7 +119,7 @@
       "active_through": 2026,
       "candidate_id": "H6NJ03192",
       "candidate_inactive": false,
-      "candidate_status": "N",
+      "candidate_status": "C",
       "cycles": [
         2026
       ],
@@ -139,7 +139,7 @@
       "incumbent_challenge_full": "Challenger",
       "last_f2_date": "2026-01-28",
       "last_file_date": "2026-01-28",
-      "load_date": "2026-02-05T21:01:18",
+      "load_date": "2026-10-16T21:01:16",
       "name": "KELLY, RYAN MICHAEL",
       "office": "H",
       "office_full": "House",

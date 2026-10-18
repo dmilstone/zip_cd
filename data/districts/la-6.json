@@ -222,7 +222,7 @@
       "active_through": 2026,
       "candidate_id": "H6LA06190",
       "candidate_inactive": false,
-      "candidate_status": "N",
+      "candidate_status": "C",
       "cycles": [
         2026
       ],
@@ -242,7 +242,7 @@
       "incumbent_challenge_full": null,
       "last_f2_date": "2026-10-05",
       "last_file_date": "2026-10-05",
-      "load_date": "2026-10-05T20:57:49",
+      "load_date": "2026-10-16T21:01:16",
       "name": "FORBES, PATRICK WAYNE",
       "office": "H",
       "office_full": "House",
@@ -382,7 +382,7 @@
       "active_through": 2026,
       "candidate_id": "H6LA06182",
       "candidate_inactive": false,
-      "candidate_status": "N",
+      "candidate_status": "C",
       "cycles": [
         2026
       ],
@@ -402,7 +402,7 @@
       "incumbent_challenge_full": null,
       "last_f2_date": "2026-09-03",
       "last_file_date": "2026-09-03",
-      "load_date": "2026-09-03T20:56:31",
+      "load_date": "2026-10-16T21:01:16",
       "name": "WAGLEY, STEPHEN",
       "office": "H",
       "office_full": "House",

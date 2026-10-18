@@ -76,7 +76,7 @@
       "active_through": 2026,
       "candidate_id": "H6TX25237",
       "candidate_inactive": false,
-      "candidate_status": "N",
+      "candidate_status": "C",
       "cycles": [
         2026
       ],
@@ -96,7 +96,7 @@
       "incumbent_challenge_full": "Challenger",
       "last_f2_date": "2026-02-19",
       "last_file_date": "2026-02-19",
-      "load_date": "2026-02-19T20:59:48",
+      "load_date": "2026-10-16T21:01:16",
       "name": "SIMS, DIONE MICHELLE MRS",
       "office": "H",
       "office_full": "House",

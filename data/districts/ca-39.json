@@ -12,7 +12,7 @@
       "active_through": 2026,
       "candidate_id": "H6CA39145",
       "candidate_inactive": false,
-      "candidate_status": "N",
+      "candidate_status": "C",
       "cycles": [
         2026
       ],
@@ -32,7 +32,7 @@
       "incumbent_challenge_full": "Challenger",
       "last_f2_date": "2026-06-09",
       "last_file_date": "2026-06-09",
-      "load_date": "2026-07-21T20:58:46",
+      "load_date": "2026-10-16T21:01:16",
       "name": "MANOS, STEVE",
       "office": "H",
       "office_full": "House",

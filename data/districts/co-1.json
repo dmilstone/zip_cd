@@ -386,7 +386,7 @@
       "active_through": 2026,
       "candidate_id": "H6CO01331",
       "candidate_inactive": false,
-      "candidate_status": "N",
+      "candidate_status": "C",
       "cycles": [
         2026
       ],
@@ -406,7 +406,7 @@
       "incumbent_challenge_full": "Challenger",
       "last_f2_date": "2026-03-26",
       "last_file_date": "2026-03-26",
-      "load_date": "2026-03-29T21:12:30",
+      "load_date": "2026-10-16T21:01:16",
       "name": "PETERSON, CHRISTY",
       "office": "H",
       "office_full": "House",
