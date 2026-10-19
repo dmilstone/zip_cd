@@ -475,7 +475,7 @@
       "active_through": 2026,
       "candidate_id": "H6LA05325",
       "candidate_inactive": false,
-      "candidate_status": "N",
+      "candidate_status": "C",
       "cycles": [
         2026
       ],
@@ -495,7 +495,7 @@
       "incumbent_challenge_full": "Open seat",
       "last_f2_date": "2026-08-10",
       "last_file_date": "2026-08-10",
-      "load_date": "2026-08-28T20:56:23",
+      "load_date": "2026-10-17T20:59:55",
       "name": "WILSON, ANTONIO",
       "office": "H",
       "office_full": "House",
@@ -507,7 +507,7 @@
       "active_through": 2026,
       "candidate_id": "H6LA05333",
       "candidate_inactive": false,
-      "candidate_status": "N",
+      "candidate_status": "C",
       "cycles": [
         2026
       ],
@@ -527,7 +527,7 @@
       "incumbent_challenge_full": "Open seat",
       "last_f2_date": "2026-08-10",
       "last_file_date": "2026-08-10",
-      "load_date": "2026-08-28T20:56:23",
+      "load_date": "2026-10-17T20:59:55",
       "name": "WILSON, ANTONIO",
       "office": "H",
       "office_full": "House",

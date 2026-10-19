@@ -376,7 +376,7 @@
       "active_through": 2026,
       "candidate_id": "H6NJ07300",
       "candidate_inactive": false,
-      "candidate_status": "N",
+      "candidate_status": "C",
       "cycles": [
         2026
       ],
@@ -396,7 +396,7 @@
       "incumbent_challenge_full": "Challenger",
       "last_f2_date": "2026-05-12",
       "last_file_date": "2026-05-12",
-      "load_date": "2026-06-01T20:57:55",
+      "load_date": "2026-10-17T20:59:55",
       "name": "TERRY, RANDALL",
       "office": "H",
       "office_full": "House",

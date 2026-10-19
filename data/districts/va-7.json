@@ -12,7 +12,7 @@
       "active_through": 2026,
       "candidate_id": "H6VA07353",
       "candidate_inactive": false,
-      "candidate_status": "N",
+      "candidate_status": "C",
       "cycles": [
         2026
       ],
@@ -32,7 +32,7 @@
       "incumbent_challenge_full": "Challenger",
       "last_f2_date": "2026-07-13",
       "last_file_date": "2026-07-13",
-      "load_date": "2026-07-21T20:58:46",
+      "load_date": "2026-10-17T20:59:55",
       "name": "AHRAR, ALAHA MS.",
       "office": "H",
       "office_full": "House",
@@ -591,7 +591,7 @@
       "active_through": 2026,
       "candidate_id": "H6VA07312",
       "candidate_inactive": false,
-      "candidate_status": "N",
+      "candidate_status": "C",
       "cycles": [
         2026
       ],
@@ -611,7 +611,7 @@
       "incumbent_challenge_full": "Challenger",
       "last_f2_date": "2026-06-29",
       "last_file_date": "2026-06-29",
-      "load_date": "2026-06-29T20:57:55",
+      "load_date": "2026-10-17T20:59:55",
       "name": "TERRY, RANDALL",
       "office": "H",
       "office_full": "House",

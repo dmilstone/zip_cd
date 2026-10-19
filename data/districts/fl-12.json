@@ -168,38 +168,6 @@
     },
     {
       "active_through": 2026,
-      "candidate_id": "H6FL12215",
-      "candidate_inactive": false,
-      "candidate_status": "N",
-      "cycles": [
-        2026
-      ],
-      "district": "12",
-      "district_number": 12,
-      "election_districts": [
-        "12"
-      ],
-      "election_years": [
-        2026
-      ],
-      "federal_funds_flag": false,
-      "first_file_date": null,
-      "has_raised_funds": false,
-      "inactive_election_years": null,
-      "incumbent_challenge": "C",
-      "incumbent_challenge_full": "Challenger",
-      "last_f2_date": null,
-      "last_file_date": null,
-      "load_date": "2026-01-28T21:00:03",
-      "name": "WILLIAMS, SHAY",
-      "office": "H",
-      "office_full": "House",
-      "party": "REP",
-      "party_full": "REPUBLICAN PARTY",
-      "state": "FL"
-    },
-    {
-      "active_through": 2026,
       "candidate_id": "H6FL12223",
       "candidate_inactive": false,
       "candidate_status": "C",
@@ -223,6 +191,38 @@
       "last_f2_date": null,
       "last_file_date": null,
       "load_date": "2026-04-13T21:14:20",
+      "name": "WILLIAMS, SHAY",
+      "office": "H",
+      "office_full": "House",
+      "party": "REP",
+      "party_full": "REPUBLICAN PARTY",
+      "state": "FL"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6FL12215",
+      "candidate_inactive": false,
+      "candidate_status": "N",
+      "cycles": [
+        2026
+      ],
+      "district": "12",
+      "district_number": 12,
+      "election_districts": [
+        "12"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": null,
+      "has_raised_funds": false,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": null,
+      "last_file_date": null,
+      "load_date": "2026-01-28T21:00:03",
       "name": "WILLIAMS, SHAY",
       "office": "H",
       "office_full": "House",
