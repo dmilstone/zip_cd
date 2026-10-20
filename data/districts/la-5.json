@@ -95,11 +95,11 @@
       "first_file_date": null,
       "has_raised_funds": false,
       "inactive_election_years": null,
-      "incumbent_challenge": null,
-      "incumbent_challenge_full": null,
+      "incumbent_challenge": "O",
+      "incumbent_challenge_full": "Open seat",
       "last_f2_date": null,
       "last_file_date": null,
-      "load_date": "2026-09-14T20:56:54",
+      "load_date": "2026-10-18T20:58:47",
       "name": "DANTZLER, OSCAR \"OMAR\"",
       "office": "H",
       "office_full": "House",
@@ -473,7 +473,7 @@
     },
     {
       "active_through": 2026,
-      "candidate_id": "H6LA05325",
+      "candidate_id": "H6LA05333",
       "candidate_inactive": false,
       "candidate_status": "C",
       "cycles": [
@@ -505,7 +505,7 @@
     },
     {
       "active_through": 2026,
-      "candidate_id": "H6LA05333",
+      "candidate_id": "H6LA05325",
       "candidate_inactive": false,
       "candidate_status": "C",
       "cycles": [

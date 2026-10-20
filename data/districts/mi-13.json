@@ -80,7 +80,7 @@
     },
     {
       "active_through": 2026,
-      "candidate_id": "H6MI13288",
+      "candidate_id": "H6MI13270",
       "candidate_inactive": false,
       "candidate_status": "N",
       "cycles": [
@@ -112,7 +112,7 @@
     },
     {
       "active_through": 2026,
-      "candidate_id": "H6MI13270",
+      "candidate_id": "H6MI13288",
       "candidate_inactive": false,
       "candidate_status": "N",
       "cycles": [
@@ -306,11 +306,11 @@
       "first_file_date": null,
       "has_raised_funds": false,
       "inactive_election_years": null,
-      "incumbent_challenge": null,
-      "incumbent_challenge_full": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
       "last_f2_date": null,
       "last_file_date": null,
-      "load_date": "2026-09-15T20:57:27",
+      "load_date": "2026-10-18T20:58:47",
       "name": "LIGHT, RAELYN",
       "office": "H",
       "office_full": "House",
