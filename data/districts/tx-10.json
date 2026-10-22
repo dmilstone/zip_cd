@@ -74,39 +74,6 @@
     },
     {
       "active_through": 2026,
-      "candidate_id": "H6TX17135",
-      "candidate_inactive": false,
-      "candidate_status": "C",
-      "cycles": [
-        2024,
-        2026
-      ],
-      "district": "10",
-      "district_number": 10,
-      "election_districts": [
-        "10"
-      ],
-      "election_years": [
-        2026
-      ],
-      "federal_funds_flag": false,
-      "first_file_date": "2024-11-15",
-      "has_raised_funds": true,
-      "inactive_election_years": null,
-      "incumbent_challenge": "C",
-      "incumbent_challenge_full": "Challenger",
-      "last_f2_date": "2024-11-15",
-      "last_file_date": "2024-11-15",
-      "load_date": "2026-02-19T20:59:48",
-      "name": "BROWN, ROBERT",
-      "office": "H",
-      "office_full": "House",
-      "party": "REP",
-      "party_full": "REPUBLICAN PARTY",
-      "state": "TX"
-    },
-    {
-      "active_through": 2026,
       "candidate_id": "H6TX17127",
       "candidate_inactive": false,
       "candidate_status": "C",
@@ -130,6 +97,39 @@
       "incumbent_challenge_full": "Open seat",
       "last_f2_date": "2025-09-07",
       "last_file_date": "2025-09-07",
+      "load_date": "2026-02-19T20:59:48",
+      "name": "BROWN, ROBERT",
+      "office": "H",
+      "office_full": "House",
+      "party": "REP",
+      "party_full": "REPUBLICAN PARTY",
+      "state": "TX"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6TX17135",
+      "candidate_inactive": false,
+      "candidate_status": "C",
+      "cycles": [
+        2024,
+        2026
+      ],
+      "district": "10",
+      "district_number": 10,
+      "election_districts": [
+        "10"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2024-11-15",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2024-11-15",
+      "last_file_date": "2024-11-15",
       "load_date": "2026-02-19T20:59:48",
       "name": "BROWN, ROBERT",
       "office": "H",

@@ -117,7 +117,7 @@
       "active_through": 2026,
       "candidate_id": "H4OK02196",
       "candidate_inactive": false,
-      "candidate_status": "N",
+      "candidate_status": "C",
       "cycles": [
         2024,
         2026
@@ -140,7 +140,7 @@
       "incumbent_challenge_full": "Challenger",
       "last_f2_date": "2023-07-19",
       "last_file_date": "2023-07-19",
-      "load_date": "2026-04-17T21:14:14",
+      "load_date": "2026-10-20T21:01:19",
       "name": "WADE, BRANDON",
       "office": "H",
       "office_full": "House",

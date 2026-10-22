@@ -288,7 +288,7 @@
       "active_through": 2026,
       "candidate_id": "H6IL04203",
       "candidate_inactive": false,
-      "candidate_status": "N",
+      "candidate_status": "C",
       "cycles": [
         2026
       ],
@@ -308,7 +308,7 @@
       "incumbent_challenge_full": null,
       "last_f2_date": "2026-10-18",
       "last_file_date": "2026-10-18",
-      "load_date": "2026-10-19T21:00:35",
+      "load_date": "2026-10-20T21:01:19",
       "name": "TAMEZ, ANTHONY MICHAEL",
       "office": "H",
       "office_full": "House",

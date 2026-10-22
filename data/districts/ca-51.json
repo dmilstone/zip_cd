@@ -10,38 +10,6 @@
   "results": [
     {
       "active_through": 2026,
-      "candidate_id": "H6CA51124",
-      "candidate_inactive": false,
-      "candidate_status": "N",
-      "cycles": [
-        2026
-      ],
-      "district": "51",
-      "district_number": 51,
-      "election_districts": [
-        "51"
-      ],
-      "election_years": [
-        2026
-      ],
-      "federal_funds_flag": false,
-      "first_file_date": "2025-08-15",
-      "has_raised_funds": false,
-      "inactive_election_years": null,
-      "incumbent_challenge": "C",
-      "incumbent_challenge_full": "Challenger",
-      "last_f2_date": "2025-08-15",
-      "last_file_date": "2025-08-15",
-      "load_date": "2025-09-02T21:03:03",
-      "name": "BUCY, MICHAEL",
-      "office": "H",
-      "office_full": "House",
-      "party": "IAP",
-      "party_full": "INDEPENDENT AMERICAN PARTY",
-      "state": "CA"
-    },
-    {
-      "active_through": 2026,
       "candidate_id": "H6CA51116",
       "candidate_inactive": false,
       "candidate_status": "N",
@@ -64,6 +32,38 @@
       "incumbent_challenge_full": "Challenger",
       "last_f2_date": "2025-08-14",
       "last_file_date": "2025-08-14",
+      "load_date": "2025-09-02T21:03:03",
+      "name": "BUCY, MICHAEL",
+      "office": "H",
+      "office_full": "House",
+      "party": "IAP",
+      "party_full": "INDEPENDENT AMERICAN PARTY",
+      "state": "CA"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6CA51124",
+      "candidate_inactive": false,
+      "candidate_status": "N",
+      "cycles": [
+        2026
+      ],
+      "district": "51",
+      "district_number": 51,
+      "election_districts": [
+        "51"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-08-15",
+      "has_raised_funds": false,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2025-08-15",
+      "last_file_date": "2025-08-15",
       "load_date": "2025-09-02T21:03:03",
       "name": "BUCY, MICHAEL",
       "office": "H",
@@ -106,6 +106,38 @@
     },
     {
       "active_through": 2026,
+      "candidate_id": "H4CA51095",
+      "candidate_inactive": false,
+      "candidate_status": "N",
+      "cycles": [
+        2026
+      ],
+      "district": "51",
+      "district_number": 51,
+      "election_districts": [
+        "51"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": null,
+      "has_raised_funds": false,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": null,
+      "last_file_date": null,
+      "load_date": "2026-05-01T21:18:54",
+      "name": "CAPLAN, STAN",
+      "office": "H",
+      "office_full": "House",
+      "party": "DEM",
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "CA"
+    },
+    {
+      "active_through": 2026,
       "candidate_id": "H2CA51206",
       "candidate_inactive": false,
       "candidate_status": "N",
@@ -134,38 +166,6 @@
       "incumbent_challenge_full": "Challenger",
       "last_f2_date": "2023-04-13",
       "last_file_date": "2023-04-13",
-      "load_date": "2026-05-01T21:18:54",
-      "name": "CAPLAN, STAN",
-      "office": "H",
-      "office_full": "House",
-      "party": "DEM",
-      "party_full": "DEMOCRATIC PARTY",
-      "state": "CA"
-    },
-    {
-      "active_through": 2026,
-      "candidate_id": "H4CA51095",
-      "candidate_inactive": false,
-      "candidate_status": "N",
-      "cycles": [
-        2026
-      ],
-      "district": "51",
-      "district_number": 51,
-      "election_districts": [
-        "51"
-      ],
-      "election_years": [
-        2026
-      ],
-      "federal_funds_flag": false,
-      "first_file_date": null,
-      "has_raised_funds": false,
-      "inactive_election_years": null,
-      "incumbent_challenge": "C",
-      "incumbent_challenge_full": "Challenger",
-      "last_f2_date": null,
-      "last_file_date": null,
       "load_date": "2026-05-01T21:18:54",
       "name": "CAPLAN, STAN",
       "office": "H",
