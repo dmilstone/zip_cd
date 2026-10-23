@@ -42,38 +42,6 @@
     },
     {
       "active_through": 2026,
-      "candidate_id": "H6FL15184",
-      "candidate_inactive": false,
-      "candidate_status": "N",
-      "cycles": [
-        2026
-      ],
-      "district": "15",
-      "district_number": 15,
-      "election_districts": [
-        "15"
-      ],
-      "election_years": [
-        2026
-      ],
-      "federal_funds_flag": false,
-      "first_file_date": "2025-05-21",
-      "has_raised_funds": false,
-      "inactive_election_years": null,
-      "incumbent_challenge": "C",
-      "incumbent_challenge_full": "Challenger",
-      "last_f2_date": "2025-05-21",
-      "last_file_date": "2025-05-21",
-      "load_date": "2025-06-09T20:59:02",
-      "name": "ENGELL, JOSE",
-      "office": "H",
-      "office_full": "House",
-      "party": "DEM",
-      "party_full": "DEMOCRATIC PARTY",
-      "state": "FL"
-    },
-    {
-      "active_through": 2026,
       "candidate_id": "H6FL15176",
       "candidate_inactive": false,
       "candidate_status": "N",
@@ -96,6 +64,38 @@
       "incumbent_challenge_full": "Challenger",
       "last_f2_date": "2025-05-16",
       "last_file_date": "2025-05-16",
+      "load_date": "2025-06-09T20:59:02",
+      "name": "ENGELL, JOSE",
+      "office": "H",
+      "office_full": "House",
+      "party": "DEM",
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "FL"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6FL15184",
+      "candidate_inactive": false,
+      "candidate_status": "N",
+      "cycles": [
+        2026
+      ],
+      "district": "15",
+      "district_number": 15,
+      "election_districts": [
+        "15"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-05-21",
+      "has_raised_funds": false,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2025-05-21",
+      "last_file_date": "2025-05-21",
       "load_date": "2025-06-09T20:59:02",
       "name": "ENGELL, JOSE",
       "office": "H",

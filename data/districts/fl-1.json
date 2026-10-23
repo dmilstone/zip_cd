@@ -244,7 +244,7 @@
       "active_through": 2026,
       "candidate_id": "H6FL01143",
       "candidate_inactive": false,
-      "candidate_status": "N",
+      "candidate_status": "C",
       "cycles": [
         2016,
         2018,
@@ -279,7 +279,7 @@
       "incumbent_challenge_full": "Challenger",
       "last_f2_date": "2024-12-09",
       "last_file_date": "2024-12-09",
-      "load_date": "2026-01-13T21:02:51",
+      "load_date": "2026-10-21T21:00:54",
       "name": "MILLS, RALPH JOHN III",
       "office": "H",
       "office_full": "House",

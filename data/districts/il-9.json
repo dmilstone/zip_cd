@@ -1,7 +1,7 @@
 {
   "api_version": "1.0",
   "pagination": {
-    "count": 28,
+    "count": 29,
     "is_count_exact": true,
     "page": 1,
     "pages": 1,
@@ -932,6 +932,38 @@
       "office_full": "House",
       "party": "DEM",
       "party_full": "DEMOCRATIC PARTY",
+      "state": "IL"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6IL09400",
+      "candidate_inactive": false,
+      "candidate_status": "N",
+      "cycles": [
+        2026
+      ],
+      "district": "09",
+      "district_number": 9,
+      "election_districts": [
+        "09"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2026-10-20",
+      "has_raised_funds": false,
+      "inactive_election_years": null,
+      "incumbent_challenge": null,
+      "incumbent_challenge_full": null,
+      "last_f2_date": "2026-10-20",
+      "last_file_date": "2026-10-20",
+      "load_date": "2026-10-21T21:00:54",
+      "name": "SOLOMON, GAVIN",
+      "office": "H",
+      "office_full": "House",
+      "party": "W",
+      "party_full": "WRITE-IN",
       "state": "IL"
     },
     {
