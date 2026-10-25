@@ -12,7 +12,7 @@
       "active_through": 2026,
       "candidate_id": "H6CA19170",
       "candidate_inactive": false,
-      "candidate_status": "N",
+      "candidate_status": "C",
       "cycles": [
         2026
       ],
@@ -32,7 +32,7 @@
       "incumbent_challenge_full": "Challenger",
       "last_f2_date": "2026-02-21",
       "last_file_date": "2026-02-21",
-      "load_date": "2026-03-03T21:23:02",
+      "load_date": "2026-10-23T20:59:05",
       "name": "ACEVEDO-CABRERA, ANA LUZ",
       "office": "H",
       "office_full": "House",
