@@ -486,7 +486,7 @@
     },
     {
       "active_through": 2026,
-      "candidate_id": "H6CA11201",
+      "candidate_id": "H6CA11193",
       "candidate_inactive": false,
       "candidate_status": "N",
       "cycles": [
@@ -502,13 +502,13 @@
         2026
       ],
       "federal_funds_flag": false,
-      "first_file_date": "2024-12-19",
+      "first_file_date": "2024-12-18",
       "has_raised_funds": false,
       "inactive_election_years": null,
       "incumbent_challenge": "O",
       "incumbent_challenge_full": "Open seat",
-      "last_f2_date": "2024-12-19",
-      "last_file_date": "2024-12-19",
+      "last_f2_date": "2024-12-18",
+      "last_file_date": "2024-12-31",
       "load_date": "2025-12-30T21:00:52",
       "name": "XIONG, JINGCHAO",
       "office": "H",
@@ -551,7 +551,7 @@
     },
     {
       "active_through": 2026,
-      "candidate_id": "H6CA11193",
+      "candidate_id": "H6CA11201",
       "candidate_inactive": false,
       "candidate_status": "N",
       "cycles": [
@@ -567,13 +567,13 @@
         2026
       ],
       "federal_funds_flag": false,
-      "first_file_date": "2024-12-18",
+      "first_file_date": "2024-12-19",
       "has_raised_funds": false,
       "inactive_election_years": null,
       "incumbent_challenge": "O",
       "incumbent_challenge_full": "Open seat",
-      "last_f2_date": "2024-12-18",
-      "last_file_date": "2024-12-31",
+      "last_f2_date": "2024-12-19",
+      "last_file_date": "2024-12-19",
       "load_date": "2025-12-30T21:00:52",
       "name": "XIONG, JINGCHAO",
       "office": "H",
