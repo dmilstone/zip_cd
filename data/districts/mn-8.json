@@ -138,38 +138,6 @@
     },
     {
       "active_through": 2026,
-      "candidate_id": "H6MN08146",
-      "candidate_inactive": false,
-      "candidate_status": "N",
-      "cycles": [
-        2026
-      ],
-      "district": "08",
-      "district_number": 8,
-      "election_districts": [
-        "08"
-      ],
-      "election_years": [
-        2026
-      ],
-      "federal_funds_flag": false,
-      "first_file_date": "2025-06-20",
-      "has_raised_funds": false,
-      "inactive_election_years": null,
-      "incumbent_challenge": "C",
-      "incumbent_challenge_full": "Challenger",
-      "last_f2_date": "2025-06-20",
-      "last_file_date": "2025-06-20",
-      "load_date": "2025-06-30T20:58:43",
-      "name": "MCBRIDE, JOHN-PAUL 2183436597",
-      "office": "H",
-      "office_full": "House",
-      "party": "DFL",
-      "party_full": "DEMOCRATIC-FARMER-LABOR",
-      "state": "MN"
-    },
-    {
-      "active_through": 2026,
       "candidate_id": "H6MN08153",
       "candidate_inactive": false,
       "candidate_status": "N",
@@ -192,6 +160,38 @@
       "incumbent_challenge_full": "Challenger",
       "last_f2_date": "2025-06-25",
       "last_file_date": "2025-06-25",
+      "load_date": "2025-06-30T20:58:43",
+      "name": "MCBRIDE, JOHN-PAUL 2183436597",
+      "office": "H",
+      "office_full": "House",
+      "party": "DFL",
+      "party_full": "DEMOCRATIC-FARMER-LABOR",
+      "state": "MN"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6MN08146",
+      "candidate_inactive": false,
+      "candidate_status": "N",
+      "cycles": [
+        2026
+      ],
+      "district": "08",
+      "district_number": 8,
+      "election_districts": [
+        "08"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2025-06-20",
+      "has_raised_funds": false,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2025-06-20",
+      "last_file_date": "2025-06-20",
       "load_date": "2025-06-30T20:58:43",
       "name": "MCBRIDE, JOHN-PAUL 2183436597",
       "office": "H",
