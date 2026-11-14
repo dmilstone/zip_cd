@@ -120,38 +120,6 @@
     },
     {
       "active_through": 2026,
-      "candidate_id": "H6FL18238",
-      "candidate_inactive": false,
-      "candidate_status": "N",
-      "cycles": [
-        2026
-      ],
-      "district": "18",
-      "district_number": 18,
-      "election_districts": [
-        "18"
-      ],
-      "election_years": [
-        2026
-      ],
-      "federal_funds_flag": false,
-      "first_file_date": "2026-06-13",
-      "has_raised_funds": false,
-      "inactive_election_years": null,
-      "incumbent_challenge": "C",
-      "incumbent_challenge_full": "Challenger",
-      "last_f2_date": "2026-06-13",
-      "last_file_date": "2026-06-13",
-      "load_date": "2026-07-21T20:58:46",
-      "name": "GONZALEZ, ALEXANDER",
-      "office": "H",
-      "office_full": "House",
-      "party": "DEM",
-      "party_full": "DEMOCRATIC PARTY",
-      "state": "FL"
-    },
-    {
-      "active_through": 2026,
       "candidate_id": "H6FL18246",
       "candidate_inactive": false,
       "candidate_status": "N",
@@ -174,6 +142,38 @@
       "incumbent_challenge_full": "Challenger",
       "last_f2_date": "2026-06-25",
       "last_file_date": "2026-06-25",
+      "load_date": "2026-07-21T20:58:46",
+      "name": "GONZALEZ, ALEXANDER",
+      "office": "H",
+      "office_full": "House",
+      "party": "DEM",
+      "party_full": "DEMOCRATIC PARTY",
+      "state": "FL"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H6FL18238",
+      "candidate_inactive": false,
+      "candidate_status": "N",
+      "cycles": [
+        2026
+      ],
+      "district": "18",
+      "district_number": 18,
+      "election_districts": [
+        "18"
+      ],
+      "election_years": [
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2026-06-13",
+      "has_raised_funds": false,
+      "inactive_election_years": null,
+      "incumbent_challenge": "C",
+      "incumbent_challenge_full": "Challenger",
+      "last_f2_date": "2026-06-13",
+      "last_file_date": "2026-06-13",
       "load_date": "2026-07-21T20:58:46",
       "name": "GONZALEZ, ALEXANDER",
       "office": "H",
