@@ -412,41 +412,6 @@
     },
     {
       "active_through": 2026,
-      "candidate_id": "H8TX29102",
-      "candidate_inactive": false,
-      "candidate_status": "N",
-      "cycles": [
-        2018,
-        2026
-      ],
-      "district": "38",
-      "district_number": 38,
-      "election_districts": [
-        "29",
-        "38"
-      ],
-      "election_years": [
-        2018,
-        2026
-      ],
-      "federal_funds_flag": false,
-      "first_file_date": "2017-12-20",
-      "has_raised_funds": true,
-      "inactive_election_years": null,
-      "incumbent_challenge": "O",
-      "incumbent_challenge_full": "Open seat",
-      "last_f2_date": "2017-12-20",
-      "last_file_date": "2017-12-20",
-      "load_date": "2026-03-03T21:23:02",
-      "name": "MONTIEL, CARMEN",
-      "office": "H",
-      "office_full": "House",
-      "party": "REP",
-      "party_full": "REPUBLICAN PARTY",
-      "state": "TX"
-    },
-    {
-      "active_through": 2026,
       "candidate_id": "H2TX18207",
       "candidate_inactive": false,
       "candidate_status": "C",
@@ -474,6 +439,41 @@
       "last_f2_date": "2025-11-11",
       "last_file_date": "2025-11-11",
       "load_date": "2026-02-04T21:00:47",
+      "name": "MONTIEL, CARMEN",
+      "office": "H",
+      "office_full": "House",
+      "party": "REP",
+      "party_full": "REPUBLICAN PARTY",
+      "state": "TX"
+    },
+    {
+      "active_through": 2026,
+      "candidate_id": "H8TX29102",
+      "candidate_inactive": false,
+      "candidate_status": "N",
+      "cycles": [
+        2018,
+        2026
+      ],
+      "district": "38",
+      "district_number": 38,
+      "election_districts": [
+        "29",
+        "38"
+      ],
+      "election_years": [
+        2018,
+        2026
+      ],
+      "federal_funds_flag": false,
+      "first_file_date": "2017-12-20",
+      "has_raised_funds": true,
+      "inactive_election_years": null,
+      "incumbent_challenge": "O",
+      "incumbent_challenge_full": "Open seat",
+      "last_f2_date": "2017-12-20",
+      "last_file_date": "2017-12-20",
+      "load_date": "2026-03-03T21:23:02",
       "name": "MONTIEL, CARMEN",
       "office": "H",
       "office_full": "House",
